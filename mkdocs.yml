@@ -1,0 +1,4 @@
+site_name: decore Base | Ui fastly
+nav:
+  - Home: index.md
+  - Test: test.md
