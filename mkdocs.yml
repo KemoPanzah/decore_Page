@@ -1,4 +1,32 @@
 site_name: decore Base | Ui fastly
+theme:
+  name: material
+  language: de
+  features:
+    - content.code.copy
+    - navigation.tabs
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - blog:
+      authors: true
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
 nav:
   - Home: index.md
   - Test: test.md
+  - Blog:
+    - blog/index.md
