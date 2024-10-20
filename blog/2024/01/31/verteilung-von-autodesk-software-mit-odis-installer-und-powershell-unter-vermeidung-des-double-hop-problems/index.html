@@ -623,6 +623,8 @@
 <p>Nach einer Weile scheint der Installer-Dienst auch beendet zu werden, sendet aber keinen Exit-Code mehr.</p>
 <p>Ich habe viele Deployment-Suiten ausprobiert, aber das Resultat ist immer dasselbe, wenn der SYSTEM-Account zum Einsatz kommt.</p>
 <p>Um das Problem vorübergehend zu lösen, bis Autodesk das Problem erkennt und behebt, habe ich nun Lösungsansätze entwickelt, die mir hier bei der Arbeit Abhilfe verschaffen.</p>
+<!-- more -->
+
 <p>Mein geplanter Ansatz war, die Verteilung über PowerShell zu realisieren, aber dabei stieß ich erneut auf eine weitere Hürde, die die Kerberos-Authentifizierung mit sich bringt: das sogenannte Double-Hop-Problem, da meine Softwarepakete in CIFS-Freigaben lagern.</p>
 <p>Kerberos lässt es nicht zu, dass nach einer Authentifizierung auf einem Remote-PC eine weitere Authentifizierung über diesen Endpunkt zu anderen entfernten Zielen durchgeführt wird. Es gibt also keinen zweiten Hop. Um das Problem zu umgehen, gibt es wenige, aber komplizierte Wege oder einen, bei dem jetzt alle sagen werden: "Oh mein Gott, tu das nicht", aber ich hau es einfach mal raus.</p>
 <p>Die Lösung ist, CredSSP nur temporär als Punkt-zu-Punkt-Verbindung zu nutzen und nach dem Deployment wieder zu entschärfen. Es sollte unter keinen Umständen unternehmensweit erlaubt werden.</p>
