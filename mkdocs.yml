@@ -18,6 +18,11 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [../Decore_base/decore_base]  # actually not needed, default
   - blog:
       authors: true
 markdown_extensions:

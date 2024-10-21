@@ -2,6 +2,8 @@
 
 Das ist ein Deutscher Text. heirs sind einige Wörter, die in einem Deutschen Text vorkommen können.
 
+::: classes.decore_fields
+
 ## mkdocs ist besser als Sphinx
 
 * Mehr und wesentlich bessere Plugins in vscode für die Markdown bearbeitung.
