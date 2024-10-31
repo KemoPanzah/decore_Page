@@ -61,7 +61,8 @@ class Translate(BasePlugin):
         self.target_lang = self.target_lang_s.pop(0)
         config['site_dir'] = str(Path(self.site_dir).joinpath(self.target_lang[:2]))
         config.theme['language'] = self.target_lang[:2]
-        config['site_url'] = self.site_url + self.target_lang[:2]
+        if self.site_url:
+            config['site_url'] = self.site_url + self.target_lang[:2]
     
     def on_files(self, files, config):
         return files
