@@ -1,4 +1,5 @@
 site_name: decore Base | Ui fastly
+site_url: https://kemopanzah.github.io/decore_Page/ #DOC - wichtig für Build und GH-Deploy sonst keine korrekten Canonicals und Sitemaps
 theme:
   name: material
   features:
@@ -27,13 +28,18 @@ extra:
 plugins:
   - search
   - translate:
-      source_lang: de
-      languages:
-        - en-us
-        - es
-        - it
-        - ru
-        - fr
+      source:
+          name: Deutsch
+          lang: de
+      targets:
+        - name: English
+          lang: en-us
+        - name: Français
+          lang: fr
+        - name: Español
+          lang: es
+        - name: Русский
+          lang: ru
   - mkdocstrings:
       handlers:
         python:
@@ -44,8 +50,8 @@ plugins:
             show_source: false
   - blog:
       authors: true
-      post_url_date_format: "yyyy"
-      post_url_format: "{date}/{file}"
+      post_url_date_format: 'yyyy'
+      post_url_format: '{date}/{file}'
 markdown_extensions:
   - admonition
   - pymdownx.highlight:

@@ -13,14 +13,13 @@ from .localizer import Localizer
 class Translate(BasePlugin):
 
     config_scheme = (
-        ('source_lang', config_options.Type(str, required=True )),
-        ('languages', config_options.Type(list, default=[])),
+        ('source', config_options.Type(dict, required=True )),
+        ('targets', config_options.Type(list, default=[])),
         ('delimiter', config_options.Type(str, default='[[,]]')),
     )
 
     def __init__(self):
         self.enabled = True
-        self.total_time = 0
         self.serve = False
         self.source_lang = None
         self.target_lang_s = []
@@ -50,11 +49,13 @@ class Translate(BasePlugin):
             self.site_dir = config['site_dir']
         
         if not self.source_lang:
-            self.source_lang = self.config['source_lang']
+            self.source_lang = self.config['source']['lang']
         
         if not self.target_lang_s:
-            self.target_lang_s.append(self.config['source_lang'])
-            self.target_lang_s = self.target_lang_s + self.config['languages']
+            self.target_lang_s.append(self.source_lang)
+            for target in self.config['targets']:
+                self.target_lang_s.append(target['lang'])
+            
         return config
     
     def on_pre_build(self, config):
