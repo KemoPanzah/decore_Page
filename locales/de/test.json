@@ -1,0 +1,18 @@
+{
+    "mkdocs ist besser als Sphinx": {
+        "__active__": true,
+        "de": "mkdocs ist besser als Sphinx"
+    },
+    "Das ist ein Deutscher Text. Hier sind einige W\u00f6rter, die in einem Deutschen Text vorkommen k\u00f6nnen.": {
+        "__active__": true,
+        "de": "Das ist ein Deutscher Text. Hier sind einige W\u00f6rter, die in einem Deutschen Text vorkommen k\u00f6nnen."
+    },
+    "Das ist die Testseite": {
+        "__active__": true,
+        "de": "Das ist die Testseite"
+    },
+    "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel": {
+        "__active__": true,
+        "de": "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel"
+    }
+}

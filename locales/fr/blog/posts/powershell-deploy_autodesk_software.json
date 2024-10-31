@@ -1,0 +1,102 @@
+{
+    "Verteilung von Autodesk-Software mit ODIS-Installer und PowerShell unter Vermeidung des Double-Hop-Problems": {
+        "__active__": true,
+        "fr": "Distribution de logiciels Autodesk avec le programme d'installation ODIS et PowerShell en \u00e9vitant le probl\u00e8me du double saut"
+    },
+    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter.": {
+        "__active__": true,
+        "fr": "Depuis qu'Autodesk a chang\u00e9 son syst\u00e8me de d\u00e9ploiement pour l'installateur ODIS, toutes les distributions d\u00e9ploy\u00e9es sans surveillance via le compte SYSTEM se poursuivent ind\u00e9finiment sans code de r\u00e9ussite."
+    },
+    "Die genaue Fehlermeldung im ODIS-Log lautet:": {
+        "__active__": true,
+        "fr": "Le message d'erreur exact dans le journal ODIS est le suivant :"
+    },
+    "Nach einer Weile scheint der Installer-Dienst auch beendet zu werden, sendet aber keinen Exit-Code mehr.": {
+        "__active__": true,
+        "fr": "Apr\u00e8s un certain temps, le service d'installation semble \u00e9galement se terminer, mais n'envoie plus de code de sortie."
+    },
+    "Ich habe viele Deployment-Suiten ausprobiert, aber das Resultat ist immer dasselbe, wenn der SYSTEM-Account zum Einsatz kommt.": {
+        "__active__": true,
+        "fr": "J'ai essay\u00e9 de nombreuses suites de d\u00e9ploiement, mais le r\u00e9sultat est toujours le m\u00eame lorsque le compte SYSTEM est utilis\u00e9."
+    },
+    "Um das Problem vor\u00fcbergehend zu l\u00f6sen, bis Autodesk das Problem erkennt und behebt, habe ich nun L\u00f6sungsans\u00e4tze entwickelt, die mir hier bei der Arbeit Abhilfe verschaffen.": {
+        "__active__": true,
+        "fr": "Pour r\u00e9soudre temporairement le probl\u00e8me jusqu'\u00e0 ce qu'Autodesk le reconnaisse et le corrige, j'ai maintenant d\u00e9velopp\u00e9 des approches de solution qui me soulagent ici dans mon travail."
+    },
+    "Mein geplanter Ansatz war, die Verteilung \u00fcber PowerShell zu realisieren, aber dabei stie\u00df ich erneut auf eine weitere H\u00fcrde, die die Kerberos-Authentifizierung mit sich bringt: das sogenannte Double-Hop-Problem, da meine Softwarepakete in CIFS-Freigaben lagern.": {
+        "__active__": true,
+        "fr": "Mon approche pr\u00e9vue \u00e9tait de r\u00e9aliser la distribution via PowerShell, mais je me suis \u00e0 nouveau heurt\u00e9 \u00e0 un autre obstacle li\u00e9 \u00e0 l'authentification Kerberos : le probl\u00e8me dit de double saut, car mes paquets logiciels sont stock\u00e9s dans des partages CIFS."
+    },
+    "Kerberos l\u00e4sst es nicht zu, dass nach einer Authentifizierung auf einem Remote-PC eine weitere Authentifizierung \u00fcber diesen Endpunkt zu anderen entfernten Zielen durchgef\u00fchrt wird. Es gibt also keinen zweiten Hop. Um das Problem zu umgehen, gibt es wenige, aber komplizierte Wege oder einen, bei dem jetzt alle sagen werden: \"Oh mein Gott, tu das nicht\", aber ich hau es einfach mal raus.": {
+        "__active__": true,
+        "fr": "Kerberos ne permet pas qu'apr\u00e8s une authentification sur un PC distant, une autre authentification soit effectu\u00e9e via ce point final vers d'autres destinations distantes. Il n'y a donc pas de deuxi\u00e8me saut. Pour contourner le probl\u00e8me, il existe des moyens peu nombreux mais compliqu\u00e9s ou un moyen pour lequel tout le monde va dire : \"Oh mon Dieu, ne fais pas \u00e7a\", mais je vais juste le sortir."
+    },
+    "Die L\u00f6sung ist, CredSSP nur tempor\u00e4r als Punkt-zu-Punkt-Verbindung zu nutzen und nach dem Deployment wieder zu entsch\u00e4rfen. Es sollte unter keinen Umst\u00e4nden unternehmensweit erlaubt werden.": {
+        "__active__": true,
+        "fr": "La solution consiste \u00e0 n'utiliser CredSSP que temporairement comme connexion point \u00e0 point et \u00e0 le d\u00e9samorcer apr\u00e8s le d\u00e9ploiement. Il ne devrait en aucun cas \u00eatre autoris\u00e9 \u00e0 l'\u00e9chelle de l'entreprise."
+    },
+    "CredSSP hat keinen Single-Hop-Zwang. Authentifizierungen k\u00f6nnen in einer CredSSP-Sitzung weiterverwendet werden. Sollte das unternehmensweit und dauerhaft erlaubt werden, kann das zu erheblichen Sicherheitsproblemen f\u00fchren.": {
+        "__active__": true,
+        "fr": "CredSSP n'a pas de contrainte de saut unique. Les authentifications peuvent \u00eatre r\u00e9utilis\u00e9es dans une session CredSSP. Si cela devait \u00eatre autoris\u00e9 \u00e0 l'\u00e9chelle de l'entreprise et de mani\u00e8re permanente, cela pourrait entra\u00eener des probl\u00e8mes de s\u00e9curit\u00e9 importants."
+    },
+    "Hier nun das Skript f\u00fcr alle, die vor dem selben Problem stehen.": {
+        "__active__": true,
+        "fr": "Voici maintenant le script pour tous ceux qui sont confront\u00e9s au m\u00eame probl\u00e8me."
+    },
+    "Das hier beschriebene Skript ist bewusst flach gehalten, um es verst\u00e4ndlich zu machen und den weiteren Ausbau durch Euch so einfach wie m\u00f6glich zu gestalten.": {
+        "__active__": true,
+        "fr": "Le script d\u00e9crit ici est volontairement plat afin de le rendre compr\u00e9hensible et de faciliter au maximum son d\u00e9veloppement ult\u00e9rieur par vos soins."
+    },
+    "Bitte beachten Sie, dass in diesem Beispiel CredSSP nur tempor\u00e4r verwendet wird und nach dem Deployment wieder deaktiviert wird. Zudem wird ausschlie\u00dflich der angegebene Remote-Computer delegiert und nicht das gesamte Netzwerk.": {
+        "__active__": true,
+        "fr": "Veuillez noter que dans cet exemple, CredSSP n'est utilis\u00e9 que temporairement et sera d\u00e9sactiv\u00e9 apr\u00e8s le d\u00e9ploiement. De plus, seul l'ordinateur distant indiqu\u00e9 est d\u00e9l\u00e9gu\u00e9 et non l'ensemble du r\u00e9seau."
+    },
+    "Nach gr\u00fcndlicher Validierung hat sich dieser Ansatz als sicherer und einfacher Weg erwiesen, um das gew\u00fcnschte Ziel zu erreichen.": {
+        "__active__": true,
+        "fr": "Apr\u00e8s une validation approfondie, cette approche s'est av\u00e9r\u00e9e \u00eatre un moyen s\u00fbr et simple d'atteindre l'objectif souhait\u00e9."
+    },
+    "Dieses Skript muss mit administrativen Rechten ausgef\u00fchrt werden, um die CredSSP-Authentifizierung zu aktivieren und zu deaktivieren.": {
+        "__active__": true,
+        "fr": "Ce script doit \u00eatre ex\u00e9cut\u00e9 avec des droits d'administration pour activer et d\u00e9sactiver l'authentification CredSSP."
+    },
+    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise `Install Autodesk Revit 2024.bat` sein.": {
+        "__active__": true,
+        "fr": "Vous pouvez soit appeler le script avec des param\u00e8tres, soit saisir directement vos valeurs sp\u00e9cifiques. Vous trouverez les informations n\u00e9cessaires pour l'installateur et les arguments dans le script d'installation correspondant apr\u00e8s la cr\u00e9ation de l'image. Un nom typique pour une installation Revit pourrait par exemple \u00eatre `Install Autodesk Revit 2024.bat`."
+    },
+    "Die Parameter f\u00fcr die Silent-Installation und Deinstallation sind ebenfalls dort hinterlegt. Diese Parameter erm\u00f6glichen eine unbeaufsichtigte Installation bzw. Deinstallation der Software, was besonders in gro\u00dfen IT-Umgebungen von Vorteil ist.": {
+        "__active__": true,
+        "fr": "Les param\u00e8tres d'installation et de d\u00e9sinstallation silencieuses y sont \u00e9galement consign\u00e9s. Ces param\u00e8tres permettent d'installer ou de d\u00e9sinstaller le logiciel sans surveillance, ce qui est particuli\u00e8rement avantageux dans les grands environnements informatiques."
+    },
+    "F\u00fcr weitere Details und eine ausf\u00fchrliche Anleitung zur Bereitstellung von Autodesk-Software, besuchen Sie bitte den folgenden Artikel:": {
+        "__active__": true,
+        "fr": "Pour plus de d\u00e9tails et des instructions d\u00e9taill\u00e9es sur le d\u00e9ploiement des logiciels Autodesk, veuillez consulter l'article suivant :"
+    },
+    "Um eine PowerShell-Sitzung unter Verwendung von CredSSP zu starten, ben\u00f6tigen wir die Anmeldeinformationen eines Benutzers mit den erforderlichen Rechten zur Durchf\u00fchrung von Installationen. In den meisten F\u00e4llen handelt es sich dabei um den Domain-Admin. Ein Dialogfeld wird angezeigt, in dem Sie die Anmeldeinformationen eingeben k\u00f6nnen.": {
+        "__active__": true,
+        "fr": "Pour lancer une session PowerShell \u00e0 l'aide de CredSSP, nous avons besoin des informations de connexion d'un utilisateur disposant des droits n\u00e9cessaires pour effectuer des installations. Dans la plupart des cas, il s'agit de l'administrateur du domaine. Une bo\u00eete de dialogue s'affiche, dans laquelle vous pouvez saisir les informations d'identification."
+    },
+    "Hier wird CredSSP sowohl auf dem Client als auch auf dem Server aktiviert. Es ist hilfreich, die Begriffe \"Verteiler\" (Client) und \"Empf\u00e4nger\" (Server) zu verwenden, um die Rollen klarer zu definieren. Der Try-Block umfasst alle potenziell fehleranf\u00e4lligen Aktionen und kann nach Belieben angepasst werden. F\u00fcr den Anfang ist diese Struktur einfach und robust.": {
+        "__active__": true,
+        "fr": "Ici, CredSSP est activ\u00e9 \u00e0 la fois sur le client et sur le serveur. Il est utile d'utiliser les termes \"distributeur\" (client) et \"r\u00e9cepteur\" (serveur) pour d\u00e9finir plus clairement les r\u00f4les. Le bloc Try comprend toutes les actions potentiellement sujettes \u00e0 des erreurs et peut \u00eatre adapt\u00e9 \u00e0 volont\u00e9. Pour commencer, cette structure est simple et robuste."
+    },
+    "Hier wird eine neue PowerShell-Sitzung mit CredSSP-Authentifizierung erstellt.": {
+        "__active__": true,
+        "fr": "Ici, une nouvelle session PowerShell est cr\u00e9\u00e9e avec une authentification CredSSP."
+    },
+    "Hier wird das Skript auf dem Remote-Computer ausgef\u00fchrt. Der Name, der Installer und die Argumente werden als Parameter \u00fcbergeben. An dieser Stelle endet der Try-Block.": {
+        "__active__": true,
+        "fr": "Ici, le script est ex\u00e9cut\u00e9 sur l'ordinateur distant. Le nom, l'installateur et les arguments sont pass\u00e9s en param\u00e8tres. Le bloc try se termine \u00e0 cet endroit."
+    },
+    "Im Finally-Block wird die PowerShell-Sitzung geschlossen und CredSSP auf dem Server und Client deaktiviert. Der Finally-Block wird immer ausgef\u00fchrt, unabh\u00e4ngig davon, ob der Try-Block erfolgreich war oder nicht. Bitte beachten Sie, dass das Abfangen von Fehlern auch \u00fcber einen m\u00f6glichen Exception-Block erfolgen kann. Dies \u00fcberlasse ich dem findigen Leser.": {
+        "__active__": true,
+        "fr": "Dans le bloc Finally, la session PowerShell est ferm\u00e9e et CredSSP est d\u00e9sactiv\u00e9 sur le serveur et le client. Le bloc Finally est toujours ex\u00e9cut\u00e9, que le bloc Try ait r\u00e9ussi ou non. Veuillez noter que l'interception d'erreurs peut \u00e9galement se faire via un \u00e9ventuel bloc d'exception. Je laisse ce soin au lecteur ing\u00e9nieux."
+    },
+    "Dieses Skript dient mir nun selbst als Grundlage f\u00fcr Erweiterungen. Ich werde nun daran arbeiten, ein \u00fcbergeordnetes Skript zu entwickeln, um die Installationen in gro\u00dfen Mengen zu steuern und zu \u00fcberwachen.": {
+        "__active__": true,
+        "fr": "Ce script me sert maintenant lui-m\u00eame de base pour des extensions. Je vais maintenant travailler \u00e0 la mise au point d'un script de niveau sup\u00e9rieur pour contr\u00f4ler et surveiller les installations en grand nombre."
+    },
+    "Quellangaben": {
+        "__active__": true,
+        "fr": "Citations de sources"
+    }
+}

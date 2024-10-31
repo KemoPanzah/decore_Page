@@ -1,0 +1,18 @@
+{
+    "Das ist die Testseite": {
+        "__active__": true,
+        "fr": "Voici la page de test"
+    },
+    "Das ist ein Deutscher Text. Hier sind einige W\u00f6rter, die in einem Deutschen Text vorkommen k\u00f6nnen.": {
+        "__active__": true,
+        "fr": "Il s'agit d'un texte en allemand. Voici quelques mots qui peuvent appara\u00eetre dans un texte allemand."
+    },
+    "mkdocs ist besser als Sphinx": {
+        "__active__": true,
+        "fr": "mkdocs est meilleur que Sphinx"
+    },
+    "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel": {
+        "__active__": true,
+        "fr": "J'ai besoin d'un long texte en Lorem Ipsum pour voir \u00e0 quoi ressemble la police. Voici un exemple"
+    }
+}
