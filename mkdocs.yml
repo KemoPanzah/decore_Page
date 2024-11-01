@@ -27,7 +27,7 @@ extra:
       lang: en
 plugins:
   - search
-  - translate:
+  - langly:
       source:
           name: Deutsch
           lang: de
