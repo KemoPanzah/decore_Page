@@ -34,12 +34,12 @@ plugins:
       targets:
         - name: English
           lang: en-us
-        # - name: Français
-        #   lang: fr
-        # - name: Español
-        #   lang: es
-        # - name: Русский
-        #   lang: ru
+        - name: Français
+          lang: fr
+        - name: Español
+          lang: es
+        - name: Русский
+          lang: ru
   - mkdocstrings:
       handlers:
         python:

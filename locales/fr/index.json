@@ -4,6 +4,43 @@
         "fr": "D\u00e9marrez le serveur de documentation en direct"
     },
     "Erstellen Sie ein neues Projekt": {
-        "__active__": true
+        "__active__": true,
+        "fr": "Cr\u00e9er un nouveau projet"
+    },
+    "Willkommen bei MkDocs": {
+        "__active__": true,
+        "fr": "Bienvenue chez MkDocs"
+    },
+    "Die vollst\u00e4ndige Dokumentation finden Sie unter": {
+        "__active__": true,
+        "fr": "Vous trouverez la documentation compl\u00e8te sur"
+    },
+    "Befehle": {
+        "__active__": true,
+        "fr": "Commandes"
+    },
+    "Erstellen Sie die Dokumentationsseite": {
+        "__active__": true,
+        "fr": "Cr\u00e9er la page de documentation"
+    },
+    "Hilfemeldung drucken und beenden": {
+        "__active__": true,
+        "fr": "Imprimer et quitter le message d'aide"
+    },
+    "Projekt-Layout": {
+        "__active__": true,
+        "fr": "Mise en page du projet"
+    },
+    "Die Konfigurationsdatei": {
+        "__active__": true,
+        "fr": "Le fichier de configuration"
+    },
+    "Die Homepage der Dokumentation": {
+        "__active__": true,
+        "fr": "La page d'accueil de la documentation"
+    },
+    "Andere Markdown-Seiten, Bilder und andere Dateien": {
+        "__active__": true,
+        "fr": "Autres pages Markdown, images et autres fichiers"
     }
 }

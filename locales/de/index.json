@@ -26,5 +26,21 @@
     "Andere Markdown-Seiten, Bilder und andere Dateien": {
         "__active__": true,
         "de": "Andere Markdown-Seiten, Bilder und andere Dateien"
+    },
+    "Befehle": {
+        "__active__": true,
+        "de": "Befehle"
+    },
+    "Erstellen Sie die Dokumentationsseite": {
+        "__active__": true,
+        "de": "Erstellen Sie die Dokumentationsseite"
+    },
+    "Hilfemeldung drucken und beenden": {
+        "__active__": true,
+        "de": "Hilfemeldung drucken und beenden"
+    },
+    "Projekt-Layout": {
+        "__active__": true,
+        "de": "Projekt-Layout"
     }
 }

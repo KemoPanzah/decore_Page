@@ -59,10 +59,6 @@
         "__active__": true,
         "es": "Este script debe ejecutarse con derechos administrativos para activar y desactivar la autenticaci\u00f3n CredSSP."
     },
-    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise `Install Autodesk Revit 2024.bat` sein.": {
-        "__active__": true,
-        "es": "El script puede ser llamado con par\u00e1metros o puede introducir directamente sus valores espec\u00edficos. La informaci\u00f3n necesaria para el instalador y los argumentos se encuentran en el script de instalaci\u00f3n correspondiente una vez creada la imagen. Un nombre t\u00edpico para una instalaci\u00f3n de Revit podr\u00eda ser 'Instalar Autodesk Revit 2024.bat', por ejemplo."
-    },
     "Die Parameter f\u00fcr die Silent-Installation und Deinstallation sind ebenfalls dort hinterlegt. Diese Parameter erm\u00f6glichen eine unbeaufsichtigte Installation bzw. Deinstallation der Software, was besonders in gro\u00dfen IT-Umgebungen von Vorteil ist.": {
         "__active__": true,
         "es": "Los par\u00e1metros de instalaci\u00f3n y desinstalaci\u00f3n silenciosa tambi\u00e9n se almacenan all\u00ed. Estos par\u00e1metros permiten instalar y desinstalar el software sin supervisi\u00f3n, lo que resulta especialmente ventajoso en entornos inform\u00e1ticos de gran tama\u00f1o."
@@ -98,5 +94,9 @@
     "Quellangaben": {
         "__active__": true,
         "es": "Fuente de informaci\u00f3n"
+    },
+    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise <code>Install Autodesk Revit 2024.bat</code> sein.": {
+        "__active__": true,
+        "es": "El script puede ser llamado con par\u00e1metros o puede introducir directamente sus valores espec\u00edficos. La informaci\u00f3n necesaria para el instalador y los argumentos se encuentran en el script de instalaci\u00f3n correspondiente una vez creada la imagen. Un nombre t\u00edpico para una instalaci\u00f3n de Revit podr\u00eda ser <code>Instalar Autodesk Revit 2024.bat</code>, por ejemplo."
     }
 }

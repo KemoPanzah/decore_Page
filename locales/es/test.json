@@ -3,10 +3,6 @@
         "__active__": true,
         "es": "Esta es la p\u00e1gina de prueba"
     },
-    "Das ist ein Deutscher Text. Hier sind einige W\u00f6rter, die in einem Deutschen Text vorkommen k\u00f6nnen.": {
-        "__active__": true,
-        "es": "Se trata de un texto en alem\u00e1n. Estas son algunas palabras que pueden aparecer en un texto alem\u00e1n."
-    },
     "mkdocs ist besser als Sphinx": {
         "__active__": true,
         "es": "mkdocs es mejor que Sphinx"
@@ -14,5 +10,21 @@
     "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel": {
         "__active__": true,
         "es": "Necesito un texto largo en Lorem Ipsum para ver c\u00f3mo es la fuente. He aqu\u00ed un ejemplo"
+    },
+    "Das ist ein Deutscher Text. <em>Hier</em> sind einige <strong>W\u00f6rter</strong>, die in einem Deutschen Text <em>vorkommen</em> k\u00f6nnen. Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen. Aber das klappt manchmal nicht": {
+        "__active__": true,
+        "es": "Se trata de un texto en alem\u00e1n. <em>Aqu\u00ed</em> hay algunas <strong>palabras</strong> que pueden <em>aparecer</em> en un texto alem\u00e1n. Tambi\u00e9n probar\u00eda el comando <code>ausruhen</code>. Pero a veces no funciona"
+    },
+    "Das BackrefMetaField wird ben\u00f6tigt damit <strong>decore Front</strong> Beziehungen zwischen Modellen darstellen kann. Es kann z.B. dem Filter oder einem Formular zugewiesen werden. Es ist ein MetaField und erh\u00e4lt keine Spalte in der Datenbank": {
+        "__active__": true,
+        "es": "El BackrefMetaField es necesario para que <strong>decore Front</strong> pueda mostrar las relaciones entre modelos. Se puede asignar al filtro o a un formulario, por ejemplo. Es un MetaField y no se le asigna una columna en la base de datos"
+    },
+    "Ein vom Benutzer lesbarer Name f\u00fcr das Feld": {
+        "__active__": true,
+        "es": "Un nombre legible por el usuario para el campo"
+    },
+    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> oder <code>ManyToMany</code> Feld im Referenzmodell \u00fcbereinstimmen. Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> <code>accounts</code> und ebenso der Wert des ForeignKey <code>backref</code> Parameters.": {
+        "__active__": true,
+        "es": "El nombre del <code>BackRefMetaField</code> debe coincidir con el valor del par\u00e1metro <code>backref</code> especificado en el campo <code>ForeignKey</code> o <code>ManyToMany</code> del modelo de referencia. En el siguiente ejemplo, el nombre de <code>las cuentas</code> <code>BackRefMetaField</code> y tambi\u00e9n el valor del par\u00e1metro <code>backref</code> ForeignKey."
     }
 }

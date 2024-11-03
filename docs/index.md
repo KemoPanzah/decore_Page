@@ -2,14 +2,14 @@
 
 [[Die vollständige Dokumentation finden Sie unter]] [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## [[Befehle]]
 
 * `mkdocs new [dir-name]` - [[Erstellen Sie ein neues Projekt]].
 * `mkdocs serve` - [[Starten Sie den Live-Doku-Server]].
-* `mkdocs build` - Erstellen Sie die Dokumentationsseite. 
-* `mkdocs -h` - Hilfemeldung drucken und beenden.
+* `mkdocs build` - [[Erstellen Sie die Dokumentationsseite]].
+* `mkdocs -h` - [[Hilfemeldung drucken und beenden]].
 
-## Project layout
+## [[Projekt-Layout]]
 
     mkdocs.yml    # [[Die Konfigurationsdatei]].
     docs/
