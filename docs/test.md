@@ -1,6 +1,6 @@
 # [[Das ist die Testseite]]
 
-[[Das ist ein Deutscher Text. Hier sind einige Wörter, die in einem Deutschen Text vorkommen können.]]
+[[Das ist ein Deutscher Text. *Hier* sind einige **Wörter**, die in einem Deutschen Text *vorkommen* können. Ich würde auch mal denn Befehl `ausruhen` testen. Aber das klappt manchmal nicht]]
 
 ## [[mkdocs ist besser als Sphinx]]
 

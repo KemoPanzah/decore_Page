@@ -1,10 +1,9 @@
 {
-    "Erstellen Sie ein neues Projekt": {
-        "__active__": true,
-        "fr": "Cr\u00e9er un nouveau projet"
-    },
     "Starten Sie den Live-Doku-Server": {
         "__active__": true,
         "fr": "D\u00e9marrez le serveur de documentation en direct"
+    },
+    "Erstellen Sie ein neues Projekt": {
+        "__active__": true
     }
 }

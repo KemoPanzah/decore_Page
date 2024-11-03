@@ -59,10 +59,6 @@
         "__active__": true,
         "en-us": "This script must be executed with administrative rights in order to activate and deactivate CredSSP authentication."
     },
-    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise `Install Autodesk Revit 2024.bat` sein.": {
-        "__active__": true,
-        "en-us": "The script can either be called with parameters or you can enter your specific values directly. The necessary information for the installer and the arguments can be found in the corresponding installation script after the image has been created. A typical name for a Revit installation could be 'Install Autodesk Revit 2024.bat', for example."
-    },
     "Die Parameter f\u00fcr die Silent-Installation und Deinstallation sind ebenfalls dort hinterlegt. Diese Parameter erm\u00f6glichen eine unbeaufsichtigte Installation bzw. Deinstallation der Software, was besonders in gro\u00dfen IT-Umgebungen von Vorteil ist.": {
         "__active__": true,
         "en-us": "The parameters for silent installation and uninstallation are also stored there. These parameters enable unattended installation and uninstallation of the software, which is particularly advantageous in large IT environments."
@@ -98,5 +94,9 @@
     "Quellangaben": {
         "__active__": true,
         "en-us": "Source information"
+    },
+    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise <code>Install Autodesk Revit 2024.bat</code> sein.": {
+        "__active__": true,
+        "en-us": "The script can either be called with parameters or you can enter your specific values directly. The necessary information for the installer and the arguments can be found in the corresponding installation script after the image has been created. A typical name for a Revit installation could be <code>Install Autodesk Revit 2024.bat</code>, for example."
     }
 }

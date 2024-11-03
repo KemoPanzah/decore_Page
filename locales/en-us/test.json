@@ -3,10 +3,6 @@
         "__active__": true,
         "en-us": "This is the test page"
     },
-    "Das ist ein Deutscher Text. Hier sind einige W\u00f6rter, die in einem Deutschen Text vorkommen k\u00f6nnen.": {
-        "__active__": true,
-        "en-us": "This is a German text. Here are some words that can appear in a German text."
-    },
     "mkdocs ist besser als Sphinx": {
         "__active__": true,
         "en-us": "mkdocs is better than Sphinx"
@@ -14,5 +10,9 @@
     "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel": {
         "__active__": true,
         "en-us": "I need long text in Lorem Ipsum to see what the font looks like. Here is an example"
+    },
+    "Das ist ein Deutscher Text. <em>Hier</em> sind einige <strong>W\u00f6rter</strong>, die in einem Deutschen Text <em>vorkommen</em> k\u00f6nnen. Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen. Aber das klappt manchmal nicht": {
+        "__active__": true,
+        "en-us": "This is a German text. <em>Here</em> are some <strong>words</strong> that can <em>appear</em> in a German text. I would also test the command <code>ausruhen</code>. But sometimes that doesn't work"
     }
 }
