@@ -1,18 +1,30 @@
 {
-    "mkdocs ist besser als Sphinx": {
+    "Das BackrefMetaField wird ben\u00f6tigt damit <strong>decore Front</strong> Beziehungen zwischen Modellen darstellen kann. Es kann z.B. dem Filter oder einem Formular zugewiesen werden. Es ist ein MetaField und erh\u00e4lt keine Spalte in der Datenbank": {
         "__active__": true,
-        "de": "mkdocs ist besser als Sphinx"
+        "de": "Das BackrefMetaField wird ben\u00f6tigt damit <strong>decore Front</strong> Beziehungen zwischen Modellen darstellen kann. Es kann z.B. dem Filter oder einem Formular zugewiesen werden. Es ist ein MetaField und erh\u00e4lt keine Spalte in der Datenbank"
+    },
+    "Ein vom Benutzer lesbarer Name f\u00fcr das Feld": {
+        "__active__": true,
+        "de": "Ein vom Benutzer lesbarer Name f\u00fcr das Feld"
+    },
+    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> oder <code>ManyToMany</code> Feld im Referenzmodell \u00fcbereinstimmen. Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> <code>accounts</code> und ebenso der Wert des ForeignKey <code>backref</code> Parameters.": {
+        "__active__": true,
+        "de": "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> oder <code>ManyToMany</code> Feld im Referenzmodell \u00fcbereinstimmen. Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> <code>accounts</code> und ebenso der Wert des ForeignKey <code>backref</code> Parameters."
     },
     "Das ist die Testseite": {
         "__active__": true,
         "de": "Das ist die Testseite"
     },
-    "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel": {
-        "__active__": true,
-        "de": "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel"
-    },
     "Das ist ein Deutscher Text. <em>Hier</em> sind einige <strong>W\u00f6rter</strong>, die in einem Deutschen Text <em>vorkommen</em> k\u00f6nnen. Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen. Aber das klappt manchmal nicht": {
         "__active__": true,
         "de": "Das ist ein Deutscher Text. <em>Hier</em> sind einige <strong>W\u00f6rter</strong>, die in einem Deutschen Text <em>vorkommen</em> k\u00f6nnen. Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen. Aber das klappt manchmal nicht"
+    },
+    "mkdocs ist besser als Sphinx": {
+        "__active__": true,
+        "de": "mkdocs ist besser als Sphinx"
+    },
+    "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel": {
+        "__active__": true,
+        "de": "Ich brauch langen Text in Lorem Ipsum, um zu sehen, wie die Schriftart aussieht. Hier ist ein Beispiel"
     }
 }
