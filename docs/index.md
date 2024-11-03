@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# [[Willkommen bei MkDocs]]
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[[Die vollständige Dokumentation finden Sie unter]] [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
@@ -11,7 +11,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
-    mkdocs.yml    # Die Konfigurationsdatei.
+    mkdocs.yml    # [[Die Konfigurationsdatei]].
     docs/
-        index.md  # Die Homepage der Dokumentation.
-        ...       # Andere Markdown-Seiten, Bilder und andere Dateien.
+        index.md  # [[Die Homepage der Dokumentation]].
+        ...       # [[Andere Markdown-Seiten, Bilder und andere Dateien]].
