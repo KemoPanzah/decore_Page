@@ -3,6 +3,14 @@
         "__active__": true,
         "fr": "Voici la page de test"
     },
+    "Das ist ein Deutscher Text, hier sind einige <strong>W\u00f6rter</strong> die in einem deutschen Text <em>vorkommen</em> k\u00f6nnen.": {
+        "__active__": true,
+        "fr": "C'est un texte allemand, voici quelques <strong>mots</strong> qui peuvent <em>appara\u00eetre</em> dans un texte allemand."
+    },
+    "Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen.": {
+        "__active__": true,
+        "fr": "Je testerais aussi la commande <code>ausruhen</code>."
+    },
     "mkdocs ist besser als Sphinx": {
         "__active__": true,
         "fr": "mkdocs est meilleur que Sphinx"
@@ -11,20 +19,12 @@
         "__active__": true,
         "fr": "J'ai besoin d'un long texte en Lorem Ipsum pour voir \u00e0 quoi ressemble la police. Voici un exemple"
     },
-    "Das ist ein Deutscher Text. <em>Hier</em> sind einige <strong>W\u00f6rter</strong>, die in einem Deutschen Text <em>vorkommen</em> k\u00f6nnen. Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen. Aber das klappt manchmal nicht": {
+    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> Feldes oder <code>ManyToMany</code> Feldes im Referenzmodell \u00fcbereinstimmen.": {
         "__active__": true,
-        "fr": "Il s'agit d'un texte en allemand. <em>Voici</em> quelques <strong>mots</strong> qui peuvent <em>appara\u00eetre</em> dans un texte allemand. J'aimerais aussi tester la commande <code>ausruhen (se reposer)</code>. Mais cela ne fonctionne pas toujours"
+        "fr": "Le nom du <code>BackRefMetaField</code> doit correspondre \u00e0 la valeur du param\u00e8tre <code>backref</code> indiqu\u00e9 dans le champ <code>ForeignKey</code> ou <code>ManyToMany</code> du mod\u00e8le de r\u00e9f\u00e9rence."
     },
-    "Das BackrefMetaField wird ben\u00f6tigt damit <strong>decore Front</strong> Beziehungen zwischen Modellen darstellen kann. Es kann z.B. dem Filter oder einem Formular zugewiesen werden. Es ist ein MetaField und erh\u00e4lt keine Spalte in der Datenbank": {
+    "Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code>  und der Wert des <code>backref</code> Parameters des <code>ForeignKey</code> Feldes gleich <code>accounts</code>": {
         "__active__": true,
-        "fr": "Le BackrefMetaField est n\u00e9cessaire pour que <strong>decore Front</strong> puisse repr\u00e9senter les relations entre les mod\u00e8les. Il peut par exemple \u00eatre attribu\u00e9 au filtre ou \u00e0 un formulaire. C'est un MetaField qui ne re\u00e7oit pas de colonne dans la base de donn\u00e9es."
-    },
-    "Ein vom Benutzer lesbarer Name f\u00fcr das Feld": {
-        "__active__": true,
-        "fr": "Un nom lisible par l'utilisateur pour le champ"
-    },
-    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> oder <code>ManyToMany</code> Feld im Referenzmodell \u00fcbereinstimmen. Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> <code>accounts</code> und ebenso der Wert des ForeignKey <code>backref</code> Parameters.": {
-        "__active__": true,
-        "fr": "Le nom du <code>BackRefMetaField</code> doit correspondre \u00e0 la valeur du param\u00e8tre <code>backref</code> indiqu\u00e9 dans le champ <code>ForeignKey</code> ou <code>ManyToMany</code> du mod\u00e8le de r\u00e9f\u00e9rence. Dans l'exemple suivant, le nom du <code>BackRefMetaField</code> est <code>accounts</code> et la valeur du param\u00e8tre ForeignKey <code>backref</code> est \u00e9galement <code>accounts</code>."
+        "fr": "Dans l'exemple suivant, le nom du <code>BackRefMetaField</code> et la valeur du param\u00e8tre <code>backref</code> du champ <code>ForeignKey</code> sont les m\u00eames <code>accounts</code>"
     }
 }

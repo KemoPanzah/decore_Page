@@ -1,35 +1,23 @@
 {
-    "Starten Sie den Live-Doku-Server": {
-        "__active__": true,
-        "en-us": "Start the live document server"
-    },
     "Willkommen bei MkDocs": {
         "__active__": true,
         "en-us": "Welcome to MkDocs"
-    },
-    "Erstellen Sie ein neues Projekt": {
-        "__active__": true,
-        "en-us": "Create a new project"
     },
     "Die vollst\u00e4ndige Dokumentation finden Sie unter": {
         "__active__": true,
         "en-us": "You can find the complete documentation at"
     },
-    "Die Konfigurationsdatei": {
-        "__active__": true,
-        "en-us": "The configuration file"
-    },
-    "Die Homepage der Dokumentation": {
-        "__active__": true,
-        "en-us": "The homepage of the documentation"
-    },
-    "Andere Markdown-Seiten, Bilder und andere Dateien": {
-        "__active__": true,
-        "en-us": "Other Markdown pages, images and other files"
-    },
     "Befehle": {
         "__active__": true,
         "en-us": "Commands"
+    },
+    "Erstellen Sie ein neues Projekt": {
+        "__active__": true,
+        "en-us": "Create a new project"
+    },
+    "Starten Sie den Live-Doku-Server": {
+        "__active__": true,
+        "en-us": "Start the live document server"
     },
     "Erstellen Sie die Dokumentationsseite": {
         "__active__": true,
@@ -42,5 +30,17 @@
     "Projekt-Layout": {
         "__active__": true,
         "en-us": "Project layout"
+    },
+    "Die Konfigurationsdatei": {
+        "__active__": true,
+        "en-us": "The configuration file"
+    },
+    "Die Homepage der Dokumentation": {
+        "__active__": true,
+        "en-us": "The homepage of the documentation"
+    },
+    "Andere Markdown-Seiten, Bilder und andere Dateien": {
+        "__active__": true,
+        "en-us": "Other Markdown pages, images and other files"
     }
 }

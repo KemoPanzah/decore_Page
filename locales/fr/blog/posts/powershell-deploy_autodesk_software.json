@@ -3,10 +3,6 @@
         "__active__": true,
         "fr": "Distribution de logiciels Autodesk avec le programme d'installation ODIS et PowerShell en \u00e9vitant le probl\u00e8me du double saut"
     },
-    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter.": {
-        "__active__": true,
-        "fr": "Depuis qu'Autodesk a chang\u00e9 son syst\u00e8me de d\u00e9ploiement pour l'installateur ODIS, toutes les distributions d\u00e9ploy\u00e9es sans surveillance via le compte SYSTEM se poursuivent ind\u00e9finiment sans code de r\u00e9ussite."
-    },
     "Die genaue Fehlermeldung im ODIS-Log lautet:": {
         "__active__": true,
         "fr": "Le message d'erreur exact dans le journal ODIS est le suivant :"
@@ -98,5 +94,9 @@
     "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise <code>Install Autodesk Revit 2024.bat</code> sein.": {
         "__active__": true,
         "fr": "Vous pouvez soit appeler le script avec des param\u00e8tres, soit saisir directement vos valeurs sp\u00e9cifiques. Vous trouverez les informations n\u00e9cessaires pour l'installateur et les arguments dans le script d'installation correspondant apr\u00e8s la cr\u00e9ation de l'image. Un nom typique pour une installation Revit pourrait par exemple \u00eatre <code>Install Autodesk Revit 2024.bat</code>."
+    },
+    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter": {
+        "__active__": true,
+        "fr": "Depuis qu'Autodesk a chang\u00e9 son syst\u00e8me de d\u00e9ploiement pour l'installateur ODIS, toutes les distributions d\u00e9ploy\u00e9es sans surveillance via le compte SYSTEM continuent \u00e0 s'ex\u00e9cuter ind\u00e9finiment sans code de r\u00e9ussite."
     }
 }
