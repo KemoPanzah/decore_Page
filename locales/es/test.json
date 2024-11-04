@@ -25,6 +25,6 @@
     },
     "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> oder <code>ManyToMany</code> Feld im Referenzmodell \u00fcbereinstimmen. Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> <code>accounts</code> und ebenso der Wert des ForeignKey <code>backref</code> Parameters.": {
         "__active__": true,
-        "es": "El nombre del <code>BackRefMetaField</code> debe coincidir con el valor del par\u00e1metro <code>backref</code> especificado en el campo <code>ForeignKey</code> o <code>ManyToMany</code> del modelo de referencia. En el siguiente ejemplo, el nombre de <code>las cuentas</code> <code>BackRefMetaField</code> y tambi\u00e9n el valor del par\u00e1metro <code>backref</code> ForeignKey."
+        "es": "El nombre del <code>BackRefMetaField</code> debe coincidir con el valor del par\u00e1metro <code>backref</code> especificado en <code>ForeignKey</code> o <code>ManyToMany</code>. especificado en el campo <code>ForeignKey</code> o <code>ManyToMany</code> del modelo de referencia. En el siguiente ejemplo, el nombre del <code>BackRefMetaField</code> <code>accounts</code> y tambi\u00e9n el valor del par\u00e1metro ForeignKey <code>backref</code> ."
     }
 }
