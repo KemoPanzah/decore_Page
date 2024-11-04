@@ -895,7 +895,7 @@
 
 
 <h1 id="distribution-of-autodesk-software-with-odis-installer-and-powershell-avoiding-the-double-hop-problem">Distribution of Autodesk software with ODIS installer and PowerShell avoiding the double-hop problem</h1>
-<p>Since Autodesk switched its deployment system to the ODIS installer, all deployments that are rolled out unattended via the SYSTEM account continue to run endlessly without success code.</p>
+<p>Since Autodesk has switched its deployment system to the ODIS installer, all deployments that are rolled out unattended via the SYSTEM account continue to run endlessly without success code.</p>
 <p>The exact error message in the ODIS log is:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>2023-06-15T15:17:04.012 [DDA: 2196, single] [Installer INFO] [ Autodesk::DDA::SdkAgent::Listen::&lt;lambda_8f7c2cafda285d6f3324fbe86a24bae4&gt;::operator () ] [IPC] ChannelWin::Listen: WaitForSingleObject timeout. error_code: 997, pipe_name: \\.\pipe\adsk_dda_sdk
 </code></pre></div>
@@ -928,7 +928,7 @@
 <a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="no">[string]</span><span class="nv">$Computer</span> <span class="p">=</span> <span class="s2">&quot;&lt;remote-computer&gt;&quot;</span><span class="p">,</span>
 <a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="no">[string]</span><span class="nv">$Name</span> <span class="p">=</span> <span class="s2">&quot;Autodesk Revit 2024&quot;</span><span class="p">,</span>
 <a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="no">[string]</span><span class="nv">$Installer</span> <span class="p">=</span> <span class="s1">&#39;&lt;share&gt;\Autodesk Revit 2024\image\Installer.exe&#39;</span><span class="p">,</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="no">[string]</span><span class="nv">$Argument</span> <span class="p">=</span> <span class="s1">&#39;&quot;&lt;share&gt;\Autodesk Revit 2024\image\Installer.exe&quot; -i deploy --offline_mode -q -o &quot;&lt;share&gt;\Autodesk Revit 2024\image\Collection.xml&quot; --installer_version &quot;2.9.0.31&quot;&#39;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="no">[string]</span><span class="nv">$Argument</span> <span class="p">=</span> <span class="s1">&#39;-i deploy --offline_mode -q -o &quot;&lt;share&gt;\Autodesk Revit 2024\image\Collection.xml&quot; --installer_version &quot;2.9.0.31&quot;&#39;</span>
 <a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="p">)</span>
 <a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
 <a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="c"># Prompt for user credentials</span>
@@ -998,7 +998,7 @@ The script can either be called with parameters or you can enter your specific v
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c"># Prompt for user credentials</span>
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nv">$cred</span> <span class="p">=</span> <span class="nb">Get-Credential</span> <span class="n">-Message</span> <span class="s2">&quot;Enter your credentials&quot;</span>
 </code></pre></div>
-<p>To start a PowerShell session using CredSSP, we need the credentials of a user with the necessary rights to perform installations. In most cases, this is the domain admin. A dialog box is displayed in which you can enter the credentials.</p>
+<p>To start a PowerShell session using CredSSP, we need the credentials of a user with the required rights to perform installations. In most cases, this is the domain admin. A dialog box is displayed in which you can enter the credentials.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">try</span> <span class="p">{</span>
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    <span class="c"># Enable CredSSP on the client</span>
 <a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="nv">$null</span> <span class="p">=</span> <span class="nb">Enable-WSManCredSSP</span> <span class="n">-Role</span> <span class="n">Client</span> <span class="n">-DelegateComputer</span> <span class="nv">$Computer</span> <span class="n">-Force</span>

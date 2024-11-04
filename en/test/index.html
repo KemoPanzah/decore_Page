@@ -1099,7 +1099,8 @@
 
 
 <h1 id="this-is-the-test-page">This is the test page</h1>
-<p>This is a German text. <em>Here</em> are some <strong>words</strong> that can <em>appear</em> in a German text. I would also test the command <code>ausruhen</code>. But sometimes that doesn't work</p>
+<p>This is a German text, here are some <strong>words</strong> that may <em>appear</em> in a German text. I would also test the <code>ausruhen</code> command.</p>
+<p>The name of the <code>BackRefMetaField</code> must match the value of the specified <code>backref</code> parameter in the <code>ForeignKey</code> field or <code>ManyToMany</code> field in the reference model. In the following example, the name of the <code>BackrefMetaField</code> instance is <code>accounts</code> and also the value of the <code>backref</code> attribute of the <code>ForeignKeyField</code></p>
 <h2 id="mkdocs-is-better-than-sphinx">mkdocs is better than Sphinx</h2>
 <ul>
 <li>Mehr und wesentlich bessere Plugins in vscode für die Markdown bearbeitung.</li>
@@ -1155,7 +1156,7 @@
     <div class="doc doc-contents ">
 
 
-        <p>The BackrefMetaField is required so that <strong>decore Front</strong> can display relationships between models. It can be assigned to the filter or a form, for example. It is a MetaField and is not assigned a column in the database.</p>
+        <p>The BackrefMetaField is required so that <strong>decore Front</strong> can display relationships between models. It can be assigned to the filter or a form, for example. It is a MetaField and does not receive a column in the database.</p>
 
 
 <p><span class="doc-section-title">Parameters:</span></p>
@@ -1237,7 +1238,7 @@
     </table>
         <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>The name of the <code>BackRefMetaField</code> must match the value of the specified <code>backref</code> parameter in the <code>ForeignKey</code> or <code>ManyToMany</code> field in the reference model. In the following example, the name of the <code>BackRefMetaField</code> <code>accounts</code> and also the value of the ForeignKey <code>backref</code> parameter.</p>
+<p>The name of the <code>BackRefMetaField</code> must match the value of the specified <code>backref</code> parameter in the <em>ForeignKey</em> or <em>ManyToMany</em> field in the reference model. In the following example, the name of the <code>BackRefMetaField</code> is equal to <code>accounts</code> and so is the value of the <em>ForeignKey</em> <code>backref</code> parameter.</p>
 </div>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">Conform_model</span><span class="p">):</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">username</span> <span class="o">=</span> <span class="n">CharField</span><span class="p">(</span><span class="n">verbose_name</span><span class="o">=</span><span class="s1">&#39;Username&#39;</span><span class="p">)</span>
