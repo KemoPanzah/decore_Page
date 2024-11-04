@@ -19,12 +19,28 @@
         "__active__": true,
         "en-us": "The name of the <code>BackRefMetaField</code> must match the value of the specified <code>backref</code> parameter in the <code>ForeignKey</code> field or <code>ManyToMany</code> field in the reference model."
     },
-    "Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code>  und der Wert des <code>backref</code> Parameters des <code>ForeignKey</code> Feldes gleich <code>accounts</code>": {
-        "__active__": true,
-        "en-us": "In the following example, the name of the <code>BackRefMetaField</code> and the value of the <code>backref</code> parameter of the <code>ForeignKey</code> field are the same as <code>accounts</code>"
-    },
     "Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen.": {
         "__active__": true,
         "en-us": "I would also test the <code>ausruhen</code> command."
+    },
+    "Das BackrefMetaField wird ben\u00f6tigt damit <strong>decore Front</strong> Beziehungen zwischen Modellen darstellen kann. Es kann z.B. dem Filter oder einem Formular zugewiesen werden. Es ist ein MetaField und erh\u00e4lt keine Spalte in der Datenbank": {
+        "__active__": true,
+        "en-us": "The BackrefMetaField is required so that <strong>decore Front</strong> can display relationships between models. It can be assigned to the filter or a form, for example. It is a MetaField and does not receive a column in the database"
+    },
+    "Ein vom Benutzer lesbarer Name f\u00fcr das Feld": {
+        "__active__": true,
+        "en-us": "A user-readable name for the field"
+    },
+    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <em>ForeignKey</em> oder <em>ManyToMany</em> Feldes im Referenzmodell \u00fcbereinstimmen.": {
+        "__active__": true,
+        "en-us": "The name of the <code>BackRefMetaField</code> must match the value of the specified <code>backref</code> parameter in the <em>ForeignKey</em> or <em>ManyToMany</em> field in the reference model."
+    },
+    "Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> gleich <code>accounts</code> und ebenso der Wert des <em>ForeignKey</em> <code>backref</code> Parameters.": {
+        "__active__": true,
+        "en-us": "In the following example, the name of the <code>BackRefMetaField</code> is equal to <code>accounts</code> and so is the value of the <em>ForeignKey</em> <code>backref</code> parameter."
+    },
+    "Im folgendem Beispiel ist Name der <code>BackrefMetaField</code> Instanz <code>accounts</code> und ebenso der Wert des <code>backref</code> Attributes vom <code>ForeignKeyField</code>": {
+        "__active__": true,
+        "en-us": "In the following example, the name of the <code>BackrefMetaField</code> instance is <code>accounts</code> and also the value of the <code>backref</code> attribute of the <code>ForeignKeyField</code>"
     }
 }
