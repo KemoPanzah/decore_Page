@@ -30,8 +30,8 @@ plugins:
           lang: fr
         - name: Español
           lang: es
-        - name: Русский
-          lang: ru
+        # - name: Русский
+        #   lang: ru
   - mkdocstrings:
       handlers:
         python:

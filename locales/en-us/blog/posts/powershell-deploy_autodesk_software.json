@@ -3,10 +3,6 @@
         "__active__": true,
         "en-us": "Distribution of Autodesk software with ODIS installer and PowerShell avoiding the double-hop problem"
     },
-    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter.": {
-        "__active__": true,
-        "en-us": "Since Autodesk switched its deployment system to the ODIS installer, all deployments that are rolled out unattended via the SYSTEM account continue to run endlessly without success code."
-    },
     "Die genaue Fehlermeldung im ODIS-Log lautet:": {
         "__active__": true,
         "en-us": "The exact error message in the ODIS log is:"
@@ -59,6 +55,10 @@
         "__active__": true,
         "en-us": "This script must be executed with administrative rights in order to activate and deactivate CredSSP authentication."
     },
+    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise <code>Install Autodesk Revit 2024.bat</code> sein.": {
+        "__active__": true,
+        "en-us": "The script can either be called with parameters or you can enter your specific values directly. The necessary information for the installer and the arguments can be found in the corresponding installation script after the image has been created. A typical name for a Revit installation could be <code>Install Autodesk Revit 2024.bat</code>, for example."
+    },
     "Die Parameter f\u00fcr die Silent-Installation und Deinstallation sind ebenfalls dort hinterlegt. Diese Parameter erm\u00f6glichen eine unbeaufsichtigte Installation bzw. Deinstallation der Software, was besonders in gro\u00dfen IT-Umgebungen von Vorteil ist.": {
         "__active__": true,
         "en-us": "The parameters for silent installation and uninstallation are also stored there. These parameters enable unattended installation and uninstallation of the software, which is particularly advantageous in large IT environments."
@@ -69,7 +69,7 @@
     },
     "Um eine PowerShell-Sitzung unter Verwendung von CredSSP zu starten, ben\u00f6tigen wir die Anmeldeinformationen eines Benutzers mit den erforderlichen Rechten zur Durchf\u00fchrung von Installationen. In den meisten F\u00e4llen handelt es sich dabei um den Domain-Admin. Ein Dialogfeld wird angezeigt, in dem Sie die Anmeldeinformationen eingeben k\u00f6nnen.": {
         "__active__": true,
-        "en-us": "To start a PowerShell session using CredSSP, we need the credentials of a user with the necessary rights to perform installations. In most cases, this is the domain admin. A dialog box is displayed in which you can enter the credentials."
+        "en-us": "To start a PowerShell session using CredSSP, we need the credentials of a user with the required rights to perform installations. In most cases, this is the domain admin. A dialog box is displayed in which you can enter the credentials."
     },
     "Hier wird CredSSP sowohl auf dem Client als auch auf dem Server aktiviert. Es ist hilfreich, die Begriffe \"Verteiler\" (Client) und \"Empf\u00e4nger\" (Server) zu verwenden, um die Rollen klarer zu definieren. Der Try-Block umfasst alle potenziell fehleranf\u00e4lligen Aktionen und kann nach Belieben angepasst werden. F\u00fcr den Anfang ist diese Struktur einfach und robust.": {
         "__active__": true,
@@ -95,8 +95,8 @@
         "__active__": true,
         "en-us": "Source information"
     },
-    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise <code>Install Autodesk Revit 2024.bat</code> sein.": {
+    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter": {
         "__active__": true,
-        "en-us": "The script can either be called with parameters or you can enter your specific values directly. The necessary information for the installer and the arguments can be found in the corresponding installation script after the image has been created. A typical name for a Revit installation could be <code>Install Autodesk Revit 2024.bat</code>, for example."
+        "en-us": "Since Autodesk has switched its deployment system to the ODIS installer, all deployments that are rolled out unattended via the SYSTEM account continue to run endlessly without success code"
     }
 }

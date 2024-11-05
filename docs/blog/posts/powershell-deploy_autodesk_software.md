@@ -9,7 +9,7 @@ categories:
 
 # [[Verteilung von Autodesk-Software mit ODIS-Installer und PowerShell unter Vermeidung des Double-Hop-Problems]]
 
-[[Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt über den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter.]]
+[[Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt über den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter]].
 
 [[Die genaue Fehlermeldung im ODIS-Log lautet:]]
 
@@ -53,7 +53,7 @@ param (
 [string]$Computer = "<remote-computer>",
 [string]$Name = "Autodesk Revit 2024",
 [string]$Installer = '<share>\Autodesk Revit 2024\image\Installer.exe',
-[string]$Argument = '"<share>\Autodesk Revit 2024\image\Installer.exe" -i deploy --offline_mode -q -o "<share>\Autodesk Revit 2024\image\Collection.xml" --installer_version "2.9.0.31"'
+[string]$Argument = '-i deploy --offline_mode -q -o "<share>\Autodesk Revit 2024\image\Collection.xml" --installer_version "2.9.0.31"'
 )
 
 # Prompt for user credentials

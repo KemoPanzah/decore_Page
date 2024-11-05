@@ -3,10 +3,6 @@
         "__active__": true,
         "es": "Distribuci\u00f3n de software de Autodesk con el instalador ODIS y PowerShell evitando el problema del doble salto"
     },
-    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter.": {
-        "__active__": true,
-        "es": "Desde que Autodesk cambi\u00f3 su sistema de despliegue al instalador ODIS, todos los despliegues desatendidos a trav\u00e9s de la cuenta SYSTEM siguen ejecut\u00e1ndose sin fin y sin c\u00f3digo de \u00e9xito."
-    },
     "Die genaue Fehlermeldung im ODIS-Log lautet:": {
         "__active__": true,
         "es": "El mensaje de error exacto en el registro ODIS dice:"
@@ -98,5 +94,9 @@
     "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise <code>Install Autodesk Revit 2024.bat</code> sein.": {
         "__active__": true,
         "es": "El script puede ser llamado con par\u00e1metros o puede introducir directamente sus valores espec\u00edficos. La informaci\u00f3n necesaria para el instalador y los argumentos se encuentran en el script de instalaci\u00f3n correspondiente una vez creada la imagen. Un nombre t\u00edpico para una instalaci\u00f3n de Revit podr\u00eda ser <code>Instalar Autodesk Revit 2024.bat</code>, por ejemplo."
+    },
+    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter": {
+        "__active__": true,
+        "es": "Desde que Autodesk ha cambiado su sistema de despliegue por el instalador ODIS, todos los despliegues que se realizan de forma desatendida a trav\u00e9s de la cuenta SYSTEM siguen ejecut\u00e1ndose sin fin y sin \u00e9xito."
     }
 }

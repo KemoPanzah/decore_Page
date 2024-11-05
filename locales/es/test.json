@@ -11,9 +11,17 @@
         "__active__": true,
         "es": "Necesito un texto largo en Lorem Ipsum para ver c\u00f3mo es la fuente. He aqu\u00ed un ejemplo"
     },
-    "Das ist ein Deutscher Text. <em>Hier</em> sind einige <strong>W\u00f6rter</strong>, die in einem Deutschen Text <em>vorkommen</em> k\u00f6nnen. Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen. Aber das klappt manchmal nicht": {
+    "Ich w\u00fcrde auch mal denn Befehl <code>ausruhen</code> testen.": {
         "__active__": true,
-        "es": "Se trata de un texto en alem\u00e1n. <em>Aqu\u00ed</em> hay algunas <strong>palabras</strong> que pueden <em>aparecer</em> en un texto alem\u00e1n. Tambi\u00e9n probar\u00eda el comando <code>ausruhen</code>. Pero a veces no funciona"
+        "es": "Yo tambi\u00e9n probar\u00eda el comando <code>resto</code>."
+    },
+    "Das ist ein Deutscher Text, hier sind einige <strong>W\u00f6rter</strong> die in einem deutschen Text <em>vorkommen</em> k\u00f6nnen.": {
+        "__active__": true,
+        "es": "Este es un texto en alem\u00e1n, aqu\u00ed hay algunas <strong>palabras</strong> que pueden <em>aparecer</em> en un texto en alem\u00e1n."
+    },
+    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> Feldes oder <code>ManyToMany</code> Feldes im Referenzmodell \u00fcbereinstimmen.": {
+        "__active__": true,
+        "es": "El nombre del <code>BackRefMetaField</code> debe coincidir con el valor del par\u00e1metro <code>backref</code> especificado en el campo <code>ForeignKey</code> o en el campo <code>ManyToMany</code> del modelo de referencia."
     },
     "Das BackrefMetaField wird ben\u00f6tigt damit <strong>decore Front</strong> Beziehungen zwischen Modellen darstellen kann. Es kann z.B. dem Filter oder einem Formular zugewiesen werden. Es ist ein MetaField und erh\u00e4lt keine Spalte in der Datenbank": {
         "__active__": true,
@@ -23,8 +31,20 @@
         "__active__": true,
         "es": "Un nombre legible por el usuario para el campo"
     },
-    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> oder <code>ManyToMany</code> Feld im Referenzmodell \u00fcbereinstimmen. Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> <code>accounts</code> und ebenso der Wert des ForeignKey <code>backref</code> Parameters.": {
+    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <em>ForeignKey</em> oder <em>ManyToMany</em> Feldes im Referenzmodell \u00fcbereinstimmen.": {
         "__active__": true,
+        "es": "El nombre del <code>BackRefMetaField</code> debe coincidir con el valor del par\u00e1metro <code>backref</code> especificado en el campo <em>ForeignKey</em> o <em>ManyToMany</em> del modelo de referencia."
+    },
+    "Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> gleich <code>accounts</code> und ebenso der Wert des <em>ForeignKey</em> <code>backref</code> Parameters.": {
+        "__active__": true,
+        "es": "En el siguiente ejemplo, el nombre del <code>BackRefMetaField</code> es igual a <code>accounts</code> y tambi\u00e9n lo es el valor del par\u00e1metro <em>ForeignKey</em> <code>backref</code>."
+    },
+    "Im folgendem Beispiel ist Name der <code>BackrefMetaField</code> Instanz <code>accounts</code> und ebenso der Wert des <code>backref</code> Attributes vom <code>ForeignKeyField</code>": {
+        "__active__": true,
+<<<<<<< HEAD
         "es": "El nombre del <code>BackRefMetaField</code> debe coincidir con el valor del par\u00e1metro <code>backref</code> especificado en <code>ForeignKey</code> o <code>ManyToMany</code>. especificado en el campo <code>ForeignKey</code> o <code>ManyToMany</code> del modelo de referencia. En el siguiente ejemplo, el nombre del <code>BackRefMetaField</code> <code>accounts</code> y tambi\u00e9n el valor del par\u00e1metro ForeignKey <code>backref</code> ."
+=======
+        "es": "En el siguiente ejemplo, el nombre de la instancia <code>BackrefMetaField</code> es <code>accounts</code> y tambi\u00e9n el valor del atributo <code>backref</code> del <code>ForeignKeyField</code>"
+>>>>>>> 6358389a7cb56ab8338bd37e3294b97c12a29f4e
     }
 }
