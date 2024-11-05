@@ -30,6 +30,8 @@ plugins:
           lang: fr
         - name: Español
           lang: es
+        - name: Italiano
+          lang: it
         - name: Русский
           lang: ru
   - mkdocstrings:

@@ -3,10 +3,6 @@
         "__active__": true,
         "it": "Distribuzione del software Autodesk con il programma di installazione ODIS e PowerShell per evitare il problema del doppio hop"
     },
-    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter.": {
-        "__active__": true,
-        "it": "Da quando Autodesk ha sostituito il sistema di distribuzione con il programma di installazione ODIS, tutte le distribuzioni avviate senza supervisione tramite l'account SYSTEM continuano ad essere eseguite all'infinito senza codice di successo."
-    },
     "Die genaue Fehlermeldung im ODIS-Log lautet:": {
         "__active__": true,
         "it": "Il messaggio di errore esatto nel registro ODIS \u00e8:"
@@ -59,10 +55,6 @@
         "__active__": true,
         "it": "Questo script deve essere eseguito con diritti amministrativi per attivare e disattivare l'autenticazione CredSSP."
     },
-    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise `Install Autodesk Revit 2024.bat` sein.": {
-        "__active__": true,
-        "it": "Lo script pu\u00f2 essere richiamato con dei parametri oppure si possono inserire direttamente i valori specifici. Le informazioni necessarie per il programma di installazione e gli argomenti si trovano nello script di installazione corrispondente dopo la creazione dell'immagine. Un nome tipico per un'installazione di Revit potrebbe essere, ad esempio, 'Install Autodesk Revit 2024.bat'."
-    },
     "Die Parameter f\u00fcr die Silent-Installation und Deinstallation sind ebenfalls dort hinterlegt. Diese Parameter erm\u00f6glichen eine unbeaufsichtigte Installation bzw. Deinstallation der Software, was besonders in gro\u00dfen IT-Umgebungen von Vorteil ist.": {
         "__active__": true,
         "it": "Vi sono memorizzati anche i parametri per l'installazione e la disinstallazione silenziose. Questi parametri consentono l'installazione e la disinstallazione non presidiata del software, il che \u00e8 particolarmente vantaggioso in ambienti IT di grandi dimensioni."
@@ -98,5 +90,13 @@
     "Quellangaben": {
         "__active__": true,
         "it": "Informazioni sulla fonte"
+    },
+    "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter": {
+        "__active__": true,
+        "it": "Da quando Autodesk ha sostituito il sistema di distribuzione con il programma di installazione ODIS, tutte le distribuzioni eseguite senza supervisione tramite l'account SYSTEM continuano ad essere eseguite all'infinito senza successo"
+    },
+    "Das Skript kann entweder mit Parametern aufgerufen werden, oder Sie tragen Ihre spezifischen Werte direkt ein. Die notwendigen Informationen f\u00fcr den Installer und die Argumente finden Sie nach der Image-Erstellung im entsprechenden Installations-Skript. Ein typischer Name f\u00fcr eine Revit-Installation k\u00f6nnte beispielsweise <code>Install Autodesk Revit 2024.bat</code> sein.": {
+        "__active__": true,
+        "it": "Lo script pu\u00f2 essere richiamato con dei parametri oppure si possono inserire direttamente i valori specifici. Le informazioni necessarie per il programma di installazione e gli argomenti si trovano nello script di installazione corrispondente dopo la creazione dell'immagine. Un nome tipico per un'installazione di Revit potrebbe essere, ad esempio, <code>Install Autodesk Revit 2024.bat</code> "
     }
 }

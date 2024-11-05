@@ -1,0 +1,46 @@
+{
+    "Willkommen bei MkDocs": {
+        "__active__": true,
+        "it": "Benvenuti a MkDocs"
+    },
+    "Die vollst\u00e4ndige Dokumentation finden Sie unter": {
+        "__active__": true,
+        "it": "La documentazione completa \u00e8 disponibile all'indirizzo"
+    },
+    "Befehle": {
+        "__active__": true,
+        "it": "Comandi"
+    },
+    "Erstellen Sie ein neues Projekt": {
+        "__active__": true,
+        "it": "Creare un nuovo progetto"
+    },
+    "Starten Sie den Live-Doku-Server": {
+        "__active__": true,
+        "it": "Avviare il server dei documenti live"
+    },
+    "Erstellen Sie die Dokumentationsseite": {
+        "__active__": true,
+        "it": "Creare la pagina di documentazione"
+    },
+    "Hilfemeldung drucken und beenden": {
+        "__active__": true,
+        "it": "Stampa e uscita del messaggio di aiuto"
+    },
+    "Projekt-Layout": {
+        "__active__": true,
+        "it": "Layout del progetto"
+    },
+    "Die Konfigurationsdatei": {
+        "__active__": true,
+        "it": "Il file di configurazione"
+    },
+    "Die Homepage der Dokumentation": {
+        "__active__": true,
+        "it": "La pagina iniziale della documentazione"
+    },
+    "Andere Markdown-Seiten, Bilder und andere Dateien": {
+        "__active__": true,
+        "it": "Altre pagine Markdown, immagini e altri file"
+    }
+}
