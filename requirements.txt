@@ -18,7 +18,7 @@ mkdocs-autorefs==1.2.0
 mkdocs-get-deps==0.2.0
 mkdocs-material==9.5.41
 mkdocs-material-extensions==1.3.1
--e git+https://github.com/KemoPanzah/mkdocs_material_langly.git@1a0eafd734c87070f37522dba15dffe4429594fc#egg=mkdocs_material_langly
+-e git+https://github.com/KemoPanzah/mkdocs_material_langly.git@d50a1ade2a3fd98fcba502a9a164a5a54a3decad#egg=mkdocs_material_langly
 mkdocstrings==0.26.2
 mkdocstrings-python==1.12.2
 packaging==24.1
