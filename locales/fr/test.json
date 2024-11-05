@@ -31,16 +31,11 @@
         "__active__": true,
         "fr": "Un nom lisible par l'utilisateur pour le champ"
     },
-    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <em>ForeignKey</em> oder <em>ManyToMany</em> Feldes im Referenzmodell \u00fcbereinstimmen.": {
-        "__active__": true,
-        "fr": "Le nom du <code>BackRefMetaField</code> doit correspondre \u00e0 la valeur du param\u00e8tre <code>backref</code> indiqu\u00e9 dans le champ <em>ForeignKey</em> ou <em>ManyToMany</em> du mod\u00e8le de r\u00e9f\u00e9rence."
-    },
-    "Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> gleich <code>accounts</code> und ebenso der Wert des <em>ForeignKey</em> <code>backref</code> Parameters.": {
-        "__active__": true,
-        "fr": "Dans l'exemple suivant, le nom du <code>BackRefMetaField</code> est identique \u00e0 <code>accounts</code>, tout comme la valeur du param\u00e8tre <em>ForeignKey</em> <code>backref</code>."
-    },
     "Im folgendem Beispiel ist Name der <code>BackrefMetaField</code> Instanz <code>accounts</code> und ebenso der Wert des <code>backref</code> Attributes vom <code>ForeignKeyField</code>": {
         "__active__": true,
         "fr": "Dans l'exemple suivant, le nom de l'instance <code>BackrefMetaField</code> est <code>accounts</code> et la valeur de l'attribut <code>backref</code> du <code>ForeignKeyField</code> est \u00e9galement <code>accounts</code> "
+    },
+    "Der Name des <code>BackRefMetaField</code> muss mit dem Wert des angegebenen <code>backref</code> Parameters im <code>ForeignKey</code> oder <code>ManyToMany</code> Feld im Referenzmodell \u00fcbereinstimmen. Im folgendem Beispiel ist der Name des <code>BackRefMetaField</code> <code>accounts</code> und ebenso der Wert des ForeignKey <code>backref</code> Parameters.": {
+        "__active__": true
     }
 }
