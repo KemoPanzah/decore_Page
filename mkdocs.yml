@@ -26,14 +26,6 @@ plugins:
       targets:
         - name: English
           lang: en-us
-        - name: Français
-          lang: fr
-        - name: Español
-          lang: es
-        - name: Italiano
-          lang: it
-        - name: Русский
-          lang: ru
   - mkdocstrings:
       handlers:
         python:
@@ -55,6 +47,7 @@ nav:
   - test.md
   - '[[Dokumentation]]':
     - doc/index.md
+    - doc/decore.md
     - doc/fields.md
   - '[[Unterprojekte]]':
     - sub/index.md

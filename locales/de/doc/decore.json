@@ -1,0 +1,22 @@
+{
+    "Eine Funktion zum er\u00f6ffnen einer GUI-Dashboard-Anwendung. Sie wird als \"Decorator\" verwendet.": {
+        "__active__": true,
+        "de": "Eine Funktion zum er\u00f6ffnen einer GUI-Dashboard-Anwendung. Sie wird als \"Decorator\" verwendet."
+    },
+    "Der Titel der App.": {
+        "__active__": true,
+        "de": "Der Titel der App."
+    },
+    "Die Beschreibung der App.": {
+        "__active__": true,
+        "de": "Die Beschreibung der App."
+    },
+    "Die Rollenangabe dient dazu, nur berechtigte Elemente ans Framework zu liefern. Rolle 0 erm\u00f6glicht es dem Gast-Account, sofort auf die App zuzugreifen. Alles \u00fcber 0 erfordert eine Anmeldung.": {
+        "__active__": true,
+        "de": "Die Rollenangabe dient dazu, nur berechtigte Elemente ans Framework zu liefern. Rolle 0 erm\u00f6glicht es dem Gast-Account, sofort auf die App zuzugreifen. Alles \u00fcber 0 erfordert eine Anmeldung."
+    },
+    "Der Entwicklungsmodus aktiviert die CORS-Header, bereitet die Anwendung beim ersten Lauf vor, aktiviert weitere Dev-Features und erm\u00f6glicht es, die App auf einem lokalen Server zu testen.": {
+        "__active__": true,
+        "de": "Der Entwicklungsmodus aktiviert die CORS-Header, bereitet die Anwendung beim ersten Lauf vor, aktiviert weitere Dev-Features und erm\u00f6glicht es, die App auf einem lokalen Server zu testen."
+    }
+}

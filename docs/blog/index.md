@@ -1,2 +1,2 @@
-# Welcome to the blog!
-
+# Willkommen in meinem Blog
+[[Hier schreibe ich über meine Erfahrungen und Erkenntnisse, die ich im Laufe meiner Arbeit gesammelt habe. Ich hoffe, dass ich Ihnen mit meinen Beiträgen weiterhelfen kann.]]
