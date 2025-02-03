@@ -1,0 +1,10 @@
+{
+    "Dokumentation": {
+        "__active__": true,
+        "en-us": "Documentation"
+    },
+    "Unterprojekte": {
+        "__active__": true,
+        "en-us": "Subprojects"
+    }
+}
