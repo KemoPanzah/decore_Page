@@ -1,6 +1,26 @@
 {
-    "Das Langly Plugin f\u00fcr MkDocs mit Material Theme ist ein Projekt, welches f\u00fcr die bestm\u00f6glich Dokumentation von decore Base entwickelt wurde.": {
+    "Das Langly-Plugin f\u00fcr MkDocs ist ein Plugin, das Sprachunterst\u00fctzung und \u00dcbersetzungen f\u00fcr Webseiten bietet, die mit MkDocs erstellt wurden. Es erm\u00f6glicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische \u00dcbersetzung von Texten, um eine breitere Zielgruppe zu erreichen.": {
         "__active__": true,
-        "en-us": "The Langly Plugin for MkDocs with Material Theme is a project that was developed for the best possible documentation of decore Base."
+        "en-us": "The Langly plugin for MkDocs is a plugin that provides language support and translations for websites created with MkDocs. It enables easy management of multilingual content and automatic translation of texts to reach a wider audience."
+    },
+    "Um das Plugin zu verwenden, m\u00fcssen Sie es zuerst installieren. F\u00fchren Sie dazu den folgenden Befehl aus:": {
+        "__active__": true,
+        "en-us": "To use the plugin, you must first install it. To do this, execute the following command:"
+    },
+    "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren:": {
+        "__active__": true,
+        "en-us": "After installation, you can activate the plugin in your <code>mkdocs.yml</code>:"
+    },
+    "Es wurde unter Verwendung des gro\u00dfartigen Material-Themes erstellt und bietet Funktionalit\u00e4ten auch den Blogbereich mit zu \u00fcbersetzen.": {
+        "__active__": true,
+        "en-us": "It was created using the great Material theme and offers functionalities to translate the blog area as well."
+    },
+    "Die derzeitige \u00dcbersetzungsengine ist Deepl und es wird ein Deepl-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.": {
+        "__active__": true,
+        "en-us": "The current translation engine is Deepl and a Deepl API key is required to use the plugin."
+    },
+    "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvoschlage in den Issues zu melden.": {
+        "__active__": true,
+        "en-us": "The plugin is still under development and it is recommended to read the documentation to understand the functionalities and limitations. I also ask you to report all requirements and change suggestions in the issues."
     }
 }
