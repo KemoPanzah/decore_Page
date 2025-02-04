@@ -1,10 +1,14 @@
 {
-    "Hier schreibe ich \u00fcber meine Erfahrungen und Erkenntnisse, die ich im Laufe meiner Arbeit gesammelt habe. Ich hoffe, dass ich Ihnen mit meinen Beitr\u00e4gen weiterhelfen kann.": {
-        "__active__": true,
-        "de": "Hier schreibe ich \u00fcber meine Erfahrungen und Erkenntnisse, die ich im Laufe meiner Arbeit gesammelt habe. Ich hoffe, dass ich Ihnen mit meinen Beitr\u00e4gen weiterhelfen kann."
-    },
     "Willkommen in meinem Blog": {
         "__active__": true,
         "de": "Willkommen in meinem Blog"
+    },
+    "Ich hoffe, dass ich Ihnen mit meinen Beitr\u00e4gen weiterhelfen kann.": {
+        "__active__": true,
+        "de": "Ich hoffe, dass ich Ihnen mit meinen Beitr\u00e4gen weiterhelfen kann."
+    },
+    "Hier schreibe ich \u00fcber meine Erfahrungen und Erkenntnisse, die ich im Laufe meiner Arbeit aber auch im allgemeinen gesammelt habe.": {
+        "__active__": true,
+        "de": "Hier schreibe ich \u00fcber meine Erfahrungen und Erkenntnisse, die ich im Laufe meiner Arbeit aber auch im allgemeinen gesammelt habe."
     }
 }

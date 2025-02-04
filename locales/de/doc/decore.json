@@ -18,5 +18,9 @@
     "Der Entwicklungsmodus aktiviert die CORS-Header, bereitet die Anwendung beim ersten Lauf vor, aktiviert weitere Dev-Features und erm\u00f6glicht es, die App auf einem lokalen Server zu testen.": {
         "__active__": true,
         "de": "Der Entwicklungsmodus aktiviert die CORS-Header, bereitet die Anwendung beim ersten Lauf vor, aktiviert weitere Dev-Features und erm\u00f6glicht es, die App auf einem lokalen Server zu testen."
+    },
+    "Basisklasse": {
+        "__active__": true,
+        "de": "Basisklasse"
     }
 }

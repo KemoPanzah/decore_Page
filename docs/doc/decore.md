@@ -1,3 +1,3 @@
-# decore
+# [[Basisklasse]]
 
 ::: decore

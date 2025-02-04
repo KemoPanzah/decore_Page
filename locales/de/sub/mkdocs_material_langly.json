@@ -22,5 +22,9 @@
     "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvoschlage in den Issues zu melden.": {
         "__active__": true,
         "de": "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvoschlage in den Issues zu melden."
+    },
+    "Lasst uns Anfangen": {
+        "__active__": true,
+        "de": "Lasst uns Anfangen"
     }
 }

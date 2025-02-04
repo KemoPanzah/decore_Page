@@ -32,8 +32,9 @@ plugins:
           paths: [../Decore_base/decore_base]
           options:
             show_root_heading: true
-            show_bases: false
+            show_bases: true
             show_source: false
+            members_order: source
   - blog:
       authors: true
       post_url_date_format: 'yyyy'
@@ -44,13 +45,10 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - index.md
-  - test.md
   - '[[Dokumentation]]':
-    - doc/index.md
     - doc/decore.md
     - doc/fields.md
   - '[[Unterprojekte]]':
-    - sub/index.md
     - sub/mkdocs_material_langly.md
   - Blog:
     - blog/index.md

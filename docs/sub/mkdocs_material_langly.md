@@ -9,8 +9,7 @@
 !!! note
     [[Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalitäten und Einschränkungen zu verstehen. Ich bitte auch alle Anforderungen und Änderungsvoschlage in den Issues zu melden.]]
 
-## Lasst uns Anfangen
-
+## [[Lasst uns Anfangen]]
 
 [[Um das Plugin zu verwenden, müssen Sie es zuerst installieren. Führen Sie dazu den folgenden Befehl aus:]]
 
