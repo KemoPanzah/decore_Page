@@ -2,5 +2,13 @@
     "Hier entsteht gerade die Dokumentation f\u00fcr decore Base.": {
         "__active__": true,
         "en-us": "The documentation for decore Base is currently being created here."
+    },
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit": {
+        "__active__": true,
+        "en-us": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    "<strong>HTML</strong> f\u00fcr Inhalt und Strukturierung": {
+        "__active__": true,
+        "en-us": "<strong>HTML</strong> for content and structuring"
     }
 }
