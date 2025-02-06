@@ -1,7 +1,9 @@
 site_name: decore Base | Ui fastly
-site_url: https://kemopanzah.github.io/decore_Page #DOC - wichtig für Build und GH-Deploy sonst keine korrekten Canonicals und Sitemaps
+site_url: https://www.decore.dev #DOC - wichtig für Build und GH-Deploy sonst keine korrekten Canonicals und Sitemaps
 theme:
   name: material
+  logo: static/logo.png
+  favicon: static/favicon.ico
   features:
     - content.code.copy
     - navigation.tabs
