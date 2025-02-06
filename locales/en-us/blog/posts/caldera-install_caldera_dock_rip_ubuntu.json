@@ -6,5 +6,233 @@
     "Bevor mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden kann, gibt es einige grundlegende Schritte, die durchgef\u00fchrt werden sollten.": {
         "__active__": true,
         "en-us": "Before you can start installing Caldera Dock and Caldera Rip on Ubuntu 22.04, there are some basic steps that should be performed."
+    },
+    "Es sollte sichergestellt werden, dass das System \u00fcber eine funktionierende Internetverbindung verf\u00fcgt, um w\u00e4hrend der Installation Updates herunterladen zu k\u00f6nnen und sicherzustellen, dass alle ben\u00f6tigten Pakete und Abh\u00e4ngigkeiten verf\u00fcgbar sind. Die Systemanforderungen von Caldera sollten eingehalten werden, diese k\u00f6nnen auf der offiziellen Caldera-Website eingesehen werden.": {
+        "__active__": true,
+        "en-us": "It should be ensured that the system has a working internet connection to download updates during installation and to ensure that all required packages and dependencies are available. The system requirements of Caldera should be observed, these can be viewed on the official Caldera website."
+    },
+    "Es wird empfohlen, vor der Installation ein Backup des Systems zu erstellen, um sicherzustellen, dass im Falle eines Problems alle Daten gesichert sind. Zudem sollte die Dokumentation von Caldera gelesen werden, um sich mit den spezifischen Anforderungen und Schritten f\u00fcr die Installation vertraut zu machen.": {
+        "__active__": true,
+        "en-us": "It is recommended to create a backup of the system before installation to ensure that all data is backed up in case of a problem. In addition, the Caldera documentation should be read to familiarize yourself with the specific requirements and steps for the installation."
+    },
+    "Nachdem die Vorbereitungen abgeschlossen sind, kann mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden.": {
+        "__active__": true,
+        "en-us": "After the preparations have been completed, the installation of Caldera Dock and Caldera Rip on Ubuntu 22.04 can be started."
+    },
+    "Installation Ubuntu Desktop 22.04": {
+        "__active__": true,
+        "en-us": "Installation Ubuntu Desktop 22.04"
+    },
+    "Nach dem mounten des aktuellen <code>Ubuntu Desktop 22.04</code> Isos entweder \u00fcber USB Stick oder als Bootmedium in der VM, wird die Installtionsroutine gestartet.": {
+        "__active__": true,
+        "en-us": "After mounting the current <code>Ubuntu Desktop 22.04</code> ISO either via USB stick or as boot medium in the VM, the installation routine is started."
+    },
+    "Der Willkommensbildschirm erscheint, der die Optionen bietet, Ubuntu auszuprobieren oder zu installieren. Zuerst die bevorzugte <strong>Sprache</strong> ausw\u00e4hlen und dann die Option <strong>Ubuntu installieren</strong> w\u00e4hlen und die Eingabetaste dr\u00fccken.": {
+        "__active__": true,
+        "en-us": "The welcome screen appears, offering the options to try out or install Ubuntu. First select your preferred <strong>language</strong> and then select the <strong>Install Ubuntu</strong> option and press Enter."
+    },
+    "Die Tastaturbelegung ausw\u00e4hlen und auf <strong>Weiter</strong> klicken.": {
+        "__active__": true,
+        "en-us": "Select the keyboard layout and click <strong>Next</strong>."
+    },
+    "Die <strong>Minimale Installation</strong>, <strong>W\u00e4hrend Ubuntu installiert wird Aktualisierungen herunterladen</strong> und <strong>Installieren Sie Software von Drittanbietern f\u00fcr Grafik- und Wi-Fi-Hardware und zus\u00e4tzliche Medienformate</strong> ausw\u00e4hlen und auf <strong>Weiter</strong> klicken.": {
+        "__active__": true,
+        "en-us": "The <strong>Minimal installation</strong>, <strong>While Ubuntu is installing Download updates</strong> and <strong>Install third-party software for graphics and Wi-Fi hardware and additional media formats</strong> and click <strong>Next</strong>."
+    },
+    "Als n\u00e4chstes die Option <strong>Festplatte l\u00f6schen und Ubuntu installieren</strong> ausw\u00e4hlen und auf <strong>Jetzt Installieren</strong> klicken.": {
+        "__active__": true,
+        "en-us": "Next, select the option <strong>Erase hard disk and install Ubuntu</strong> and click on <strong>Install now</strong>."
+    },
+    "Standort ausw\u00e4hlen und auf <strong>Weiter</strong> klicken.": {
+        "__active__": true,
+        "en-us": "Select location and click <strong>Next</strong>."
+    },
+    "Alle Felder unter <em>Wer sind Sie?</em> wie folgt ausf\u00fcllen:": {
+        "__active__": true,
+        "en-us": "Fill in all fields under <em>Who are you?</em> as follows:"
+    },
+    "<strong>Ihr Name</strong>": {
+        "__active__": true,
+        "en-us": "<strong>Your name</strong>"
+    },
+    "<strong>Name Ihres Rechners</strong>": {
+        "__active__": true,
+        "en-us": "<strong>Name of your computer</strong>"
+    },
+    "<strong>Bitte Benutzernamen ausw\u00e4hlen</strong>": {
+        "__active__": true,
+        "en-us": "<strong>Please select a username</strong>"
+    },
+    "<strong>Ein Passwort w\u00e4hlen</strong>": {
+        "__active__": true,
+        "en-us": "<strong>Choose a password</strong>"
+    },
+    "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>": {
+        "__active__": true,
+        "en-us": "<em>Select the actual DNS name as the PC is to be addressed later. e.g. <code>calderarip</code></em>"
+    },
+    "<em>(Laut Hersteller Dokumentation)</em>": {
+        "__active__": true,
+        "en-us": "<em>(According to manufacturer documentation)</em>"
+    },
+    "<strong>Passwort zum anmelden abfragen</strong> <em>(emphiehlt sich wenn xrdp f\u00fcr die Verbindung zum Ubuntu Desktop eingesetzt wird)</em>": {
+        "__active__": true,
+        "en-us": "<strong>Request password to log in</strong> <em>(recommended if xrdp is used for the connection to the Ubuntu desktop)</em>"
+    },
+    "Nachdem alle Felder ausgef\u00fcllt sind, auf <strong>Weiter</strong> klicken.": {
+        "__active__": true,
+        "en-us": "Once all fields have been filled in, click <strong>Next</strong>."
+    },
+    "Warten, bis die Installation abgeschlossen ist, und das System neu starten.": {
+        "__active__": true,
+        "en-us": "Wait until the installation is complete and restart the system."
+    },
+    "Nach dem Neustart sollte <code>Ubuntu Desktop 22.04</code> erfolgreich installiert sein und eine Anmeldung mit dem zuvor erstellten Benutzer ist m\u00f6glich.": {
+        "__active__": true,
+        "en-us": "After the restart, <code>Ubuntu Desktop 22.04</code> should be successfully installed and it should be possible to log in with the previously created user."
+    },
+    "Installation von Caldera Dock": {
+        "__active__": true,
+        "en-us": "Installation of Caldera Dock"
+    },
+    "Nach der Installation von <code>Ubuntu Desktop 22.04</code> kann mit der Installation von Caldera Dock fortgefahren werden.": {
+        "__active__": true,
+        "en-us": "After the installation of <code>Ubuntu Desktop 22.04</code> you can continue with the installation of Caldera Dock."
+    },
+    "Download der Installationsdatei": {
+        "__active__": true,
+        "en-us": "Download the installation file"
+    },
+    "Bei <code>Caldera WorkSpace</code> anmelden und zur Haupt-Dashboard-Seite gehen.": {
+        "__active__": true,
+        "en-us": "Log in to <code>Caldera WorkSpace</code> and go to the main dashboard page."
+    },
+    "Auf die Schaltfl\u00e4che <strong>Installieren</strong> klicken, um die Installationsdatei zu finden. Caldera Dock (Ubuntu) herunterladen.": {
+        "__active__": true,
+        "en-us": "Click on the <strong>Install</strong> button to find the installation file. Download Caldera Dock (Ubuntu)."
+    },
+    "Installieren Sie die heruntergeladene .deb-Datei": {
+        "__active__": true,
+        "en-us": "Install the downloaded .deb file"
+    },
+    "Zu dem Ordnerwechseln , in dem die Installationsdatei gespeichert wurde.": {
+        "__active__": true,
+        "en-us": "Change to the folder in which the installation file was saved."
+    },
+    "Die Installationsdatei finden, mit der rechten Maustaste darauf klicken und die Option <strong>Mit anderer Anwendung \u00f6ffnen</strong> w\u00e4hlen.": {
+        "__active__": true,
+        "en-us": "Find the installation file, right-click on it and select the <strong>Open with another application</strong> option."
+    },
+    "Der Ubuntu-Installationsassistent wird angezeigt. <strong>Software-Installation</strong> ausw\u00e4hlen.": {
+        "__active__": true,
+        "en-us": "The Ubuntu installation wizard is displayed. Select <strong>software installation</strong>."
+    },
+    "Einige Sekunden warten, bis die Installationsdateien geladen sind, und dann auf <strong>Installieren</strong> klicken.": {
+        "__active__": true,
+        "en-us": "Wait a few seconds until the installation files are loaded and then click on <strong>Install</strong>."
+    },
+    "Vor der Fortsetzung der Installation wird eine Authentifizierung verlangt. Das Passwort eingeben, das bei der Installation von <code>Ubuntu Desktop 22.04</code> festgelegt wurde.": {
+        "__active__": true,
+        "en-us": "Authentication is required before continuing the installation. Enter the password that was set during the installation of <code>Ubuntu Desktop 22.04</code>."
+    },
+    "Die Installation wird nun durchgef\u00fchrt.": {
+        "__active__": true,
+        "en-us": "The installation will now be carried out."
+    },
+    "Sobald die Installation abgeschlossen ist, kann <code>Caldera Dock</code> \u00fcber das Hauptmen\u00fc oder die Suchleiste gestartet werden.": {
+        "__active__": true,
+        "en-us": "As soon as the installation is complete, <code>Caldera Dock</code> can be started via the main menu or the search bar."
+    },
+    "Installieren der Setup-Tools": {
+        "__active__": true,
+        "en-us": "Installing the setup tools"
+    },
+    "Auf der <strong>Startseite</strong> von <code>Caldera Dock</code> im Abschnitt <strong>Setup-Tools</strong> auf <strong>Installieren</strong> klicken.": {
+        "__active__": true,
+        "en-us": "On the <code>Caldera Dock</code> <strong>start page</strong>, click on <strong>Install</strong> in the <strong>Setup tools</strong> section."
+    },
+    "Danach auf <strong>Konfigurieren</strong> und mit dem Passwort best\u00e4tigen.": {
+        "__active__": true,
+        "en-us": "Then click on <strong>Configure</strong> and confirm with the password."
+    },
+    "Nach einiger Zeit wird die Installation abgeschlossen sein und die Setup-Tools sind einsatzbereit.": {
+        "__active__": true,
+        "en-us": "After some time, the installation will be complete and the setup tools will be ready for use."
+    },
+    "Ein Neustart wird empfohlen, um sicherzustellen, dass alle \u00c4nderungen wirksam werden.": {
+        "__active__": true,
+        "en-us": "A restart is recommended to ensure that all changes take effect."
+    },
+    "Installation von Caldera Rip": {
+        "__active__": true,
+        "en-us": "Installation of Caldera Rip"
+    },
+    "Nun die Anleitungsschritte zur Installation von <code>Caldera Rip</code> auf <code>Ubuntu Desktop 22.04</code>.": {
+        "__active__": true,
+        "en-us": "Now the instruction steps to install <code>Caldera Rip</code> on <code>Ubuntu Desktop 22.04</code>."
+    },
+    "Im <code>Caldera Dock</code> auf <em>Anwendungen</em> klicken.": {
+        "__active__": true,
+        "en-us": "Click on <em>Applications</em> in the <code>Caldera Dock</code>."
+    },
+    "<code>Caldera Rip</code> suchen und auf <strong>Installieren</strong> klicken.": {
+        "__active__": true,
+        "en-us": "Search for <code>Caldera Rip</code> and click on <strong>Install</strong>."
+    },
+    "Die Swap-Datei vergr\u00f6\u00dfern, wenn die Meldung erscheint.": {
+        "__active__": true,
+        "en-us": "Enlarge the swap file when the message appears."
+    },
+    "Nach dem Download und vor der Installation wird eine Authentifizierung verlangt. Das Passwort eingeben, das bei der Installation von <code>Ubuntu Desktop 22.04</code> festgelegt wurde.": {
+        "__active__": true,
+        "en-us": "Authentication is required after the download and before installation. Enter the password that was set during the installation of <code>Ubuntu Desktop 22.04</code>."
+    },
+    "Ein weiterer Neustart sollte anschlie\u00dfend durchgef\u00fchrt werden.": {
+        "__active__": true,
+        "en-us": "A further restart should then be carried out."
+    },
+    "Einrichten von XRDP": {
+        "__active__": true,
+        "en-us": "Setting up XRDP"
+    },
+    "Um eine Verbindung zum <code>Ubuntu Desktop 22.04</code> \u00fcber <code>XRDP</code> herzustellen, sind einige zus\u00e4tzliche Schritte erforderlich.": {
+        "__active__": true,
+        "en-us": "To establish a connection to <code>Ubuntu Desktop 22.04</code> via <code>XRDP</code>, a few additional steps are required."
+    },
+    "Installation von XRDP": {
+        "__active__": true,
+        "en-us": "Installation of XRDP"
+    },
+    "\u00d6ffnen Sie ein Terminal und f\u00fchren Sie den folgenden Befehl aus, um <code>XRDP</code> zu installieren:": {
+        "__active__": true,
+        "en-us": "Open a terminal and execute the following command to install <code>XRDP</code>:"
+    },
+    "Nach der Installation von <code>XRDP</code> f\u00fchren Sie den folgendene Befehle aus, um den <code>XRDP</code>-Dienst zu aktivieren und zu starten:": {
+        "__active__": true,
+        "en-us": "After installing <code>XRDP</code>, execute the following commands to activate and start the <code>XRDP</code>:"
+    },
+    "F\u00fcgen Sie den Benutzer <code>xrdp</code> zur Gruppe <code>ssl-cert</code> hinzu, um die Verbindung zu erm\u00f6glichen:": {
+        "__active__": true,
+        "en-us": "Add the <code>xrdp</code> user to the <code>ssl-cert</code> group to enable the connection:"
+    },
+    "Nur RDP durch die lokale Firewall zulassen:": {
+        "__active__": true,
+        "en-us": "Only allow RDP through the local firewall:"
+    },
+    "Um die Ubuntu-Session anstelle der Standard-GNOME-Session zu verwenden, in Ihrem Home-Verzeichnis die Datei .xsessionrc mit folgendem Inhalt erweitern:": {
+        "__active__": true,
+        "en-us": "To use the Ubuntu session instead of the standard GNOME session, expand the .xsessionrc file in your home directory with the following content:"
+    },
+    "F\u00fcgen Sie folgende Zeilen hinzu:": {
+        "__active__": true,
+        "en-us": "Add the following lines:"
+    },
+    "Schlie\u00dflich XRDP neu starten, um die \u00c4nderungen zu \u00fcbernehmen:": {
+        "__active__": true,
+        "en-us": "Finally, restart XRDP to apply the changes:"
+    },
+    "Nachdem die Installation abgeschlossen ist, kann diee Verbindung zu Ihrem <code>Ubuntu Desktop 22.04</code> \u00fcber <code>XRDP</code> hergestellt werden.": {
+        "__active__": true,
+        "en-us": "After the installation is complete, the connection to your <code>Ubuntu Desktop 22.04</code> can be established via <code>XRDP</code>."
     }
 }
