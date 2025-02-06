@@ -1056,98 +1056,22 @@
     <div class="doc doc-contents ">
 
 
-        <div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Der Name des BackRefMetaField muss mit dem Namen des angegebenen backref im ForeignKey oder ManyToMany Feld im Referenzmodell übereinstimmen.</p>
-</div>
-<p>Das BackrefMetaField wird benötigt damit <strong>decore Front</strong> Beziehungen zwischen Modellen darstellen kann. Es kann z.B. dem Filter oder einem Formular zugewiesen werden. Es ist ein MetaField und erhält keine Spalte in der Datenbank.</p>
-
-
-<p><span class="doc-section-title">Parameters:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Default</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td>
-                <code>verbose_name</code>
-            </td>
-            <td>
-                  <code>str</code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Ein vom Benutzer lesbarer Name für das Feld.</p>
-              </div>
-            </td>
-            <td>
-                  <code>None</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>help_text</code>
-            </td>
-            <td>
-                  <code>str</code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Zusätzlicher Text, der in <strong>decore Front</strong> angezeigt wird.</p>
-              </div>
-            </td>
-            <td>
-                  <code>None</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>filter_fields</code>
-            </td>
-            <td>
-                  <code>list</code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Eine Liste vom Typ String. Es werden nur die angegebenen Felder im Filter angezeigt. Wenn <code>empty</code>, werden alle Felder angezeigt.</p>
-              </div>
-            </td>
-            <td>
-                  <code>[]</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>choice_query</code>
-            </td>
-            <td>
-                  <code>dict</code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Ein <code>dictonary</code>, das eine Abfrage enthält, die beim laden von Optionen (z.B. in Auswahlfeldern im Frontend) berücksichtigt wird. Die Abfrage muss sich auf das Referenzmodell beziehen.</p>
-              </div>
-            </td>
-            <td>
-                  <code>{}</code>
-            </td>
-          </tr>
-      </tbody>
-    </table>
-        <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">Conform_model</span><span class="p">):</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">username</span> <span class="o">=</span> <span class="n">CharField</span><span class="p">(</span><span class="n">verbose_name</span><span class="o">=</span><span class="s1">&#39;Username&#39;</span><span class="p">)</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">accounts</span> <span class="o">=</span> <span class="n">BackRefMetaField</span><span class="p">(</span><span class="n">null</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">verbose_name</span><span class="o">=</span><span class="s1">&#39;Accounts&#39;</span><span class="p">,</span> <span class="n">choice_query</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;domain__eq&#39;</span><span class="p">:</span> <span class="s1">&#39;example.com&#39;</span><span class="p">}</span>
+        <p>.. warning:: The BackRefMetaField's name must match the name of the specified backref in the ForeignKey or ManyToMany field in the reference model.</p>
+<p>The BackRefMetaField is used by the user to represent relationships in the <strong>decore Front</strong> application. For example, it can be assigned to the filter or to a form. It is a MetaField and does not get a column in the database.</p>
+<p>:param str verbose_name: A human-readable name for the field.
+:param str help_text: Additional text to be displayed in <strong>decore Front</strong>.
+:param list filter_fields: A List of type string. Only the speciefied fields will be displayed in the filter. If None, all fields will be displayed.
+:param dict choice_query: A dictonary containing a query to be used when querying options (e.g. in selection fields in the frontend). The query always refers to the reference model.</p>
+<p>.. code-block:: python</p>
+<div class="highlight"><pre><span></span><code>class User(Conform_model):
+    username = CharField(verbose_name=&#39;Username&#39;)
+    accounts = BackRefMetaField(null=True, verbose_name=&#39;Accounts&#39;, choice_query={&#39;domain__eq&#39;: &#39;example.com&#39;}
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">class</span> <span class="nc">Account</span><span class="p">(</span><span class="n">Conform_model</span><span class="p">):</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    <span class="n">user</span> <span class="o">=</span> <span class="n">ForeignKeyField</span><span class="p">(</span><span class="n">User</span><span class="p">,</span> <span class="n">backref</span><span class="o">=</span><span class="s1">&#39;accounts&#39;</span><span class="p">,</span> <span class="n">null</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">verbose_name</span><span class="o">=</span><span class="s1">&#39;User&#39;</span><span class="p">)</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    <span class="n">prefix</span> <span class="o">=</span> <span class="n">CharField</span><span class="p">(</span><span class="n">verbose_name</span><span class="o">=</span><span class="s1">&#39;Mail prefix&#39;</span><span class="p">)</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    <span class="n">domain</span> <span class="o">=</span> <span class="n">CharField</span><span class="p">(</span><span class="n">verbose_name</span><span class="o">=</span><span class="s1">&#39;Mail domain&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;example.com&#39;</span><span class="p">)</span>
+<p>.. code-block:: python</p>
+<div class="highlight"><pre><span></span><code>class Account(Conform_model):
+    user = ForeignKeyField(User, backref=&#39;accounts&#39;, null=True, verbose_name=&#39;User&#39;)
+    prefix = CharField(verbose_name=&#39;Mail prefix&#39;)
+    domain = CharField(verbose_name=&#39;Mail domain&#39;, default=&#39;example.com&#39;)
 </code></pre></div>
 
 
@@ -1576,7 +1500,7 @@
     <div class="doc doc-contents ">
 
 
-        <p>:warning 
+        <p>.. warning:: 
     The keybase is a KeePass file and should be protected by setting the correct access rights (ACL).</p>
 <p>A field to store passwords in the keybase and to use them again.</p>
 <p>:param bool null: If True, the field is allowed to be null. Defaults to False.
