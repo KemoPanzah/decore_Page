@@ -844,8 +844,8 @@
     <h2 id="installation-von-caldera-dock-und-caldera-rip-auf-ubuntu-desktop-2204"><a class="toclink" href="../../2025/caldera-install_caldera_dock_rip_ubuntu/">Installation von Caldera Dock und Caldera Rip auf Ubuntu Desktop 22.04</a></h2>
 <h3 id="vorbereitung"><a class="toclink" href="../../2025/caldera-install_caldera_dock_rip_ubuntu/#vorbereitung">Vorbereitung</a></h3>
 <p>Bevor mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden kann, gibt es einige grundlegende Schritte, die durchgeführt werden sollten.</p>
-<p>Für die Installation kann entweder eine virtuelle Maschine (VM) oder ein physischer Computer (Bare Metal) verwendet werden. Beide Optionen sind geeignet und bieten die notwendigen Voraussetzungen für die Installation. In diesem Beispiel wird eine Proxmox VM verwendet, aber auch andere Virtualisierungsplattformen können genutzt werden.
-Es sollte sichergestellt werden, dass das System über eine funktionierende Internetverbindung verfügt, um während der Installation Updates herunterladen zu können und sicherzustellen, dass alle benötigten Pakete und Abhängigkeiten verfügbar sind. Die Systemanforderungen von Caldera sollten eingehalten werden, diese können auf der offiziellen Caldera-Website eingesehen werden.</p>
+<p>Für die Installation kann entweder eine virtuelle Maschine (VM) oder ein physischer Computer (Bare Metal) verwendet werden. Beide Optionen sind geeignet und bieten die notwendigen Voraussetzungen für die Installation. In diesem Beispiel wird eine Proxmox VM verwendet, aber auch andere Virtualisierungsplattformen können genutzt werden.</p>
+<p>Es sollte sichergestellt werden, dass das System über eine funktionierende Internetverbindung verfügt, um während der Installation Updates herunterladen zu können und sicherzustellen, dass alle benötigten Pakete und Abhängigkeiten verfügbar sind. Die Systemanforderungen von Caldera sollten eingehalten werden, diese können auf der offiziellen Caldera-Website eingesehen werden.</p>
 <p>Es wird empfohlen, vor der Installation ein Backup des Systems zu erstellen, um sicherzustellen, dass im Falle eines Problems alle Daten gesichert sind. Zudem sollte die Dokumentation von Caldera gelesen werden, um sich mit den spezifischen Anforderungen und Schritten für die Installation vertraut zu machen.</p>
 <p>Nachdem die Vorbereitungen abgeschlossen sind, kann mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden.</p>
 <h3 id="installation-ubuntu-desktop-2204"><a class="toclink" href="../../2025/caldera-install_caldera_dock_rip_ubuntu/#installation-ubuntu-desktop-2204">Installation Ubuntu Desktop 22.04</a></h3>
@@ -857,7 +857,7 @@ Es sollte sichergestellt werden, dass das System über eine funktionierende Inte
 <li>Die <strong>Minimale Installation</strong>, <strong>Während Ubuntu installiert wird Aktualisierungen herunterladen</strong> und <strong>Installieren Sie Software von Drittanbietern für Grafik- und Wi-Fi-Hardware und zusätzliche Medienformate</strong> auswählen und auf <strong>Weiter</strong> klicken.</li>
 <li>Als nächstes die Option <strong>Festplatte löschen und Ubuntu installieren</strong> auswählen und auf <strong>Jetzt Installieren</strong> klicken.</li>
 <li>Standort auswählen und auf <strong>Weiter</strong> klicken.</li>
-<li>Alle Felder unter <em>Wer sind Sie?</em> wie folgt ausfüllen<ul>
+<li>Alle Felder unter <em>Wer sind Sie?</em> wie folgt ausfüllen:<ul>
 <li><strong>Ihr Name</strong>: <code>caldera</code></li>
 <li><strong>Name Ihres Rechners</strong>: <em>Hier den tasächlichen DNS-Namen wählen wie der PC später angesprochen werden soll. z.B. <code>calderarip</code></em></li>
 <li><strong>Bitte Benutzernamen auswählen</strong>: <code>caldera</code></li>
@@ -909,50 +909,41 @@ Es sollte sichergestellt werden, dass das System über eine funktionierende Inte
 <ul>
 <li>Öffnen Sie ein Terminal und führen Sie den folgenden Befehl aus, um <code>XRDP</code> zu installieren:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>sudo<span class="w"> </span>apt<span class="w"> </span>update
-<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>sudo<span class="w"> </span>apt<span class="w"> </span>upgrade
-<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>xrdp<span class="w"> </span>-y
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>sudo<span class="w"> </span>apt<span class="w"> </span>update
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>sudo<span class="w"> </span>apt<span class="w"> </span>upgrade
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>xrdp<span class="w"> </span>-y
 </code></pre></div>
 <ul>
 <li>Nach der Installation von <code>XRDP</code> führen Sie den folgendene Befehle aus, um den <code>XRDP</code>-Dienst zu aktivieren und zu starten:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>xrdp
-<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>start<span class="w"> </span>xrdp
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>xrdp
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>start<span class="w"> </span>xrdp
 </code></pre></div>
 <ul>
 <li>Fügen Sie den Benutzer <code>xrdp</code> zur Gruppe <code>ssl-cert</code> hinzu, um die Verbindung zu ermöglichen:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>sudo<span class="w"> </span>usermod<span class="w"> </span>-a<span class="w"> </span>-G<span class="w"> </span>ssl-cert<span class="w"> </span>xrdp
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>sudo<span class="w"> </span>usermod<span class="w"> </span>-a<span class="w"> </span>-G<span class="w"> </span>ssl-cert<span class="w"> </span>xrdp
 </code></pre></div>
 <ul>
-<li>
-<p>Nur RDP durch die lokale Firewall zulassen:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>sudo<span class="w"> </span>ufw<span class="w"> </span>allow<span class="w"> </span><span class="m">3389</span>
-</code></pre></div></p>
-</li>
-<li>
-<p>Um die Ubuntu-Session anstelle der Standard-GNOME-Session zu verwenden, in Ihrem Home-Verzeichnis die Datei .xsessionrc mit folgendem Inhalt erweitern:</p>
-</li>
+<li>Nur RDP durch die lokale Firewall zulassen:</li>
 </ul>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>nano<span class="w"> </span>~/.xsessionrc
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>sudo<span class="w"> </span>ufw<span class="w"> </span>allow<span class="w"> </span><span class="m">3389</span>
 </code></pre></div>
-- Fügen Sie folgende Zeilen hinzu:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">GNOME_SHELL_SESSION_MODE</span><span class="o">=</span>ubuntu
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">XDG_CURRENT_DESKTOP</span><span class="o">=</span>ubuntu:GNOME
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="nb">export</span><span class="w"> </span><span class="nv">XDG_CONFIG_DIRS</span><span class="o">=</span>/etc/xdg/xdg-ubuntu:/etc/xdg
-</code></pre></div></p>
 <ul>
-<li>
-<p>Als Nächstes erstellen Sie eine Polkit-Konfigurationsdatei:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>sudo<span class="w"> </span>nano<span class="w"> </span>/etc/polkit-1/localauthority.conf.d/02-allow-colord.conf
-</code></pre></div></p>
-</li>
-<li>
-<p>Schließlich XRDP neu starten, um die Änderungen zu übernehmen:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>xrdp
-</code></pre></div></p>
-</li>
+<li>Um die Ubuntu-Session anstelle der Standard-GNOME-Session zu verwenden, in Ihrem Home-Verzeichnis die Datei .xsessionrc mit folgendem Inhalt erweitern:</li>
 </ul>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>nano<span class="w"> </span>~/.xsessionrc
+</code></pre></div>
+- Fügen Sie folgende Zeilen hinzu:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">GNOME_SHELL_SESSION_MODE</span><span class="o">=</span>ubuntu
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">XDG_CURRENT_DESKTOP</span><span class="o">=</span>ubuntu:GNOME
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="nb">export</span><span class="w"> </span><span class="nv">XDG_CONFIG_DIRS</span><span class="o">=</span>/etc/xdg/xdg-ubuntu:/etc/xdg
+</code></pre></div>
+<ul>
+<li>Schließlich XRDP neu starten, um die Änderungen zu übernehmen:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>xrdp
+</code></pre></div>
 <p>Nachdem die Installation abgeschlossen ist, kann diee Verbindung zu Ihrem <code>Ubuntu Desktop 22.04</code> über <code>XRDP</code> hergestellt werden.</p>
     
   </div>
