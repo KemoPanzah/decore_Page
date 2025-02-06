@@ -1,23 +1,15 @@
 {
-    "Vorbereitung": {
-        "__active__": true,
-        "de": "Vorbereitung"
-    },
     "Installation von Caldera Dock und Caldera Rip auf Ubuntu Desktop 22.04": {
         "__active__": true,
         "de": "Installation von Caldera Dock und Caldera Rip auf Ubuntu Desktop 22.04"
     },
-    "Nach dem mounten des aktuelle <code>Ubuntu Desktop 22.04</code> Iso entweder \u00fcber USB Stick oder als Bootmedium in der VM, wird die Installtionsroutine gestartet.": {
+    "Vorbereitung": {
         "__active__": true,
-        "de": "Nach dem mounten des aktuelle <code>Ubuntu Desktop 22.04</code> Iso entweder \u00fcber USB Stick oder als Bootmedium in der VM, wird die Installtionsroutine gestartet."
+        "de": "Vorbereitung"
     },
     "Bevor mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen wird, gibt es einige grundlegende Schritte, die durchgef\u00fchrt werden m\u00fcssten.": {
         "__active__": true,
         "de": "Bevor mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen wird, gibt es einige grundlegende Schritte, die durchgef\u00fchrt werden m\u00fcssten."
-    },
-    "Nachdem die Vorbereitungen abgeschlossen sind, kann mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden.": {
-        "__active__": true,
-        "de": "Nachdem die Vorbereitungen abgeschlossen sind, kann mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden."
     },
     "F\u00fcr die Installation kann entweder eine virtuelle Maschine (VM) oder ein physischer Computer (Bare Metal) verwendet werden. Beide Optionen sind geeignet und bieten die notwendigen Voraussetzungen f\u00fcr die Installation. In diesem Beispiel wird eine Proxmox VM verwendet, aber auch andere Virtualisierungsplattformen k\u00f6nnen genutzt werden.": {
         "__active__": true,
@@ -31,9 +23,21 @@
         "__active__": true,
         "de": "Es wird empfohlen, vor der Installation ein Backup des Systems zu erstellen, um sicherzustellen, dass im Falle eines Problems alle Daten gesichert sind. Zudem sollte die Dokumentation von Caldera gelesen werden, um sich mit den spezifischen Anforderungen und Schritten f\u00fcr die Installation vertraut zu machen."
     },
+    "Nachdem die Vorbereitungen abgeschlossen sind, kann mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden.": {
+        "__active__": true,
+        "de": "Nachdem die Vorbereitungen abgeschlossen sind, kann mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden."
+    },
     "Installation Ubuntu Desktop 22.04": {
         "__active__": true,
         "de": "Installation Ubuntu Desktop 22.04"
+    },
+    "Nach dem mounten des aktuelle <code>Ubuntu Desktop 22.04</code> Iso entweder \u00fcber USB Stick oder als Bootmedium in der VM, wird die Installtionsroutine gestartet.": {
+        "__active__": true,
+        "de": "Nach dem mounten des aktuelle <code>Ubuntu Desktop 22.04</code> Iso entweder \u00fcber USB Stick oder als Bootmedium in der VM, wird die Installtionsroutine gestartet."
+    },
+    "Sie sollten bereits den Willkommensbildschirm gesehen haben, der Sie auffordert, Ubuntu auszuprobieren oder zu installieren. W\u00e4hlen sie als erstes Ihr bevorzugte <strong>Sprache</strong> und dann die Option <strong>Ubuntu installieren</strong> aus und dr\u00fccken Sie die Eingabetaste.": {
+        "__active__": true,
+        "de": "Sie sollten bereits den Willkommensbildschirm gesehen haben, der Sie auffordert, Ubuntu auszuprobieren oder zu installieren. W\u00e4hlen sie als erstes Ihr bevorzugte <strong>Sprache</strong> und dann die Option <strong>Ubuntu installieren</strong> aus und dr\u00fccken Sie die Eingabetaste."
     },
     "W\u00e4hlen Sie die Tastaturbelegung aus und klicken Sie auf <strong>Weiter</strong>.": {
         "__active__": true,
@@ -51,6 +55,14 @@
         "__active__": true,
         "de": "Standort ausw\u00e4hlen und auf <strong>Weiter</strong> klicken."
     },
+    "Alle Felder unter <em>Wer sind Sie?</em> wie folgt ausf\u00fcllen": {
+        "__active__": true,
+        "de": "Alle Felder unter <em>Wer sind Sie?</em> wie folgt ausf\u00fcllen"
+    },
+    "Felder:": {
+        "__active__": true,
+        "de": "Felder:"
+    },
     "<strong>Ihr Name</strong>": {
         "__active__": true,
         "de": "<strong>Ihr Name</strong>"
@@ -58,6 +70,10 @@
     "<strong>Name Ihres Rechners</strong>": {
         "__active__": true,
         "de": "<strong>Name Ihres Rechners</strong>"
+    },
+    "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>": {
+        "__active__": true,
+        "de": "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>"
     },
     "<strong>Bitte Benutzernamen ausw\u00e4hlen</strong>": {
         "__active__": true,
@@ -67,14 +83,6 @@
         "__active__": true,
         "de": "<strong>Ein Passwort w\u00e4hlen</strong>"
     },
-    "<em>(emphiehlt sich wenn xrdp f\u00fcr die Verbindung zum Ubuntu Desktop eingesetzt wird)</em>": {
-        "__active__": true,
-        "de": "<em>(emphiehlt sich wenn xrdp f\u00fcr die Verbindung zum Ubuntu Desktop eingesetzt wird)</em>"
-    },
-    "Warten Sie, bis die Installation abgeschlossen ist und starten Sie das System neu.": {
-        "__active__": true,
-        "de": "Warten Sie, bis die Installation abgeschlossen ist und starten Sie das System neu."
-    },
     "<em>(Laut Hersteller Dokumentation)</em>": {
         "__active__": true,
         "de": "<em>(Laut Hersteller Dokumentation)</em>"
@@ -83,36 +91,28 @@
         "__active__": true,
         "de": "<strong>Passwort zum anmelden abfragen</strong>"
     },
+    "<em>(emphiehlt sich wenn xrdp f\u00fcr die Verbindung zum Ubuntu Desktop eingesetzt wird)</em>": {
+        "__active__": true,
+        "de": "<em>(emphiehlt sich wenn xrdp f\u00fcr die Verbindung zum Ubuntu Desktop eingesetzt wird)</em>"
+    },
     "Nachdem alle Felder ausgef\u00fcllt sind, auf <strong>Weiter</strong> klicken.": {
         "__active__": true,
         "de": "Nachdem alle Felder ausgef\u00fcllt sind, auf <strong>Weiter</strong> klicken."
     },
-    "Alle Felder unter <em>Wer sind Sie?</em> wie folgt ausf\u00fcllen": {
+    "Warten Sie, bis die Installation abgeschlossen ist und starten Sie das System neu.": {
         "__active__": true,
-        "de": "Alle Felder unter <em>Wer sind Sie?</em> wie folgt ausf\u00fcllen"
+        "de": "Warten Sie, bis die Installation abgeschlossen ist und starten Sie das System neu."
     },
     "Nach dem Neustart sollte Ubuntu Desktop 22.04 erfolgreich installiert sein und Sie k\u00f6nnen sich mit dem zuvor erstellten Benutzer anmelden.": {
         "__active__": true,
         "de": "Nach dem Neustart sollte Ubuntu Desktop 22.04 erfolgreich installiert sein und Sie k\u00f6nnen sich mit dem zuvor erstellten Benutzer anmelden."
     },
-    "Nach der Installation von Ubuntu Desktop 22.04 kann mit der Installation von Caldera Dock und Caldera Rip fortgefahren werden.": {
-        "__active__": true,
-        "de": "Nach der Installation von Ubuntu Desktop 22.04 kann mit der Installation von Caldera Dock und Caldera Rip fortgefahren werden."
-    },
     "Installation von Caldera Dock": {
         "__active__": true,
         "de": "Installation von Caldera Dock"
     },
-    "Felder:": {
+    "Nach der Installation von Ubuntu Desktop 22.04 kann mit der Installation von Caldera Dock und Caldera Rip fortgefahren werden.": {
         "__active__": true,
-        "de": "Felder:"
-    },
-    "Sie sollten bereits den Willkommensbildschirm gesehen haben, der Sie auffordert, Ubuntu auszuprobieren oder zu installieren. W\u00e4hlen sie als erstes Ihr bevorzugte <strong>Sprache</strong> und dann die Option <strong>Ubuntu installieren</strong> aus und dr\u00fccken Sie die Eingabetaste.": {
-        "__active__": true,
-        "de": "Sie sollten bereits den Willkommensbildschirm gesehen haben, der Sie auffordert, Ubuntu auszuprobieren oder zu installieren. W\u00e4hlen sie als erstes Ihr bevorzugte <strong>Sprache</strong> und dann die Option <strong>Ubuntu installieren</strong> aus und dr\u00fccken Sie die Eingabetaste."
-    },
-    "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>": {
-        "__active__": true,
-        "de": "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>"
+        "de": "Nach der Installation von Ubuntu Desktop 22.04 kann mit der Installation von Caldera Dock und Caldera Rip fortgefahren werden."
     }
 }
