@@ -11,6 +11,8 @@ categories:
 
 [[Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt über den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter]].
 
+<!-- more -->
+
 [[Die genaue Fehlermeldung im ODIS-Log lautet:]]
 
 ```
@@ -22,8 +24,6 @@ categories:
 [[Ich habe viele Deployment-Suiten ausprobiert, aber das Resultat ist immer dasselbe, wenn der SYSTEM-Account zum Einsatz kommt.]]
 
 [[Um das Problem vorübergehend zu lösen, bis Autodesk das Problem erkennt und behebt, habe ich nun Lösungsansätze entwickelt, die mir hier bei der Arbeit Abhilfe verschaffen.]]
-
-<!-- more -->
 
 [[Mein geplanter Ansatz war, die Verteilung über PowerShell zu realisieren, aber dabei stieß ich erneut auf eine weitere Hürde, die die Kerberos-Authentifizierung mit sich bringt: das sogenannte Double-Hop-Problem, da meine Softwarepakete in CIFS-Freigaben lagern.]]
 
