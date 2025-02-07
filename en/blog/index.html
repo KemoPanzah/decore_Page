@@ -14,7 +14,7 @@
         <link rel="prev" href="../sub/mkdocs_material_langly/">
       
       
-        <link rel="next" href="category/powershell/">
+        <link rel="next" href="category/caldera/">
       
       
       <link rel="icon" href="../static/favicon.ico">
@@ -630,6 +630,29 @@
   
   
     <li class="md-nav__item">
+      <a href="archive/2025/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
       <a href="archive/2024/" class="md-nav__link">
         
   
@@ -689,6 +712,29 @@
             Categories
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/caldera/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Caldera
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -762,6 +808,148 @@
 <p>Here I write about my experiences and insights that I have gained in the course of my work, but also in general.</p>
 <p>By and large, this is a collection of my technical documentation that can be useful for both beginners and advanced users. It is my goal to help others overcome their own technical challenges and expand their skills by sharing my knowledge and experience. Whether it's programming, system administration or other technical topics, this is where I'll capture it all.</p>
       </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/61236145?v=4" alt="Jean Rohark">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2025-02-04 00:00:00">February 4, 2025</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="category/caldera/" class="md-meta__link">Caldera</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              4 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="installation-von-caldera-dock-und-caldera-rip-auf-ubuntu-desktop-2204"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/">Installation von Caldera Dock und Caldera Rip auf Ubuntu Desktop 22.04</a></h2>
+<h3 id="vorbereitung"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#vorbereitung">Vorbereitung</a></h3>
+<p>Before you can start installing Caldera Dock and Caldera Rip on Ubuntu 22.04, there are some basic steps that should be performed.</p>
+<p>Either a virtual machine (VM) or a physical computer (bare metal) can be used for the installation. Both options are suitable and offer the necessary requirements for the installation. In this example, a Proxmox VM is used, but other virtualization platforms can also be used.</p>
+<p>It should be ensured that the system has a working internet connection to download updates during installation and to ensure that all required packages and dependencies are available. The system requirements of Caldera should be observed, these can be viewed on the official Caldera website.</p>
+<p>It is recommended to create a backup of the system before installation to ensure that all data is backed up in case of a problem. In addition, the Caldera documentation should be read to familiarize yourself with the specific requirements and steps for the installation.</p>
+<p>After the preparations have been completed, the installation of Caldera Dock and Caldera Rip on Ubuntu 22.04 can be started.</p>
+<h3 id="installation-ubuntu-desktop-2204"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#installation-ubuntu-desktop-2204">Installation Ubuntu Desktop 22.04</a></h3>
+<p>After mounting the current <code>Ubuntu Desktop 22.04</code> ISO either via USB stick or as boot medium in the VM, the installation routine is started.</p>
+<h4 id="installationsschritte"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#installationsschritte">Installationsschritte</a></h4>
+<ul>
+<li>The welcome screen appears, offering the options to try out or install Ubuntu. First select your preferred <strong>language</strong> and then select the <strong>Install Ubuntu</strong> option and press Enter.</li>
+<li>Select the keyboard layout and click <strong>Next</strong>.</li>
+<li>The <strong>Minimal installation</strong>, <strong>While Ubuntu is installing Download updates</strong> and <strong>Install third-party software for graphics and Wi-Fi hardware and additional media formats</strong> and click <strong>Next</strong>.</li>
+<li>Next, select the option <strong>Erase hard disk and install Ubuntu</strong> and click on <strong>Install now</strong>.</li>
+<li>Select location and click <strong>Next</strong>.</li>
+<li>Fill in all fields under <em>Who are you?</em> as follows:<ul>
+<li><strong>Your name</strong>: <code>caldera</code></li>
+<li><strong>Name of your computer</strong>: <em>Select the actual DNS name as the PC is to be addressed later. e.g. <code>calderarip</code></em></li>
+<li><strong>Please select a username</strong>: <code>caldera</code></li>
+<li><strong>Choose a password</strong>: <code>caldera</code> <em>(According to manufacturer documentation)</em></li>
+<li><strong>Request password to log in</strong> <em>(recommended if xrdp is used for the connection to the Ubuntu desktop)</em></li>
+</ul>
+</li>
+<li>Once all fields have been filled in, click <strong>Next</strong>.</li>
+</ul>
+<p>Wait until the installation is complete and restart the system.</p>
+<p>After the restart, <code>Ubuntu Desktop 22.04</code> should be successfully installed and it should be possible to log in with the previously created user.</p>
+<h3 id="installation-of-caldera-dock"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#installation-of-caldera-dock">Installation of Caldera Dock</a></h3>
+<p>After the installation of <code>Ubuntu Desktop 22.04</code> you can continue with the installation of Caldera Dock.</p>
+<h4 id="download-the-installation-file"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#download-the-installation-file">Download the installation file</a></h4>
+<ul>
+<li>Log in to <code>Caldera WorkSpace</code> and go to the main dashboard page.</li>
+<li>Click on the <strong>Install</strong> button to find the installation file. Download Caldera Dock (Ubuntu).</li>
+</ul>
+<h4 id="install-the-downloaded-deb-file"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#install-the-downloaded-deb-file">Install the downloaded .deb file</a></h4>
+<ul>
+<li>Change to the folder in which the installation file was saved.</li>
+<li>Find the installation file, right-click on it and select the <strong>Open with another application</strong> option.</li>
+<li>The Ubuntu installation wizard is displayed. Select <strong>software installation</strong>.</li>
+<li>Wait a few seconds until the installation files are loaded and then click on <strong>Install</strong>.</li>
+<li>Authentication is required before continuing the installation. Enter the password that was set during the installation of <code>Ubuntu Desktop 22.04</code>.</li>
+</ul>
+<p>The installation will now be carried out.</p>
+<p>As soon as the installation is complete, <code>Caldera Dock</code> can be started via the main menu or the search bar.</p>
+<h4 id="installing-the-setup-tools"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#installing-the-setup-tools">Installing the setup tools</a></h4>
+<ul>
+<li>On the <code>Caldera Dock</code> <strong>start page</strong>, click on <strong>Install</strong> in the <strong>Setup tools</strong> section.</li>
+<li>Then click on <strong>Configure</strong> and confirm with the password.</li>
+</ul>
+<p>After some time, the installation will be complete and the setup tools will be ready for use.</p>
+<p>A restart is recommended to ensure that all changes take effect.</p>
+<h3 id="installation-of-caldera-rip"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#installation-of-caldera-rip">Installation of Caldera Rip</a></h3>
+<p>Now the instruction steps to install <code>Caldera Rip</code> on <code>Ubuntu Desktop 22.04</code>.</p>
+<h4 id="installation-of-caldera-rip_1"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#installation-of-caldera-rip_1">Installation of Caldera Rip</a></h4>
+<ul>
+<li>Click on <em>Applications</em> in the <code>Caldera Dock</code>.</li>
+<li>Search for <code>Caldera Rip</code> and click on <strong>Install</strong>.</li>
+<li>Enlarge the swap file when the message appears.</li>
+<li>Authentication is required after the download and before installation. Enter the password that was set during the installation of <code>Ubuntu Desktop 22.04</code>.</li>
+</ul>
+<p>A further restart should then be carried out.</p>
+<h3 id="setting-up-xrdp"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#setting-up-xrdp">Setting up XRDP</a></h3>
+<p>To establish a connection to <code>Ubuntu Desktop 22.04</code> via <code>XRDP</code>, a few additional steps are required.</p>
+<h4 id="installation-of-xrdp"><a class="toclink" href="2025/caldera-install_caldera_dock_rip_ubuntu/#installation-of-xrdp">Installation of XRDP</a></h4>
+<ul>
+<li>Open a terminal and execute the following command to install <code>XRDP</code>:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>apt<span class="w"> </span>update
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>sudo<span class="w"> </span>apt<span class="w"> </span>upgrade
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>xrdp<span class="w"> </span>-y
+</code></pre></div>
+<ul>
+<li>After installing <code>XRDP</code>, execute the following commands to activate and start the <code>XRDP</code>:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>xrdp
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>start<span class="w"> </span>xrdp
+</code></pre></div>
+<ul>
+<li>Add the <code>xrdp</code> user to the <code>ssl-cert</code> group to enable the connection:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sudo<span class="w"> </span>usermod<span class="w"> </span>-a<span class="w"> </span>-G<span class="w"> </span>ssl-cert<span class="w"> </span>xrdp
+</code></pre></div>
+<ul>
+<li>Only allow RDP through the local firewall:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>sudo<span class="w"> </span>ufw<span class="w"> </span>allow<span class="w"> </span><span class="m">3389</span>
+</code></pre></div>
+<ul>
+<li>To use the Ubuntu session instead of the standard GNOME session, expand the .xsessionrc file in your home directory with the following content:</li>
+</ul>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>nano<span class="w"> </span>~/.xsessionrc
+</code></pre></div>
+- Add the following lines:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">GNOME_SHELL_SESSION_MODE</span><span class="o">=</span>ubuntu
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="nb">export</span><span class="w"> </span><span class="nv">XDG_CURRENT_DESKTOP</span><span class="o">=</span>ubuntu:GNOME
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="nb">export</span><span class="w"> </span><span class="nv">XDG_CONFIG_DIRS</span><span class="o">=</span>/etc/xdg/xdg-ubuntu:/etc/xdg
+</code></pre></div>
+<ul>
+<li>Finally, restart XRDP to apply the changes:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>xrdp
+</code></pre></div>
+<p>After the installation is complete, the connection to your <code>Ubuntu Desktop 22.04</code> can be established via <code>XRDP</code>.</p>
+    
+  </div>
+</article>
       
         <article class="md-post md-post--excerpt">
   <header class="md-post__header">
