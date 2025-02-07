@@ -9,6 +9,10 @@ categories:
 
 # Installation von Caldera Dock und Caldera Rip auf Ubuntu Desktop 22.04
 
+[[In diesem Beitrag wird die Installation von Caldera Dock und Caldera Rip auf einem Ubuntu Desktop 22.04 System detailliert beschrieben. Die Anleitung umfasst die Vorbereitung des Systems, die Installation von Ubuntu, sowie die anschließende Installation und Konfiguration von Caldera Dock und Caldera Rip. Zusätzlich wird die Einrichtung von XRDP zur Remote-Verbindung erläutert. Diese Schritt-für-Schritt-Anleitung richtet sich an Benutzer, die entweder eine virtuelle Maschine oder einen physischen Computer verwenden möchten.]]
+
+<!-- more -->
+
 ## Vorbereitung
 
 [[Bevor mit der Installation von Caldera Dock und Caldera Rip auf Ubuntu 22.04 begonnen werden kann, gibt es einige grundlegende Schritte, die durchgeführt werden sollten.]]

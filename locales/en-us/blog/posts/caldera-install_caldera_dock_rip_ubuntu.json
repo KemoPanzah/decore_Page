@@ -234,5 +234,9 @@
     "Nachdem die Installation abgeschlossen ist, kann diee Verbindung zu Ihrem <code>Ubuntu Desktop 22.04</code> \u00fcber <code>XRDP</code> hergestellt werden.": {
         "__active__": true,
         "en-us": "After the installation is complete, the connection to your <code>Ubuntu Desktop 22.04</code> can be established via <code>XRDP</code>."
+    },
+    "In diesem Beitrag wird die Installation von Caldera Dock und Caldera Rip auf einem Ubuntu Desktop 22.04 System detailliert beschrieben. Die Anleitung umfasst die Vorbereitung des Systems, die Installation von Ubuntu, sowie die anschlie\u00dfende Installation und Konfiguration von Caldera Dock und Caldera Rip. Zus\u00e4tzlich wird die Einrichtung von XRDP zur Remote-Verbindung erl\u00e4utert. Diese Schritt-f\u00fcr-Schritt-Anleitung richtet sich an Benutzer, die entweder eine virtuelle Maschine oder einen physischen Computer verwenden m\u00f6chten.": {
+        "__active__": true,
+        "en-us": "This article describes the installation of Caldera Dock and Caldera Rip on an Ubuntu Desktop 22.04 system in detail. The instructions cover the preparation of the system, the installation of Ubuntu, as well as the subsequent installation and configuration of Caldera Dock and Caldera Rip. In addition, the setup of XRDP for remote connection is explained. This step-by-step guide is aimed at users who want to use either a virtual machine or a physical computer."
     }
 }
