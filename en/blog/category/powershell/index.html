@@ -11,10 +11,10 @@
         <link rel="canonical" href="https://www.decore.dev/en/blog/category/powershell/">
       
       
-        <link rel="prev" href="../caldera/">
+        <link rel="prev" href="../../">
       
       
-        <link rel="next" href="../../archive/2025/">
+        <link rel="next" href="../../archive/2024/">
       
       
       <link rel="icon" href="../../../static/favicon.ico">
@@ -618,29 +618,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2025/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2025
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
       <a href="../../archive/2024/" class="md-nav__link">
         
   
@@ -702,29 +679,6 @@
             Categories
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../caldera/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Caldera
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -845,12 +799,6 @@
   <div class="md-post__content md-typeset">
     <h2 id="distribution-of-autodesk-software-with-odis-installer-and-powershell-avoiding-the-double-hop-problem"><a class="toclink" href="../../2024/powershell-deploy_autodesk_software/">Distribution of Autodesk software with ODIS installer and PowerShell avoiding the double-hop problem</a></h2>
 <p>Since Autodesk has switched its deployment system to the ODIS installer, all deployments that are rolled out unattended via the SYSTEM account continue to run endlessly without success code.</p>
-<p>The exact error message in the ODIS log is:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>2023-06-15T15:17:04.012 [DDA: 2196, single] [Installer INFO] [ Autodesk::DDA::SdkAgent::Listen::&lt;lambda_8f7c2cafda285d6f3324fbe86a24bae4&gt;::operator () ] [IPC] ChannelWin::Listen: WaitForSingleObject timeout. error_code: 997, pipe_name: \\.\pipe\adsk_dda_sdk
-</code></pre></div>
-<p>After a while, the installer service also appears to be terminated, but no longer sends an exit code.</p>
-<p>I have tried many deployment suites, but the result is always the same when the SYSTEM account is used.</p>
-<p>To solve the problem temporarily until Autodesk recognizes and fixes the problem, I have now developed solutions that help me here at work.</p>
 
     
       <nav class="md-post__action">

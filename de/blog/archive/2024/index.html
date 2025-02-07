@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://www.decore.dev/de/blog/archive/2024/">
       
       
-        <link rel="prev" href="../2025/">
+        <link rel="prev" href="../../category/powershell/">
       
       
       
@@ -611,29 +611,6 @@
                 
   
   
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../2025/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2025
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -710,29 +687,6 @@
             Kategorien
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../../category/caldera/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Caldera
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -841,12 +795,6 @@
   <div class="md-post__content md-typeset">
     <h2 id="verteilung-von-autodesk-software-mit-odis-installer-und-powershell-unter-vermeidung-des-double-hop-problems"><a class="toclink" href="../../2024/powershell-deploy_autodesk_software/">Verteilung von Autodesk-Software mit ODIS-Installer und PowerShell unter Vermeidung des Double-Hop-Problems</a></h2>
 <p>Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt über den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter.</p>
-<p>Die genaue Fehlermeldung im ODIS-Log lautet:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>2023-06-15T15:17:04.012 [DDA: 2196, single] [Installer INFO] [ Autodesk::DDA::SdkAgent::Listen::&lt;lambda_8f7c2cafda285d6f3324fbe86a24bae4&gt;::operator () ] [IPC] ChannelWin::Listen: WaitForSingleObject timeout. error_code: 997, pipe_name: \\.\pipe\adsk_dda_sdk
-</code></pre></div>
-<p>Nach einer Weile scheint der Installer-Dienst auch beendet zu werden, sendet aber keinen Exit-Code mehr.</p>
-<p>Ich habe viele Deployment-Suiten ausprobiert, aber das Resultat ist immer dasselbe, wenn der SYSTEM-Account zum Einsatz kommt.</p>
-<p>Um das Problem vorübergehend zu lösen, bis Autodesk das Problem erkennt und behebt, habe ich nun Lösungsansätze entwickelt, die mir hier bei der Arbeit Abhilfe verschaffen.</p>
 
     
       <nav class="md-post__action">

@@ -12,8 +12,6 @@
       
       
       
-        <link rel="next" href="../../2025/caldera-install_caldera_dock_rip_ubuntu/">
-      
       
       <link rel="icon" href="../../../static/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.41">
@@ -620,29 +618,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2025/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2025
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
       <a href="../../archive/2024/" class="md-nav__link">
         
   
@@ -702,29 +677,6 @@
             Categories
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../../category/caldera/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Caldera
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -884,14 +836,14 @@
 
 <h1 id="distribution-of-autodesk-software-with-odis-installer-and-powershell-avoiding-the-double-hop-problem">Distribution of Autodesk software with ODIS installer and PowerShell avoiding the double-hop problem</h1>
 <p>Since Autodesk has switched its deployment system to the ODIS installer, all deployments that are rolled out unattended via the SYSTEM account continue to run endlessly without success code.</p>
+<!-- more -->
+
 <p>The exact error message in the ODIS log is:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>2023-06-15T15:17:04.012 [DDA: 2196, single] [Installer INFO] [ Autodesk::DDA::SdkAgent::Listen::&lt;lambda_8f7c2cafda285d6f3324fbe86a24bae4&gt;::operator () ] [IPC] ChannelWin::Listen: WaitForSingleObject timeout. error_code: 997, pipe_name: \\.\pipe\adsk_dda_sdk
 </code></pre></div>
 <p>After a while, the installer service also appears to be terminated, but no longer sends an exit code.</p>
 <p>I have tried many deployment suites, but the result is always the same when the SYSTEM account is used.</p>
 <p>To solve the problem temporarily until Autodesk recognizes and fixes the problem, I have now developed solutions that help me here at work.</p>
-<!-- more -->
-
 <p>My planned approach was to implement the distribution via PowerShell, but in doing so I again encountered another hurdle that Kerberos authentication brings with it: the so-called double-hop problem, since my software packages are stored in CIFS shares.</p>
 <p>Kerberos does not allow further authentication to be carried out via this endpoint to other remote destinations after authentication on a remote PC. So there is no second hop. To get around the problem, there are few but complicated ways or one that everyone will now say, "Oh my God, don't do that," but I'll just throw it out there.</p>
 <p>The solution is to use CredSSP only temporarily as a point-to-point connection and to deactivate it again after deployment. Under no circumstances should it be allowed company-wide.</p>
