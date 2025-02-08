@@ -98,5 +98,9 @@
     "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter": {
         "__active__": true,
         "de": "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter"
+    },
+    "Erkl\u00e4ren wir nun die einzelnen Schritte des Skripts:": {
+        "__active__": true,
+        "de": "Erkl\u00e4ren wir nun die einzelnen Schritte des Skripts:"
     }
 }

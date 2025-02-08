@@ -55,25 +55,9 @@
         "__active__": true,
         "de": "<strong>Ihr Name</strong>"
     },
-    "<strong>Name Ihres Rechners</strong>": {
-        "__active__": true,
-        "de": "<strong>Name Ihres Rechners</strong>"
-    },
     "<strong>Bitte Benutzernamen ausw\u00e4hlen</strong>": {
         "__active__": true,
         "de": "<strong>Bitte Benutzernamen ausw\u00e4hlen</strong>"
-    },
-    "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>": {
-        "__active__": true,
-        "de": "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>"
-    },
-    "<strong>Ein Passwort w\u00e4hlen</strong>": {
-        "__active__": true,
-        "de": "<strong>Ein Passwort w\u00e4hlen</strong>"
-    },
-    "<em>(Laut Hersteller Dokumentation)</em>": {
-        "__active__": true,
-        "de": "<em>(Laut Hersteller Dokumentation)</em>"
     },
     "<strong>Passwort zum anmelden abfragen</strong> <em>(emphiehlt sich wenn xrdp f\u00fcr die Verbindung zum Ubuntu Desktop eingesetzt wird)</em>": {
         "__active__": true,
@@ -238,5 +222,21 @@
     "In diesem Beitrag wird die Installation von Caldera Dock und Caldera Rip auf einem Ubuntu Desktop 22.04 System detailliert beschrieben. Die Anleitung umfasst die Vorbereitung des Systems, die Installation von Ubuntu, sowie die anschlie\u00dfende Installation und Konfiguration von Caldera Dock und Caldera Rip. Zus\u00e4tzlich wird die Einrichtung von XRDP zur Remote-Verbindung erl\u00e4utert. Diese Schritt-f\u00fcr-Schritt-Anleitung richtet sich an Benutzer, die entweder eine virtuelle Maschine oder einen physischen Computer verwenden m\u00f6chten.": {
         "__active__": true,
         "de": "In diesem Beitrag wird die Installation von Caldera Dock und Caldera Rip auf einem Ubuntu Desktop 22.04 System detailliert beschrieben. Die Anleitung umfasst die Vorbereitung des Systems, die Installation von Ubuntu, sowie die anschlie\u00dfende Installation und Konfiguration von Caldera Dock und Caldera Rip. Zus\u00e4tzlich wird die Einrichtung von XRDP zur Remote-Verbindung erl\u00e4utert. Diese Schritt-f\u00fcr-Schritt-Anleitung richtet sich an Benutzer, die entweder eine virtuelle Maschine oder einen physischen Computer verwenden m\u00f6chten."
+    },
+    "<strong>Name Ihres Rechners</strong>": {
+        "__active__": true,
+        "de": "<strong>Name Ihres Rechners</strong>"
+    },
+    "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>": {
+        "__active__": true,
+        "de": "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>"
+    },
+    "<strong>Ein Passwort w\u00e4hlen</strong>": {
+        "__active__": true,
+        "de": "<strong>Ein Passwort w\u00e4hlen</strong>"
+    },
+    "<em>(Laut Hersteller Dokumentation)</em>": {
+        "__active__": true,
+        "de": "<em>(Laut Hersteller Dokumentation)</em>"
     }
 }

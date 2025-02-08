@@ -55,25 +55,9 @@
         "__active__": true,
         "en-us": "<strong>Your name</strong>"
     },
-    "<strong>Name Ihres Rechners</strong>": {
-        "__active__": true,
-        "en-us": "<strong>Name of your computer</strong>"
-    },
     "<strong>Bitte Benutzernamen ausw\u00e4hlen</strong>": {
         "__active__": true,
         "en-us": "<strong>Please select a username</strong>"
-    },
-    "<strong>Ein Passwort w\u00e4hlen</strong>": {
-        "__active__": true,
-        "en-us": "<strong>Choose a password</strong>"
-    },
-    "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>": {
-        "__active__": true,
-        "en-us": "<em>Select the actual DNS name as the PC is to be addressed later. e.g. <code>calderarip</code></em>"
-    },
-    "<em>(Laut Hersteller Dokumentation)</em>": {
-        "__active__": true,
-        "en-us": "<em>(According to manufacturer documentation)</em>"
     },
     "<strong>Passwort zum anmelden abfragen</strong> <em>(emphiehlt sich wenn xrdp f\u00fcr die Verbindung zum Ubuntu Desktop eingesetzt wird)</em>": {
         "__active__": true,
@@ -238,5 +222,21 @@
     "In diesem Beitrag wird die Installation von Caldera Dock und Caldera Rip auf einem Ubuntu Desktop 22.04 System detailliert beschrieben. Die Anleitung umfasst die Vorbereitung des Systems, die Installation von Ubuntu, sowie die anschlie\u00dfende Installation und Konfiguration von Caldera Dock und Caldera Rip. Zus\u00e4tzlich wird die Einrichtung von XRDP zur Remote-Verbindung erl\u00e4utert. Diese Schritt-f\u00fcr-Schritt-Anleitung richtet sich an Benutzer, die entweder eine virtuelle Maschine oder einen physischen Computer verwenden m\u00f6chten.": {
         "__active__": true,
         "en-us": "This article describes the installation of Caldera Dock and Caldera Rip on an Ubuntu Desktop 22.04 system in detail. The instructions cover the preparation of the system, the installation of Ubuntu, as well as the subsequent installation and configuration of Caldera Dock and Caldera Rip. In addition, the setup of XRDP for remote connection is explained. This step-by-step guide is aimed at users who want to use either a virtual machine or a physical computer."
+    },
+    "<strong>Name Ihres Rechners</strong>": {
+        "__active__": true,
+        "en-us": "<strong>Name of your computer</strong>"
+    },
+    "<em>Hier den tas\u00e4chlichen DNS-Namen w\u00e4hlen wie der PC sp\u00e4ter angesprochen werden soll. z.B. <code>calderarip</code></em>": {
+        "__active__": true,
+        "en-us": "<em>Select the actual DNS name as the PC is to be addressed later. e.g. <code>calderarip</code></em>"
+    },
+    "<strong>Ein Passwort w\u00e4hlen</strong>": {
+        "__active__": true,
+        "en-us": "<strong>Choose a password</strong>"
+    },
+    "<em>(Laut Hersteller Dokumentation)</em>": {
+        "__active__": true,
+        "en-us": "<em>(According to manufacturer documentation)</em>"
     }
 }

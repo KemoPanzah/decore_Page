@@ -98,5 +98,9 @@
     "Seitdem Autodesk sein Deployment-System auf den ODIS-Installer umgestellt hat, laufen alle Verteilungen, die unbeaufsichtigt \u00fcber den SYSTEM-Account ausgerollt werden, ohne Erfolgscode endlos weiter": {
         "__active__": true,
         "en-us": "Since Autodesk has switched its deployment system to the ODIS installer, all deployments that are rolled out unattended via the SYSTEM account continue to run endlessly without success code"
+    },
+    "Erkl\u00e4ren wir nun die einzelnen Schritte des Skripts:": {
+        "__active__": true,
+        "en-us": "Let us now explain the individual steps of the script:"
     }
 }

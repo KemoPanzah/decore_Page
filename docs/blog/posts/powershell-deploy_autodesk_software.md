@@ -107,7 +107,7 @@ finally {
 }
 ```
 
-Erklären wir nun die einzelnen Schritte des Skripts:
+[[Erklären wir nun die einzelnen Schritte des Skripts:]]
 
 ```powershell
 # Define the parameters with your own values

@@ -1,30 +1,178 @@
 {
-    "Das Langly-Plugin f\u00fcr MkDocs ist ein Plugin, das Sprachunterst\u00fctzung und \u00dcbersetzungen f\u00fcr Webseiten bietet, die mit MkDocs erstellt wurden. Es erm\u00f6glicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische \u00dcbersetzung von Texten, um eine breitere Zielgruppe zu erreichen.": {
+    "Das Langly-Plugin f\u00fcr MkDocs ist ein Plugin, das Sprachunterst\u00fctzung und \u00dcbersetzungen f\u00fcr Webseiten bietet, die mit MkDocs in verwendung des Material-Themes erstellt wurden. Es erm\u00f6glicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische \u00dcbersetzung von Texten, um eine breitere Zielgruppe zu erreichen. Es erf\u00fcllt bewusst keine der derezitigen \u00dcbersetzungsstandards sondern geht einen ganz eigenen aber offenen Weg.": {
         "__active__": true,
-        "de": "Das Langly-Plugin f\u00fcr MkDocs ist ein Plugin, das Sprachunterst\u00fctzung und \u00dcbersetzungen f\u00fcr Webseiten bietet, die mit MkDocs erstellt wurden. Es erm\u00f6glicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische \u00dcbersetzung von Texten, um eine breitere Zielgruppe zu erreichen."
+        "de": "Das Langly-Plugin f\u00fcr MkDocs ist ein Plugin, das Sprachunterst\u00fctzung und \u00dcbersetzungen f\u00fcr Webseiten bietet, die mit MkDocs in verwendung des Material-Themes erstellt wurden. Es erm\u00f6glicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische \u00dcbersetzung von Texten, um eine breitere Zielgruppe zu erreichen. Es erf\u00fcllt bewusst keine der derezitigen \u00dcbersetzungsstandards sondern geht einen ganz eigenen aber offenen Weg."
+    },
+    "Diese Plugin wurde f\u00fcr Verwendung des gro\u00dfartigen Material-Themes erstellt und bietet Funktionalit\u00e4ten um z.B. auch den Blogbereich zu Internationalisieren.": {
+        "__active__": true,
+        "de": "Diese Plugin wurde f\u00fcr Verwendung des gro\u00dfartigen Material-Themes erstellt und bietet Funktionalit\u00e4ten um z.B. auch den Blogbereich zu Internationalisieren."
+    },
+    "<strong>Es werden im vorliegenden Entwicklungstand auch keine anderen Themen unterst\u00fctzt. Die derzeit einzige \u00dcbersetzungsengine ist Deepl und es wird ein deepl-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.</strong>": {
+        "__active__": true,
+        "de": "<strong>Es werden im vorliegenden Entwicklungstand auch keine anderen Themen unterst\u00fctzt. Die derzeit einzige \u00dcbersetzungsengine ist Deepl und es wird ein deepl-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.</strong>"
+    },
+    "Diese Auflistung sind die Plugins die bei der Entwicklung von Langly direkt verwendet wurden.": {
+        "__active__": true,
+        "de": "Diese Auflistung sind die Plugins die bei der Entwicklung von Langly direkt verwendet wurden."
+    },
+    "<strong>Aber es ist nicht ausgeschlossen, dass auch andere Plugins funktionieren.</strong>": {
+        "__active__": true,
+        "de": "<strong>Aber es ist nicht ausgeschlossen, dass auch andere Plugins funktionieren.</strong>"
+    },
+    "Diese gro\u00dfartigen Plugins ben\u00f6tigen definitiv volle Unterst\u00fctzung und Anerkennung.": {
+        "__active__": true,
+        "de": "Diese gro\u00dfartigen Plugins ben\u00f6tigen definitiv volle Unterst\u00fctzung und Anerkennung."
+    },
+    "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvoschlage in den Github-Issues zu melden.": {
+        "__active__": true,
+        "de": "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvoschlage in den Github-Issues zu melden."
+    },
+    "Lasst uns Anfangen": {
+        "__active__": true,
+        "de": "Lasst uns Anfangen"
+    },
+    "Installation des Plugins": {
+        "__active__": true,
+        "de": "Installation des Plugins"
     },
     "Um das Plugin zu verwenden, m\u00fcssen Sie es zuerst installieren. F\u00fchren Sie dazu den folgenden Befehl aus:": {
         "__active__": true,
         "de": "Um das Plugin zu verwenden, m\u00fcssen Sie es zuerst installieren. F\u00fchren Sie dazu den folgenden Befehl aus:"
     },
-    "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren:": {
+    "Api-Key bereitstellen": {
         "__active__": true,
-        "de": "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren:"
+        "de": "Api-Key bereitstellen"
     },
-    "Es wurde unter Verwendung des gro\u00dfartigen Material-Themes erstellt und bietet Funktionalit\u00e4ten auch den Blogbereich mit zu \u00fcbersetzen.": {
+    "<strong>Bitte lesen sie diesen Abschnitt sorgf\u00e4ltig durch und beachten Sie den Api-Key in der .gitignore auszuschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu sch\u00fctzen.</strong>": {
         "__active__": true,
-        "de": "Es wurde unter Verwendung des gro\u00dfartigen Material-Themes erstellt und bietet Funktionalit\u00e4ten auch den Blogbereich mit zu \u00fcbersetzen."
+        "de": "<strong>Bitte lesen sie diesen Abschnitt sorgf\u00e4ltig durch und beachten Sie den Api-Key in der .gitignore auszuschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu sch\u00fctzen.</strong>"
     },
-    "Die derzeitige \u00dcbersetzungsengine ist Deepl und es wird ein Deepl-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.": {
+    "Um das Plugin zu verwenden, ben\u00f6tigen Sie einen Deepl-Api-Key. Sie k\u00f6nnen diesen kostenlosen von der Deepl-Website erhalten.": {
         "__active__": true,
-        "de": "Die derzeitige \u00dcbersetzungsengine ist Deepl und es wird ein Deepl-Api-Key ben\u00f6tigt, um das Plugin zu verwenden."
+        "de": "Um das Plugin zu verwenden, ben\u00f6tigen Sie einen Deepl-Api-Key. Sie k\u00f6nnen diesen kostenlosen von der Deepl-Website erhalten."
     },
-    "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvoschlage in den Issues zu melden.": {
+    "Nachdem Sie den Api-Key erstellt haben, erstellen Sie eine Datei namens <code>auth_key.json</code> im Wurzelverzeichnis Ihres Projekts und f\u00fcgen folgenden Inhalt ein:": {
         "__active__": true,
-        "de": "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvoschlage in den Issues zu melden."
+        "de": "Nachdem Sie den Api-Key erstellt haben, erstellen Sie eine Datei namens <code>auth_key.json</code> im Wurzelverzeichnis Ihres Projekts und f\u00fcgen folgenden Inhalt ein:"
     },
-    "Lasst uns Anfangen": {
+    "Ersetzen Sie <code>DEEPL-API-KEY</code> durch Ihren eigenen Api-Key.": {
         "__active__": true,
-        "de": "Lasst uns Anfangen"
+        "de": "Ersetzen Sie <code>DEEPL-API-KEY</code> durch Ihren eigenen Api-Key."
+    },
+    "<strong>\u00d6ffnen Sie die Datei .gitignore und f\u00fcgen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern, dass die Datei versehentlich hochgeladen wird.</strong>": {
+        "__active__": true,
+        "de": "<strong>\u00d6ffnen Sie die Datei .gitignore und f\u00fcgen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern, dass die Datei versehentlich hochgeladen wird.</strong>"
+    },
+    "Konfiguration des Plugins": {
+        "__active__": true,
+        "de": "Konfiguration des Plugins"
+    },
+    "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren.": {
+        "__active__": true,
+        "de": "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren."
+    },
+    "In dieser Konfiguration wird die Sprache Deutsch als Quellsprache und Englisch als Zielsprache festgelegt. Sie k\u00f6nnen beliebig viele Zielsprachen hinzuf\u00fcgen. Allerdings beeintr\u00e4chtig das die `serve' Performance um so mehr": {
+        "__active__": true,
+        "de": "In dieser Konfiguration wird die Sprache Deutsch als Quellsprache und Englisch als Zielsprache festgelegt. Sie k\u00f6nnen beliebig viele Zielsprachen hinzuf\u00fcgen. Allerdings beeintr\u00e4chtig das die `serve' Performance um so mehr"
+    },
+    "Nachdem Sie die Konfiguration vorgenommen haben, k\u00f6nnen Sie die \u00dcbersetzungsfunktionen in Ihren Markdown-Dateien verwenden.": {
+        "__active__": true,
+        "de": "Nachdem Sie die Konfiguration vorgenommen haben, k\u00f6nnen Sie die \u00dcbersetzungsfunktionen in Ihren Markdown-Dateien verwenden."
+    },
+    "Verwendung des Plugins": {
+        "__active__": true,
+        "de": "Verwendung des Plugins"
+    },
+    "Ein paar einfache Beispiele": {
+        "__active__": true,
+        "de": "Ein paar einfache Beispiele"
+    },
+    "Viel Spa\u00df beim \u00dcbersetzen!": {
+        "__active__": true,
+        "de": "Viel Spa\u00df beim \u00dcbersetzen!"
+    },
+    "Wichtig ist dabei die deepl-Language-Codes f\u00fcr <code>source</code> und <code>target</code> zu verwenden. Diese sind auf folgender website zu finden: <a href=\"https://developers.deepl.com/docs/resources/supported-languages\">Deepl Language Codes</a>{:target=\"_blank\"}": {
+        "__active__": true,
+        "de": "Wichtig ist dabei die deepl-Language-Codes f\u00fcr <code>source</code> und <code>target</code> zu verwenden. Diese sind auf folgender website zu finden: <a href=\"https://developers.deepl.com/docs/resources/supported-languages\">Deepl Language Codes</a>{:target=\"_blank\"}"
+    },
+    "<code>[[</code>Dieser Text repr\u00e4sentiert Ihre Quellsprache<code>]]</code>": {
+        "__active__": true,
+        "de": "<code>[[</code>Dieser Text repr\u00e4sentiert Ihre Quellsprache<code>]]</code>"
+    },
+    "Das Plugin analysiert markdown Texte und wertet maskierte Textpassagen aus, die mit <code>[[</code> und <code>]]</code> umschlossen sind. Diese <code>delimiter</code> werden beim rendern der Seite entfernt und Quell sowie Zielsprache werden korekt auf Ihrer Seite dargestellt.": {
+        "__active__": true,
+        "de": "Das Plugin analysiert markdown Texte und wertet maskierte Textpassagen aus, die mit <code>[[</code> und <code>]]</code> umschlossen sind. Diese <code>delimiter</code> werden beim rendern der Seite entfernt und Quell sowie Zielsprache werden korekt auf Ihrer Seite dargestellt."
+    },
+    "Satz": {
+        "__active__": true,
+        "de": "Satz"
+    },
+    "Absatz": {
+        "__active__": true,
+        "de": "Absatz"
+    },
+    "Gehen sie wie folgt vor um Texte zu maskieren": {
+        "__active__": true,
+        "de": "Gehen sie wie folgt vor um Texte zu maskieren"
+    },
+    "<code>[[</code>Ihr Text<code>]]</code>": {
+        "__active__": true,
+        "de": "<code>[[</code>Ihr Text<code>]]</code>"
+    },
+    "Aufz\u00e4hlung mit Doppelpunkt": {
+        "__active__": true,
+        "de": "Aufz\u00e4hlung mit Doppelpunkt"
+    },
+    "Satz in dem der Delimiter vorkommt": {
+        "__active__": true,
+        "de": "Satz in dem der Delimiter vorkommt"
+    },
+    "Feedback und Unterst\u00fctzung": {
+        "__active__": true,
+        "de": "Feedback und Unterst\u00fctzung"
+    },
+    "Ich freue mich \u00fcber jede Art von Feedback und Unterst\u00fctzung.": {
+        "__active__": true,
+        "de": "Ich freue mich \u00fcber jede Art von Feedback und Unterst\u00fctzung."
+    },
+    "Vielen Dank f\u00fcr Ihr Interesse an diesem Plugin!": {
+        "__active__": true,
+        "de": "Vielen Dank f\u00fcr Ihr Interesse an diesem Plugin!"
+    },
+    "<code>[[</code>Dieser Absatz enth\u00e4lt mehrere S\u00e4tze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere \u00dcbersetzung zu liefern.<code>]]</code>": {
+        "__active__": true,
+        "de": "<code>[[</code>Dieser Absatz enth\u00e4lt mehrere S\u00e4tze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere \u00dcbersetzung zu liefern.<code>]]</code>"
+    },
+    "Der Text innerhalb der Maskierung wird dann von Langly \u00fcbersetzt automatisch \u00dcbersetzt.": {
+        "__active__": true,
+        "de": "Der Text innerhalb der Maskierung wird dann von Langly \u00fcbersetzt automatisch \u00dcbersetzt."
+    },
+    "Umschlie\u00dfen sie den \u00f6ffnenden und schlie\u00dfenden Delimiter mit <strong>`</strong>": {
+        "__active__": true,
+        "de": "Umschlie\u00dfen sie den \u00f6ffnenden und schlie\u00dfenden Delimiter mit <strong>`</strong>"
+    },
+    "<code>[[</code>Wert nach dem Doppelpunkt<code>]]</code>": {
+        "__active__": true,
+        "de": "<code>[[</code>Wert nach dem Doppelpunkt<code>]]</code>"
+    },
+    "<code>[[</code>Aufz\u00e4hlung<code>]]</code>": {
+        "__active__": true,
+        "de": "<code>[[</code>Aufz\u00e4hlung<code>]]</code>"
+    },
+    "Ein deepl-Account wird ben\u00f6tigt (deepl im derzeitigen Stand die einzige unterst\u00fctzte \u00dcbersetzungsengine)": {
+        "__active__": true,
+        "de": "Ein deepl-Account wird ben\u00f6tigt (deepl im derzeitigen Stand die einzige unterst\u00fctzte \u00dcbersetzungsengine)"
+    },
+    "F\u00fcr den Anfang werden ein paar vorl\u00e4ufige Schritte ben\u00f6tigt, um das Plugin zu benutzen.": {
+        "__active__": true,
+        "de": "F\u00fcr den Anfang werden ein paar vorl\u00e4ufige Schritte ben\u00f6tigt, um das Plugin zu benutzen."
+    },
+    "mkdocs mit installiertem Material-Theme": {
+        "__active__": true,
+        "de": "mkdocs mit installiertem Material-Theme"
+    },
+    "Direkte unterst\u00fctze Plugins f\u00fcr mkdocs": {
+        "__active__": true,
+        "de": "Direkte unterst\u00fctze Plugins f\u00fcr mkdocs"
     }
 }
