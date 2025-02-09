@@ -14,6 +14,8 @@
 - [mkdocs-material](https://squidfunk.github.io/mkdocs-material){:target="_blank"}
 - [mkdocs-strings](https://mkdocstrings.github.io){:target="_blank"}
 
+<!-- Abastz für inkludierte Plugins mit Danksagung -->
+
 [[Diese großartigen Plugins benötigen definitiv volle Unterstützung und Anerkennung.]]
 
 !!! note
@@ -92,14 +94,14 @@ plugins:
 
 #### [[Satz]]
 
-==[[`[[`Dieser Text repräsentiert Ihre Quellsprache`]]`]]==
+[[`[[`Dieser Text repräsentiert Ihre Quellsprache`]]`]]
 
 #### [[Absatz]]
 
-==[[`[[`Dieser Absatz enthält mehrere Sätze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere Übersetzung zu liefern.`]]`]]==
+[[`[[`Dieser Absatz enthält mehrere Sätze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere Übersetzung zu liefern.`]]`]]
 #### [[Aufzählung mit Doppelpunkt]]
 
-- ==[[`[[`Aufzählung`]]`]]== **:** ==[[`[[`Wert nach dem Doppelpunkt`]]`]]==
+- [[`[[`Aufzählung`]]`]]== **:** ==[[`[[`Wert nach dem Doppelpunkt`]]`]]
 
 #### [[Satz in dem der Delimiter vorkommt]]
 
