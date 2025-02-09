@@ -91,10 +91,6 @@
         "__active__": true,
         "de": "Viel Spa\u00df beim \u00dcbersetzen!"
     },
-    "Wichtig ist dabei die deepl-Language-Codes f\u00fcr <code>source</code> und <code>target</code> zu verwenden. Diese sind auf folgender website zu finden: <a href=\"https://developers.deepl.com/docs/resources/supported-languages\">Deepl Language Codes</a>{:target=\"_blank\"}": {
-        "__active__": true,
-        "de": "Wichtig ist dabei die deepl-Language-Codes f\u00fcr <code>source</code> und <code>target</code> zu verwenden. Diese sind auf folgender website zu finden: <a href=\"https://developers.deepl.com/docs/resources/supported-languages\">Deepl Language Codes</a>{:target=\"_blank\"}"
-    },
     "<code>[[</code>Dieser Text repr\u00e4sentiert Ihre Quellsprache<code>]]</code>": {
         "__active__": true,
         "de": "<code>[[</code>Dieser Text repr\u00e4sentiert Ihre Quellsprache<code>]]</code>"
@@ -174,5 +170,9 @@
     "Direkte unterst\u00fctze Plugins f\u00fcr mkdocs": {
         "__active__": true,
         "de": "Direkte unterst\u00fctze Plugins f\u00fcr mkdocs"
+    },
+    "Wichtig ist dabei die deepl-Language-Codes f\u00fcr <code>source</code> und <code>target</code> zu verwenden. Diese sind auf folgender website zu finden:": {
+        "__active__": true,
+        "de": "Wichtig ist dabei die deepl-Language-Codes f\u00fcr <code>source</code> und <code>target</code> zu verwenden. Diese sind auf folgender website zu finden:"
     }
 }
