@@ -76,7 +76,7 @@ plugins:
 [[ In dieser Konfiguration wird die Sprache Deutsch als Quellsprache und Englisch als Zielsprache festgelegt. Sie können beliebig viele Zielsprachen hinzufügen. Allerdings beeinträchtig das die `serve' Performance um so mehr]]
 
 !!! warning
-    [[Wichtig ist dabei die deepl-Language-Codes für `source` und `target` zu verwenden. Diese sind auf folgender website zu finden: [Deepl Language Codes](https://developers.deepl.com/docs/resources/supported-languages){:target="_blank"}]]
+    [[Wichtig ist dabei die deepl-Language-Codes für `source` und `target` zu verwenden. Diese sind auf folgender website zu finden:]] [Deepl Language Codes](https://developers.deepl.com/docs/resources/supported-languages){:target="_blank"}
 
 [[Nachdem Sie die Konfiguration vorgenommen haben, können Sie die Übersetzungsfunktionen in Ihren Markdown-Dateien verwenden.]]
 
@@ -86,7 +86,7 @@ plugins:
 
 [[ Gehen sie wie folgt vor um Texte zu maskieren]]
 
-==[[`[[`Ihr Text`]]`]]==
+[[`[[`Ihr Text`]]`]]
 
 [[Der Text innerhalb der Maskierung wird dann von Langly übersetzt automatisch Übersetzt.]]
 
