@@ -1,14 +1,14 @@
-# MKDocs Material Langly Plugin
+# MkDocs Material Langly Plugin
 
-[[Das Langly-Plugin für MkDocs ist ein Plugin, das Sprachunterstützung und Übersetzungen für Webseiten bietet, die mit MkDocs in verwendung des Material-Themes erstellt wurden. Es ermöglicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische Übersetzung von Texten, um eine breitere Zielgruppe zu erreichen. Es erfüllt bewusst keine der derezitigen Übersetzungsstandards sondern geht einen ganz eigenen aber offenen Weg.]]
+[[Das Langly-Plugin für MkDocs ist ein Plugin, das Sprachunterstützung und Übersetzungen für Webseiten bietet, die mit MkDocs in Verwendung des Material-Themes erstellt wurden. Es ermöglicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische Übersetzung von Texten, um eine breitere Zielgruppe zu erreichen. Es erfüllt bewusst keine der derzeitigen Übersetzungsstandards, sondern geht einen ganz eigenen aber offenen Weg.]]
 
-[[Diese Plugin wurde für Verwendung des großartigen Material-Themes erstellt und bietet Funktionalitäten um z.B. auch den Blogbereich zu Internationalisieren.]]
+[[Dieses Plugin wurde für Verwendung des großartigen Material-Themes erstellt und bietet Funktionalitäten um z.B. auch den Blogbereich zu Internationalisieren.]]
 
-[[**Es werden im vorliegenden Entwicklungstand auch keine anderen Themen unterstützt. Die derzeit einzige Übersetzungsengine ist Deepl und es wird ein deepl-Api-Key benötigt, um das Plugin zu verwenden.**]]
+[[**Es werden im vorliegenden Entwicklungsstand auch keine anderen Themen unterstützt. Die derzeit einzige Übersetzungsengine ist Deepl und es wird ein DeepL-Api-Key benötigt, um das Plugin zu verwenden.**]]
 
 ## [[Direkte unterstütze Plugins für mkdocs]] ##
 
-[[ Diese Auflistung sind die Plugins die bei der Entwicklung von Langly direkt verwendet wurden.]] 
+[[Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden.]] 
 [[**Aber es ist nicht ausgeschlossen, dass auch andere Plugins funktionieren.**]]
 
 - [mkdocs-material](https://squidfunk.github.io/mkdocs-material){:target="_blank"}
@@ -19,14 +19,14 @@
 [[Diese großartigen Plugins benötigen definitiv volle Unterstützung und Anerkennung.]]
 
 !!! note
-    [[Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalitäten und Einschränkungen zu verstehen. Ich bitte auch alle Anforderungen und Änderungsvoschlage in den Github-Issues zu melden.]]
+    [[Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalitäten und Einschränkungen zu verstehen. Ich bitte auch alle Anforderungen und Änderungsvorschläge in den GitHub-Issues zu melden.]]
 
 ## [[Lasst uns Anfangen]]
 
 [[Für den Anfang werden ein paar vorläufige Schritte benötigt, um das Plugin zu benutzen.]]
 
 - [x] [[mkdocs mit installiertem Material-Theme]]
-- [x] [[Ein deepl-Account wird benötigt (deepl im derzeitigen Stand die einzige unterstützte Übersetzungsengine)]]
+- [x] [[Ein Deepl-Account wird benötigt]]
 
 ### [[Installation des Plugins]]
 
@@ -39,7 +39,7 @@ pip install mkdocs-material-langly
 ### [[Api-Key bereitstellen]]
 
 !!! danger
-    [[**Bitte lesen sie diesen Abschnitt sorgfältig durch und beachten Sie den Api-Key in der .gitignore auszuschließen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu schützen.**]]
+    [[**Bitte lesen Sie diesen Abschnitt sorgfältig durch und beachten Sie den Api-Key in der .gitignore auszuschließen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu schützen.**]]
 
 [[Um das Plugin zu verwenden, benötigen Sie einen Deepl-Api-Key. Sie können diesen kostenlosen von der Deepl-Website erhalten.]]
 
@@ -60,10 +60,18 @@ pip install mkdocs-material-langly
 
 [[Nach der Installation können Sie das Plugin in Ihrer `mkdocs.yml`-Konfigurationsdatei aktivieren.]]
 
+!!! info
+    [[Es müssen keine sprachbezogenen Einstellungen am Material-Theme vorgenommen werden. Das bedeutet das die Optionen `theme>language` und `extra>alternate` durch das Plugin gesetzt werden.]]
+
 ```yaml
+site_url: https://<example>.com
+..
+..
+..
 plugins:
   - search
   - langly:
+      lang_switch: true
       source:
           name: Deutsch
           lang: de
@@ -73,22 +81,22 @@ plugins:
 
 ```
 
-[[ In dieser Konfiguration wird die Sprache Deutsch als Quellsprache und Englisch als Zielsprache festgelegt. Sie können beliebig viele Zielsprachen hinzufügen. Allerdings beeinträchtig das die `serve' Performance um so mehr]]
+[[In dieser Konfiguration wird die Sprache Deutsch als Quellsprache und Englisch als Zielsprache festgelegt. Sie können beliebig viele Zielsprachen hinzufügen. Allerdings beeinträchtigt das die `serve` Performance um so mehr. Die Option  `site_url` sollte der Veröffentlichungsadresse Ihrer Website entsprechen damit die `sitemap` und `canonicals` korrekt funktionieren.]]
 
 !!! warning
-    [[Wichtig ist dabei die deepl-Language-Codes für `source` und `target` zu verwenden. Diese sind auf folgender website zu finden:]] [Deepl Language Codes](https://developers.deepl.com/docs/resources/supported-languages){:target="_blank"}
+    [[Wichtig ist dabei die Deepl-Language-Codes für `source` und `target` zu verwenden. Diese sind auf folgender Website zu finden:]] [Deepl Language Codes](https://developers.deepl.com/docs/resources/supported-languages){:target="_blank"}
 
 [[Nachdem Sie die Konfiguration vorgenommen haben, können Sie die Übersetzungsfunktionen in Ihren Markdown-Dateien verwenden.]]
 
 ### [[Verwendung des Plugins]]
 
-[[Das Plugin analysiert markdown Texte und wertet maskierte Textpassagen aus, die mit `[[` und `]]` umschlossen sind. Diese `delimiter` werden beim rendern der Seite entfernt und Quell sowie Zielsprache werden korekt auf Ihrer Seite dargestellt.]] 
+[[Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit `[[` und `]]` umschlossen sind. Diese `delimiter` werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.]] 
 
-[[ Gehen sie wie folgt vor um Texte zu maskieren]]
+[[Gehen sie wie folgt vor, um Texte zu maskieren]]
 
 [[`[[`Ihr Text`]]`]]
 
-[[Der Text innerhalb der Maskierung wird dann von Langly übersetzt automatisch Übersetzt.]]
+[[Der Text innerhalb der Maskierung wird dann von Langly übersetzt automatisch übersetzt.]]
 
 ### [[Ein paar einfache Beispiele]]
 
@@ -101,11 +109,31 @@ plugins:
 [[`[[`Dieser Absatz enthält mehrere Sätze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere Übersetzung zu liefern.`]]`]]
 #### [[Aufzählung mit Doppelpunkt]]
 
-- [[`[[`Aufzählung`]]`]]== **:** ==[[`[[`Wert nach dem Doppelpunkt`]]`]]
+- [[`[[`Aufzählung`]]`]]**:**[[`[[`Wert nach dem Doppelpunkt`]]`]]
 
 #### [[Satz in dem der Delimiter vorkommt]]
 
 [[Umschließen sie den öffnenden und schließenden Delimiter mit **`**]]
+
+## Changelog und Features
+
+### 0.1.2
+
+- Da kommt bald was ...
+
+### 0.1.1 - Initial Release
+  
+- Einfügen einer "index.html" mit Umleitung zur Zielsprache nach Browsersprache.
+- Konfigurieren Sie MKDocs und das Materialthema für jedes Build in der jeweiligen Sprache.
+- Optionale Sprachumschaltung, die automatisch konfiguriert wird.
+- Setzen aller offenen Übersetzungen während `serve` in den Draft-Mode, um den Zugriff auf die Übersetzungs-Api zu minimieren.
+- Durchsuchen des Seiteninhaltes, um zusätzliche Übersetzungen zu finden, die mit Plugins von Drittanbietern wie `mkdocs-strings` erstellt wurden.
+- Speichern aller Übersetzungen in einer JSON-Datei pro Seite, um den Zugriff auf die Übersetzungs-Api zu minimieren und manuelle Änderungen zu ermöglichen.
+- Konvertiert Markdown in HTML, übersetzt und konvertiert zurück, um Textformatierungen wie `code`, `strong` und `em` zu erhalten.
+- Fixe-Wörter in Code-Tags mit temporären HTML-Attributen erhalten.
+- Übersetzung der Navigation
+- Kopieren Sie die für gh-deploy erforderliche CNAME-Datei in das Stammverzeichnis des Build's.
+- Begrenzungszeichen (z.B. `[[` & `]]`) innerhalb einer Maskierung ignorieren.
 
 ## [[Feedback und Unterstützung]]
 
