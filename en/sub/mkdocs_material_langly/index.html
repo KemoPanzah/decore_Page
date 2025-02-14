@@ -572,6 +572,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#protect-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protect Api key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#configuration-of-the-plugin" class="md-nav__link">
     <span class="md-ellipsis">
       Configuration of the plugin
@@ -621,15 +630,6 @@
   <a href="#enumeration-with-colon" class="md-nav__link">
     <span class="md-ellipsis">
       Enumeration with colon
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#record-in-which-the-delimiter-occurs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Record in which the delimiter occurs
     </span>
   </a>
   
@@ -1019,6 +1019,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#protect-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protect Api key
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#configuration-of-the-plugin" class="md-nav__link">
     <span class="md-ellipsis">
       Configuration of the plugin
@@ -1068,15 +1077,6 @@
   <a href="#enumeration-with-colon" class="md-nav__link">
     <span class="md-ellipsis">
       Enumeration with colon
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#record-in-which-the-delimiter-occurs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Record in which the delimiter occurs
     </span>
   </a>
   
@@ -1178,10 +1178,6 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>mkdocs-material-langly
 </code></pre></div>
 <h3 id="provide-api-key">Provide Api key</h3>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p><strong>Please read this section carefully and be sure to exclude the Api key in the .gitignore and also protect it in every possible way from being uploaded to the Internet.</strong></p>
-</div>
 <p>To use the plugin, you need a Deepl API key. You can obtain this free of charge from the Deepl website.</p>
 <p>After you have created the api key, create a file called <code>auth_key.json</code> in the root directory of your project and add the following content:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="w">  </span><span class="p">{</span>
@@ -1189,7 +1185,12 @@
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="p">}</span>
 </code></pre></div>
 <p>Replace <code>DEEPL-API-KEY</code> with your own api key.</p>
-<p><strong>Open the .gitignore file and add the line <code>auth_key.json</code> to prevent the file from being uploaded by mistake.</strong></p>
+<h3 id="protect-api-key">Protect Api key</h3>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Please read this section carefully and be sure to exclude the Api key in the .gitignore and also protect it in every possible way from being uploaded to the Internet.</p>
+</div>
+<p>Open the .gitignore file in the root directory and add the line <code>auth_key.json</code> to prevent the file from being uploaded by mistake. Then check online that the key cannot be found in the repo.</p>
 <h3 id="configuration-of-the-plugin">Configuration of the plugin</h3>
 <p>After installation, you can activate the plugin in your <code>mkdocs.yml</code>.</p>
 <div class="admonition info">
@@ -1231,8 +1232,6 @@
 <ul>
 <li><code>[[</code>enumeration<code>]]</code><strong>:</strong><code>[[</code>value after the colon<code>]]</code></li>
 </ul>
-<h4 id="record-in-which-the-delimiter-occurs">Record in which the delimiter occurs</h4>
-<p>Enclose the opening and closing delimiter with <strong>`</strong></p>
 <h2 id="changelog-und-features">Changelog und Features</h2>
 <h3 id="012">0.1.2</h3>
 <ul>
@@ -1262,6 +1261,9 @@
 
 
 
+
+  
+  
 
 
 

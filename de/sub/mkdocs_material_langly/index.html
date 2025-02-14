@@ -570,6 +570,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#api-key-schutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Api-Key schützen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#konfiguration-des-plugins" class="md-nav__link">
     <span class="md-ellipsis">
       Konfiguration des Plugins
@@ -619,15 +628,6 @@
   <a href="#aufzahlung-mit-doppelpunkt" class="md-nav__link">
     <span class="md-ellipsis">
       Aufzählung mit Doppelpunkt
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#satz-in-dem-der-delimiter-vorkommt" class="md-nav__link">
-    <span class="md-ellipsis">
-      Satz in dem der Delimiter vorkommt
     </span>
   </a>
   
@@ -1017,6 +1017,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#api-key-schutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Api-Key schützen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#konfiguration-des-plugins" class="md-nav__link">
     <span class="md-ellipsis">
       Konfiguration des Plugins
@@ -1066,15 +1075,6 @@
   <a href="#aufzahlung-mit-doppelpunkt" class="md-nav__link">
     <span class="md-ellipsis">
       Aufzählung mit Doppelpunkt
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#satz-in-dem-der-delimiter-vorkommt" class="md-nav__link">
-    <span class="md-ellipsis">
-      Satz in dem der Delimiter vorkommt
     </span>
   </a>
   
@@ -1176,10 +1176,6 @@
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>mkdocs-material-langly
 </code></pre></div>
 <h3 id="api-key-bereitstellen">Api-Key bereitstellen</h3>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p><strong>Bitte lesen Sie diesen Abschnitt sorgfältig durch und beachten Sie den Api-Key in der .gitignore auszuschließen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu schützen.</strong></p>
-</div>
 <p>Um das Plugin zu verwenden, benötigen Sie einen Deepl-Api-Key. Sie können diesen kostenlosen von der Deepl-Website erhalten.</p>
 <p>Nachdem Sie den Api-Key erstellt haben, erstellen Sie eine Datei namens <code>auth_key.json</code> im Wurzelverzeichnis Ihres Projekts und fügen folgenden Inhalt ein:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="w">  </span><span class="p">{</span>
@@ -1187,7 +1183,12 @@
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="p">}</span>
 </code></pre></div>
 <p>Ersetzen Sie <code>DEEPL-API-KEY</code> durch Ihren eigenen Api-Key.</p>
-<p><strong>Öffnen Sie die Datei .gitignore und fügen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern, dass die Datei versehentlich hochgeladen wird.</strong></p>
+<h3 id="api-key-schutzen">Api-Key schützen</h3>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Bitte lesen Sie diesen Abschnitt sorgfältig durch und beachten Sie den Api-Key in der .gitignore auszuschließen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu schützen.</p>
+</div>
+<p>Öffnen Sie die Datei .gitignore im Wurzelverzeichnis und fügen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern das die Datei versehentlich hochgeladen wird. Anschließend bitte auch online prüfen, dass der Key nicht im Repo zu finden ist.</p>
 <h3 id="konfiguration-des-plugins">Konfiguration des Plugins</h3>
 <p>Nach der Installation können Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren.</p>
 <div class="admonition info">
@@ -1229,8 +1230,6 @@
 <ul>
 <li><code>[[</code>Aufzählung<code>]]</code><strong>:</strong><code>[[</code>Wert nach dem Doppelpunkt<code>]]</code></li>
 </ul>
-<h4 id="satz-in-dem-der-delimiter-vorkommt">Satz in dem der Delimiter vorkommt</h4>
-<p>Umschließen sie den öffnenden und schließenden Delimiter mit <strong>`</strong></p>
 <h2 id="changelog-und-features">Changelog und Features</h2>
 <h3 id="012">0.1.2</h3>
 <ul>
@@ -1260,6 +1259,9 @@
 
 
 
+
+  
+  
 
 
 
