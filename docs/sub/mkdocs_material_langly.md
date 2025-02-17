@@ -1,3 +1,8 @@
+---
+title: MkDocs Material Langly Plugin
+keywords: mkdocs, material, langly, plugin, language, translation, deepl, multilingual, internationalization, localization
+---
+
 # MkDocs Material Langly Plugin
 
 [[Das Langly-Plugin für MkDocs ist ein Plugin, das Sprachunterstützung und Übersetzungen für Webseiten bietet, die mit MkDocs in Verwendung des Material-Themes erstellt wurden. Es ermöglicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische Übersetzung von Texten, um eine breitere Zielgruppe zu erreichen. Es erfüllt bewusst keine der derzeitigen Übersetzungsstandards, sondern geht einen ganz eigenen aber offenen Weg.]]
@@ -26,7 +31,7 @@
 [[Für den Anfang werden ein paar vorläufige Schritte benötigt, um das Plugin zu benutzen.]]
 
 - [x] [[mkdocs mit installiertem Material-Theme]]
-- [x] [[Ein Deepl-Account wird benötigt]]
+- [x] [[Ein Deepl-Free-Account wird benötigt]]
 
 ### [[Installation des Plugins]]
 
@@ -37,9 +42,6 @@ pip install mkdocs-material-langly
 ```
 
 ### [[Api-Key bereitstellen]]
-
-!!! danger
-    [[**Bitte lesen Sie diesen Abschnitt sorgfältig durch und beachten Sie den Api-Key in der .gitignore auszuschließen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu schützen.**]]
 
 [[Um das Plugin zu verwenden, benötigen Sie einen Deepl-Api-Key. Sie können diesen kostenlosen von der Deepl-Website erhalten.]]
 
@@ -54,7 +56,12 @@ pip install mkdocs-material-langly
 
 [[Ersetzen Sie `DEEPL-API-KEY` durch Ihren eigenen Api-Key.]]
 
-[[**Öffnen Sie die Datei .gitignore und fügen Sie die Zeile `auth_key.json` hinzu, um zu verhindern, dass die Datei versehentlich hochgeladen wird.**]]
+### [[Api-Key schützen]]
+
+!!! danger
+    [[Bitte lesen Sie diesen Abschnitt sorgfältig durch und beachten Sie den Api-Key in der .gitignore auszuschließen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu schützen.]]
+
+[[Öffnen Sie die Datei .gitignore im Wurzelverzeichnis und fügen Sie die Zeile `auth_key.json` hinzu, um zu verhindern das die Datei versehentlich hochgeladen wird. Anschließend bitte auch online prüfen, dass der Key nicht im Repo zu finden ist.]]
 
 ### [[Konfiguration des Plugins]]
 
@@ -110,10 +117,6 @@ plugins:
 #### [[Aufzählung mit Doppelpunkt]]
 
 - [[`[[`Aufzählung`]]`]]**:**[[`[[`Wert nach dem Doppelpunkt`]]`]]
-
-#### [[Satz in dem der Delimiter vorkommt]]
-
-[[Umschließen sie den öffnenden und schließenden Delimiter mit **`**]]
 
 ## Changelog und Features
 

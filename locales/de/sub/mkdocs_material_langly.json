@@ -35,10 +35,6 @@
         "__active__": true,
         "de": "Ersetzen Sie <code>DEEPL-API-KEY</code> durch Ihren eigenen Api-Key."
     },
-    "<strong>\u00d6ffnen Sie die Datei .gitignore und f\u00fcgen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern, dass die Datei versehentlich hochgeladen wird.</strong>": {
-        "__active__": true,
-        "de": "<strong>\u00d6ffnen Sie die Datei .gitignore und f\u00fcgen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern, dass die Datei versehentlich hochgeladen wird.</strong>"
-    },
     "Konfiguration des Plugins": {
         "__active__": true,
         "de": "Konfiguration des Plugins"
@@ -83,10 +79,6 @@
         "__active__": true,
         "de": "Aufz\u00e4hlung mit Doppelpunkt"
     },
-    "Satz in dem der Delimiter vorkommt": {
-        "__active__": true,
-        "de": "Satz in dem der Delimiter vorkommt"
-    },
     "Feedback und Unterst\u00fctzung": {
         "__active__": true,
         "de": "Feedback und Unterst\u00fctzung"
@@ -102,10 +94,6 @@
     "<code>[[</code>Dieser Absatz enth\u00e4lt mehrere S\u00e4tze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere \u00dcbersetzung zu liefern.<code>]]</code>": {
         "__active__": true,
         "de": "<code>[[</code>Dieser Absatz enth\u00e4lt mehrere S\u00e4tze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere \u00dcbersetzung zu liefern.<code>]]</code>"
-    },
-    "Umschlie\u00dfen sie den \u00f6ffnenden und schlie\u00dfenden Delimiter mit <strong>`</strong>": {
-        "__active__": true,
-        "de": "Umschlie\u00dfen sie den \u00f6ffnenden und schlie\u00dfenden Delimiter mit <strong>`</strong>"
     },
     "<code>[[</code>Wert nach dem Doppelpunkt<code>]]</code>": {
         "__active__": true,
@@ -151,14 +139,6 @@
         "__active__": true,
         "de": "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvorschl\u00e4ge in den GitHub-Issues zu melden."
     },
-    "Ein Deepl-Account wird ben\u00f6tigt": {
-        "__active__": true,
-        "de": "Ein Deepl-Account wird ben\u00f6tigt"
-    },
-    "<strong>Bitte lesen Sie diesen Abschnitt sorgf\u00e4ltig durch und beachten Sie den Api-Key in der .gitignore auszuschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu sch\u00fctzen.</strong>": {
-        "__active__": true,
-        "de": "<strong>Bitte lesen Sie diesen Abschnitt sorgf\u00e4ltig durch und beachten Sie den Api-Key in der .gitignore auszuschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu sch\u00fctzen.</strong>"
-    },
     "In dieser Konfiguration wird die Sprache Deutsch als Quellsprache und Englisch als Zielsprache festgelegt. Sie k\u00f6nnen beliebig viele Zielsprachen hinzuf\u00fcgen. Allerdings beeintr\u00e4chtigt das die <code>serve</code> Performance um so mehr. Die Option  <code>site_url</code> sollte der Ver\u00f6ffentlichungsadresse Ihrer Website entsprechen damit die <code>sitemap</code> und <code>canonicals</code> korrekt funktionieren.": {
         "__active__": true,
         "de": "In dieser Konfiguration wird die Sprache Deutsch als Quellsprache und Englisch als Zielsprache festgelegt. Sie k\u00f6nnen beliebig viele Zielsprachen hinzuf\u00fcgen. Allerdings beeintr\u00e4chtigt das die <code>serve</code> Performance um so mehr. Die Option  <code>site_url</code> sollte der Ver\u00f6ffentlichungsadresse Ihrer Website entsprechen damit die <code>sitemap</code> und <code>canonicals</code> korrekt funktionieren."
@@ -178,5 +158,21 @@
     "Der Text innerhalb der Maskierung wird dann von Langly \u00fcbersetzt automatisch \u00fcbersetzt.": {
         "__active__": true,
         "de": "Der Text innerhalb der Maskierung wird dann von Langly \u00fcbersetzt automatisch \u00fcbersetzt."
+    },
+    "Api-Key sch\u00fctzen": {
+        "__active__": true,
+        "de": "Api-Key sch\u00fctzen"
+    },
+    "Bitte lesen Sie diesen Abschnitt sorgf\u00e4ltig durch und beachten Sie den Api-Key in der .gitignore auszuschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu sch\u00fctzen.": {
+        "__active__": true,
+        "de": "Bitte lesen Sie diesen Abschnitt sorgf\u00e4ltig durch und beachten Sie den Api-Key in der .gitignore auszuschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet zu sch\u00fctzen."
+    },
+    "\u00d6ffnen Sie die Datei .gitignore im Wurzelverzeichnis und f\u00fcgen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern das die Datei versehentlich hochgeladen wird. Anschlie\u00dfend bitte auch online pr\u00fcfen, dass der Key nicht im Repo zu finden ist.": {
+        "__active__": true,
+        "de": "\u00d6ffnen Sie die Datei .gitignore im Wurzelverzeichnis und f\u00fcgen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern das die Datei versehentlich hochgeladen wird. Anschlie\u00dfend bitte auch online pr\u00fcfen, dass der Key nicht im Repo zu finden ist."
+    },
+    "Ein Deepl-Free-Account wird ben\u00f6tigt": {
+        "__active__": true,
+        "de": "Ein Deepl-Free-Account wird ben\u00f6tigt"
     }
 }
