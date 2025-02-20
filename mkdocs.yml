@@ -1,4 +1,4 @@
-site_name: decore Base | Ui fastly
+site_name: decore.Dev
 site_url: https://www.decore.dev #DOC - wichtig für Build und GH-Deploy sonst keine korrekten Canonicals und Sitemaps
 theme:
   name: material
