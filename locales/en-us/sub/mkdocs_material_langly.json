@@ -127,10 +127,6 @@
         "__active__": true,
         "en-us": "This plugin was created to use the great Material theme and offers functionalities to e.g. internationalize the blog area."
     },
-    "<strong>Es werden im vorliegenden Entwicklungsstand auch keine anderen Themen unterst\u00fctzt. Die derzeit einzige \u00dcbersetzungsengine ist Deepl und es wird ein DeepL-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.</strong>": {
-        "__active__": true,
-        "en-us": "<strong>No other themes are supported at this stage of development. The only translation engine currently available is Deepl and a DeepL api key is required to use the plugin.</strong>"
-    },
     "Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden.": {
         "__active__": true,
         "en-us": "This list includes plugins that were used directly in the development of Langly."
@@ -174,5 +170,9 @@
     "Ein Deepl-Free-Account wird ben\u00f6tigt": {
         "__active__": true,
         "en-us": "A Deepl-Free account is required"
+    },
+    "<strong>Die derzeit einzige \u00dcbersetzungsengine ist Deepl und es wird ein DeepL-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.</strong>": {
+        "__active__": true,
+        "en-us": "<strong>The only translation engine currently available is Deepl and a DeepL api key is required to use the plugin.</strong>"
     }
 }

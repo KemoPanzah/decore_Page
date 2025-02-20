@@ -9,11 +9,11 @@ keywords: mkdocs, material, langly, plugin, language, translation, deepl, multil
 
 [[Dieses Plugin wurde für Verwendung des großartigen Material-Themes erstellt und bietet Funktionalitäten um z.B. auch den Blogbereich zu Internationalisieren.]]
 
-[[**Es werden im vorliegenden Entwicklungsstand auch keine anderen Themen unterstützt. Die derzeit einzige Übersetzungsengine ist Deepl und es wird ein DeepL-Api-Key benötigt, um das Plugin zu verwenden.**]]
+[[**Die derzeit einzige Übersetzungsengine ist Deepl und es wird ein DeepL-Api-Key benötigt, um das Plugin zu verwenden.**]]
 
 ## [[Direkte unterstütze Plugins für mkdocs]] ##
 
-[[Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden.]] 
+[[Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden.]]
 [[**Aber es ist nicht ausgeschlossen, dass auch andere Plugins funktionieren.**]]
 
 - [mkdocs-material](https://squidfunk.github.io/mkdocs-material){:target="_blank"}

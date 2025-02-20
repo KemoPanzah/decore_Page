@@ -1,9 +1,13 @@
 site_name: decore.Dev
 site_url: https://www.decore.dev #DOC - wichtig für Build und GH-Deploy sonst keine korrekten Canonicals und Sitemaps
+extra_css:
+    - static/css/custom.css
 theme:
   name: material
   logo: static/logo.png
   favicon: static/favicon.ico
+  font:
+    text: Poppins
   features:
     - content.code.copy
     - navigation.tabs
