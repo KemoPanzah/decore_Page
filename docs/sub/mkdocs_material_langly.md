@@ -122,7 +122,7 @@ plugins:
 
 ### 0.1.2
 
-- Da kommt bald was ...
+- [[Da kommt bald was ...]]
 
 ### 0.1.1 - Initial Release
   

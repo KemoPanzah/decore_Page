@@ -218,5 +218,9 @@
     "Begrenzungszeichen (z.B. <code>[[</code> &amp; <code>]]</code>) innerhalb einer Maskierung ignorieren.": {
         "__active__": true,
         "en-us": "Ignore delimiters (e.g. <code>[[</code> &amp; <code>]]</code>) within a masking."
+    },
+    "Da kommt bald was ...": {
+        "__active__": true,
+        "en-us": "Something is coming soon ..."
     }
 }
