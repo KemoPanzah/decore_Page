@@ -126,17 +126,17 @@ plugins:
 
 ### 0.1.1 - Initial Release
   
-- Einfügen einer "index.html" mit Umleitung zur Zielsprache nach Browsersprache.
-- Konfigurieren Sie MKDocs und das Materialthema für jedes Build in der jeweiligen Sprache.
-- Optionale Sprachumschaltung, die automatisch konfiguriert wird.
-- Setzen aller offenen Übersetzungen während `serve` in den Draft-Mode, um den Zugriff auf die Übersetzungs-Api zu minimieren.
-- Durchsuchen des Seiteninhaltes, um zusätzliche Übersetzungen zu finden, die mit Plugins von Drittanbietern wie `mkdocs-strings` erstellt wurden.
-- Speichern aller Übersetzungen in einer JSON-Datei pro Seite, um den Zugriff auf die Übersetzungs-Api zu minimieren und manuelle Änderungen zu ermöglichen.
-- Konvertiert Markdown in HTML, übersetzt und konvertiert zurück, um Textformatierungen wie `code`, `strong` und `em` zu erhalten.
-- Fixe-Wörter in Code-Tags mit temporären HTML-Attributen erhalten.
-- Übersetzung der Navigation
-- Kopieren Sie die für gh-deploy erforderliche CNAME-Datei in das Stammverzeichnis des Build's.
-- Begrenzungszeichen (z.B. `[[` & `]]`) innerhalb einer Maskierung ignorieren.
+- [[Einfügen einer "index.html" mit Umleitung zur Zielsprache nach Browsersprache.]]
+- [[Konfigurieren Sie MKDocs und das Materialthema für jedes Build in der jeweiligen Sprache.]]
+- [[Optionale Sprachumschaltung, die automatisch konfiguriert wird.]]
+- [[Setzen aller offenen Übersetzungen während `serve` in den Draft-Mode, um den Zugriff auf die Übersetzungs-Api zu minimieren.]]
+- [[Durchsuchen des Seiteninhaltes, um zusätzliche Übersetzungen zu finden, die mit Plugins von Drittanbietern wie `mkdocs-strings` erstellt wurden.]]
+- [[Speichern aller Übersetzungen in einer JSON-Datei pro Seite, um den Zugriff auf die Übersetzungs-Api zu minimieren und manuelle Änderungen zu ermöglichen.]]
+- [[Konvertiert Markdown in HTML, übersetzt und konvertiert zurück, um Textformatierungen wie `code`, `strong` und `em` zu erhalten.]]
+- [[Fixe-Wörter in Code-Tags mit temporären HTML-Attributen erhalten.]]
+- [[Übersetzung der Navigation]]
+- [[Kopieren Sie die für gh-deploy erforderliche CNAME-Datei in das Stammverzeichnis des Build's.]]
+- [[Begrenzungszeichen (z.B. `[[` & `]]`) innerhalb einer Maskierung ignorieren.]]
 
 ## [[Feedback und Unterstützung]]
 

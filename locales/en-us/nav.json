@@ -3,8 +3,8 @@
         "__active__": true,
         "en-us": "Documentation"
     },
-    "Unterprojekte": {
+    "Projekte": {
         "__active__": true,
-        "en-us": "Subprojects"
+        "en-us": "Projects"
     }
 }

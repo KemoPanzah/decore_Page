@@ -174,5 +174,49 @@
     "<strong>Die derzeit einzige \u00dcbersetzungsengine ist Deepl und es wird ein DeepL-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.</strong>": {
         "__active__": true,
         "de": "<strong>Die derzeit einzige \u00dcbersetzungsengine ist Deepl und es wird ein DeepL-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.</strong>"
+    },
+    "Einf\u00fcgen einer \"index.html\" mit Umleitung zur Zielsprache nach Browsersprache.": {
+        "__active__": true,
+        "de": "Einf\u00fcgen einer \"index.html\" mit Umleitung zur Zielsprache nach Browsersprache."
+    },
+    "Konfigurieren Sie MKDocs und das Materialthema f\u00fcr jedes Build in der jeweiligen Sprache.": {
+        "__active__": true,
+        "de": "Konfigurieren Sie MKDocs und das Materialthema f\u00fcr jedes Build in der jeweiligen Sprache."
+    },
+    "Optionale Sprachumschaltung, die automatisch konfiguriert wird.": {
+        "__active__": true,
+        "de": "Optionale Sprachumschaltung, die automatisch konfiguriert wird."
+    },
+    "Setzen aller offenen \u00dcbersetzungen w\u00e4hrend <code>serve</code> in den Draft-Mode, um den Zugriff auf die \u00dcbersetzungs-Api zu minimieren.": {
+        "__active__": true,
+        "de": "Setzen aller offenen \u00dcbersetzungen w\u00e4hrend <code>serve</code> in den Draft-Mode, um den Zugriff auf die \u00dcbersetzungs-Api zu minimieren."
+    },
+    "Durchsuchen des Seiteninhaltes, um zus\u00e4tzliche \u00dcbersetzungen zu finden, die mit Plugins von Drittanbietern wie <code>mkdocs-strings</code> erstellt wurden.": {
+        "__active__": true,
+        "de": "Durchsuchen des Seiteninhaltes, um zus\u00e4tzliche \u00dcbersetzungen zu finden, die mit Plugins von Drittanbietern wie <code>mkdocs-strings</code> erstellt wurden."
+    },
+    "Speichern aller \u00dcbersetzungen in einer JSON-Datei pro Seite, um den Zugriff auf die \u00dcbersetzungs-Api zu minimieren und manuelle \u00c4nderungen zu erm\u00f6glichen.": {
+        "__active__": true,
+        "de": "Speichern aller \u00dcbersetzungen in einer JSON-Datei pro Seite, um den Zugriff auf die \u00dcbersetzungs-Api zu minimieren und manuelle \u00c4nderungen zu erm\u00f6glichen."
+    },
+    "Konvertiert Markdown in HTML, \u00fcbersetzt und konvertiert zur\u00fcck, um Textformatierungen wie <code>code</code>, <code>strong</code> und <code>em</code> zu erhalten.": {
+        "__active__": true,
+        "de": "Konvertiert Markdown in HTML, \u00fcbersetzt und konvertiert zur\u00fcck, um Textformatierungen wie <code>code</code>, <code>strong</code> und <code>em</code> zu erhalten."
+    },
+    "Fixe-W\u00f6rter in Code-Tags mit tempor\u00e4ren HTML-Attributen erhalten.": {
+        "__active__": true,
+        "de": "Fixe-W\u00f6rter in Code-Tags mit tempor\u00e4ren HTML-Attributen erhalten."
+    },
+    "\u00dcbersetzung der Navigation": {
+        "__active__": true,
+        "de": "\u00dcbersetzung der Navigation"
+    },
+    "Kopieren Sie die f\u00fcr gh-deploy erforderliche CNAME-Datei in das Stammverzeichnis des Build's.": {
+        "__active__": true,
+        "de": "Kopieren Sie die f\u00fcr gh-deploy erforderliche CNAME-Datei in das Stammverzeichnis des Build's."
+    },
+    "Begrenzungszeichen (z.B. <code>[[</code> &amp; <code>]]</code>) innerhalb einer Maskierung ignorieren.": {
+        "__active__": true,
+        "de": "Begrenzungszeichen (z.B. <code>[[</code> &amp; <code>]]</code>) innerhalb einer Maskierung ignorieren."
     }
 }

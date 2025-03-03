@@ -67,7 +67,7 @@ nav:
   - '[[Dokumentation]]':
     - doc/decore.md
     - doc/fields.md
-  - '[[Unterprojekte]]':
+  - '[[Projekte]]':
     - sub/mkdocs_material_langly.md
   - Blog:
     - blog/index.md
