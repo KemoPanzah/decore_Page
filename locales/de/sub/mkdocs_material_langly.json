@@ -39,10 +39,6 @@
         "__active__": true,
         "de": "Konfiguration des Plugins"
     },
-    "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren.": {
-        "__active__": true,
-        "de": "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren."
-    },
     "Nachdem Sie die Konfiguration vorgenommen haben, k\u00f6nnen Sie die \u00dcbersetzungsfunktionen in Ihren Markdown-Dateien verwenden.": {
         "__active__": true,
         "de": "Nachdem Sie die Konfiguration vorgenommen haben, k\u00f6nnen Sie die \u00dcbersetzungsfunktionen in Ihren Markdown-Dateien verwenden."
@@ -59,10 +55,6 @@
         "__active__": true,
         "de": "Viel Spa\u00df beim \u00dcbersetzen!"
     },
-    "<code>[[</code>Dieser Text repr\u00e4sentiert Ihre Quellsprache<code>]]</code>": {
-        "__active__": true,
-        "de": "<code>[[</code>Dieser Text repr\u00e4sentiert Ihre Quellsprache<code>]]</code>"
-    },
     "Satz": {
         "__active__": true,
         "de": "Satz"
@@ -70,10 +62,6 @@
     "Absatz": {
         "__active__": true,
         "de": "Absatz"
-    },
-    "<code>[[</code>Ihr Text<code>]]</code>": {
-        "__active__": true,
-        "de": "<code>[[</code>Ihr Text<code>]]</code>"
     },
     "Aufz\u00e4hlung mit Doppelpunkt": {
         "__active__": true,
@@ -90,18 +78,6 @@
     "Vielen Dank f\u00fcr Ihr Interesse an diesem Plugin!": {
         "__active__": true,
         "de": "Vielen Dank f\u00fcr Ihr Interesse an diesem Plugin!"
-    },
-    "<code>[[</code>Dieser Absatz enth\u00e4lt mehrere S\u00e4tze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere \u00dcbersetzung zu liefern.<code>]]</code>": {
-        "__active__": true,
-        "de": "<code>[[</code>Dieser Absatz enth\u00e4lt mehrere S\u00e4tze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere \u00dcbersetzung zu liefern.<code>]]</code>"
-    },
-    "<code>[[</code>Wert nach dem Doppelpunkt<code>]]</code>": {
-        "__active__": true,
-        "de": "<code>[[</code>Wert nach dem Doppelpunkt<code>]]</code>"
-    },
-    "<code>[[</code>Aufz\u00e4hlung<code>]]</code>": {
-        "__active__": true,
-        "de": "<code>[[</code>Aufz\u00e4hlung<code>]]</code>"
     },
     "F\u00fcr den Anfang werden ein paar vorl\u00e4ufige Schritte ben\u00f6tigt, um das Plugin zu benutzen.": {
         "__active__": true,
@@ -127,10 +103,6 @@
         "__active__": true,
         "de": "Dieses Plugin wurde f\u00fcr Verwendung des gro\u00dfartigen Material-Themes erstellt und bietet Funktionalit\u00e4ten um z.B. auch den Blogbereich zu Internationalisieren."
     },
-    "Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden.": {
-        "__active__": true,
-        "de": "Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden."
-    },
     "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvorschl\u00e4ge in den GitHub-Issues zu melden.": {
         "__active__": true,
         "de": "Das Plugin ist noch in der Entwicklung und es wird empfohlen, die Dokumentation zu lesen, um die Funktionalit\u00e4ten und Einschr\u00e4nkungen zu verstehen. Ich bitte auch alle Anforderungen und \u00c4nderungsvorschl\u00e4ge in den GitHub-Issues zu melden."
@@ -143,17 +115,9 @@
         "__active__": true,
         "de": "Wichtig ist dabei die Deepl-Language-Codes f\u00fcr <code>source</code> und <code>target</code> zu verwenden. Diese sind auf folgender Website zu finden:"
     },
-    "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>[[</code> und <code>]]</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.": {
-        "__active__": true,
-        "de": "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>[[</code> und <code>]]</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt."
-    },
     "Gehen sie wie folgt vor, um Texte zu maskieren": {
         "__active__": true,
         "de": "Gehen sie wie folgt vor, um Texte zu maskieren"
-    },
-    "Der Text innerhalb der Maskierung wird dann von Langly \u00fcbersetzt automatisch \u00fcbersetzt.": {
-        "__active__": true,
-        "de": "Der Text innerhalb der Maskierung wird dann von Langly \u00fcbersetzt automatisch \u00fcbersetzt."
     },
     "Api-Key sch\u00fctzen": {
         "__active__": true,
@@ -215,12 +179,52 @@
         "__active__": true,
         "de": "Kopieren Sie die f\u00fcr gh-deploy erforderliche CNAME-Datei in das Stammverzeichnis des Build's."
     },
-    "Begrenzungszeichen (z.B. <code>[[</code> &amp; <code>]]</code>) innerhalb einer Maskierung ignorieren.": {
+    "Der Text innerhalb der Maskierung wird dann von Langly automatisch \u00fcbersetzt.": {
         "__active__": true,
-        "de": "Begrenzungszeichen (z.B. <code>[[</code> &amp; <code>]]</code>) innerhalb einer Maskierung ignorieren."
+        "de": "Der Text innerhalb der Maskierung wird dann von Langly automatisch \u00fcbersetzt."
     },
-    "Da kommt bald was ...": {
+    "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren. <strong>Langly sollte dabei als letztes Plugin in der Liste stehen</strong>.": {
         "__active__": true,
-        "de": "Da kommt bald was ..."
+        "de": "Nach der Installation k\u00f6nnen Sie das Plugin in Ihrer <code>mkdocs.yml</code>-Konfigurationsdatei aktivieren. <strong>Langly sollte dabei als letztes Plugin in der Liste stehen</strong>."
+    },
+    "Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden und als kompatibel gelten.": {
+        "__active__": true,
+        "de": "Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden und als kompatibel gelten."
+    },
+    "<em>ERSETZT</em>": {
+        "__active__": true,
+        "de": "<em>ERSETZT</em>"
+    },
+    "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>{[{</code> und <code>}]}</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.": {
+        "__active__": true,
+        "de": "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>{[{</code> und <code>}]}</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt."
+    },
+    "Da der Algorithmus die Zeichen <code>{[{</code> und <code>}]}</code> als Maskierung f\u00fcr \u00fcbersetzbaren Text verwendet, k\u00f6nnen diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der \u00dcbersetzung automatisch in <code>{[{</code> und <code>}]}</code> umgewandelt werden.": {
+        "__active__": true,
+        "de": "Da der Algorithmus die Zeichen <code>{[{</code> und <code>}]}</code> als Maskierung f\u00fcr \u00fcbersetzbaren Text verwendet, k\u00f6nnen diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der \u00dcbersetzung automatisch in <code>{[{</code> und <code>}]}</code> umgewandelt werden."
+    },
+    "Begrenzungszeichen (z.B. <code>{[{</code> und <code>}]}</code>) innerhalb einer Maskierung ignorieren.": {
+        "__active__": true,
+        "de": "Begrenzungszeichen (z.B. <code>{[{</code> und <code>}]}</code>) innerhalb einer Maskierung ignorieren."
+    },
+    "Aufz\u00e4hlung": {
+        "__active__": true,
+        "de": "Aufz\u00e4hlung"
+    },
+    "Wert nach dem Doppelpunkt": {
+        "__active__": true,
+        "de": "Wert nach dem Doppelpunkt"
+    },
+    "Dieser Absatz enth\u00e4lt mehrere S\u00e4tze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere \u00dcbersetzung zu liefern.": {
+        "__active__": true,
+        "de": "Dieser Absatz enth\u00e4lt mehrere S\u00e4tze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere \u00dcbersetzung zu liefern."
+    },
+    "Dieser Text repr\u00e4sentiert Ihre Quellsprache": {
+        "__active__": true,
+        "de": "Dieser Text repr\u00e4sentiert Ihre Quellsprache"
+    },
+    "Ihr Text": {
+        "__active__": true,
+        "de": "Ihr Text"
     }
 }

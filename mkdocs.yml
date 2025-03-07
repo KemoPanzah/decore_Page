@@ -1,7 +1,7 @@
 site_name: decore.Dev
 site_url: https://www.decore.dev #DOC - wichtig für Build und GH-Deploy sonst keine korrekten Canonicals und Sitemaps
 extra_css:
-    - static/css/custom.css
+  - static/css/custom.css
 theme:
   name: material
   logo: static/logo.png
@@ -15,7 +15,7 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -25,13 +25,6 @@ theme:
         name: Switch to light mode
 plugins:
   - search
-  - langly:
-      source:
-          name: Deutsch
-          lang: de
-      targets:
-        - name: English
-          lang: en-us
   - mkdocstrings:
       handlers:
         python:
@@ -43,7 +36,15 @@ plugins:
             members_order: source
   - blog:
       authors: true
-      post_url_date_format: 'yyyy'
+      post_url_date_format: "yyyy"
+  - glightbox
+  - langly:
+      source:
+        name: Deutsch
+        lang: de
+      targets:
+        - name: English
+          lang: en-us
 markdown_extensions:
   - admonition
   - attr_list
@@ -64,10 +65,10 @@ markdown_extensions:
   - pymdownx.tilde
 nav:
   - index.md
-  - '[[Dokumentation]]':
-    - doc/decore.md
-    - doc/fields.md
-  - '[[Projekte]]':
-    - sub/mkdocs_material_langly.md
+  - "[[Dokumentation]]":
+      - doc/decore.md
+      - doc/fields.md
+  - "[[Projekte]]":
+      - sub/mkdocs_material_langly.md
   - Blog:
-    - blog/index.md
+      - blog/index.md

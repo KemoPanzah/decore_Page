@@ -13,11 +13,12 @@ keywords: mkdocs, material, langly, plugin, language, translation, deepl, multil
 
 ## [[Direkte unterstütze Plugins für mkdocs]] ##
 
-[[Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden.]]
+[[Diese Auflistung sind Plugins, die bei der Entwicklung von Langly direkt verwendet wurden und als kompatibel gelten.]]
 [[**Aber es ist nicht ausgeschlossen, dass auch andere Plugins funktionieren.**]]
 
 - [mkdocs-material](https://squidfunk.github.io/mkdocs-material){:target="_blank"}
 - [mkdocs-strings](https://mkdocstrings.github.io){:target="_blank"}
+- [mkdocs-glightbox](https://github.com/blueswen/mkdocs-glightbox){:target="_blank"}
 
 <!-- Abastz für inkludierte Plugins mit Danksagung -->
 
@@ -65,7 +66,7 @@ pip install mkdocs-material-langly
 
 ### [[Konfiguration des Plugins]]
 
-[[Nach der Installation können Sie das Plugin in Ihrer `mkdocs.yml`-Konfigurationsdatei aktivieren.]]
+[[Nach der Installation können Sie das Plugin in Ihrer `mkdocs.yml`-Konfigurationsdatei aktivieren. **Langly sollte dabei als letztes Plugin in der Liste stehen**.]]
 
 !!! info
     [[Es müssen keine sprachbezogenen Einstellungen am Material-Theme vorgenommen werden. Das bedeutet das die Optionen `theme>language` und `extra>alternate` durch das Plugin gesetzt werden.]]
@@ -77,6 +78,8 @@ site_url: https://<example>.com
 ..
 plugins:
   - search
+  - .
+  - .
   - langly:
       lang_switch: true
       source:
@@ -97,32 +100,32 @@ plugins:
 
 ### [[Verwendung des Plugins]]
 
-[[Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit `[[` und `]]` umschlossen sind. Diese `delimiter` werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.]] 
+[[Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit `{[{` und `}]}` umschlossen sind. Diese `delimiter` werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.]] 
 
 [[Gehen sie wie folgt vor, um Texte zu maskieren]]
 
-[[`[[`Ihr Text`]]`]]
+`{[{`[[Ihr Text]]`}]}`
 
-[[Der Text innerhalb der Maskierung wird dann von Langly übersetzt automatisch übersetzt.]]
+[[Der Text innerhalb der Maskierung wird dann von Langly automatisch übersetzt.]]
 
 ### [[Ein paar einfache Beispiele]]
 
 #### [[Satz]]
 
-[[`[[`Dieser Text repräsentiert Ihre Quellsprache`]]`]]
+`{[{`[[Dieser Text repräsentiert Ihre Quellsprache]]`}]}`
 
 #### [[Absatz]]
 
-[[`[[`Dieser Absatz enthält mehrere Sätze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere Übersetzung zu liefern.`]]`]]
+`{[{`[[Dieser Absatz enthält mehrere Sätze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere Übersetzung zu liefern.]]`}]}`
 #### [[Aufzählung mit Doppelpunkt]]
 
-- [[`[[`Aufzählung`]]`]]**:**[[`[[`Wert nach dem Doppelpunkt`]]`]]
+- `{[{`[[Aufzählung]]`}]}`**:**`{[{`[[Wert nach dem Doppelpunkt]]`}]}`
 
 ## Changelog und Features
 
 ### 0.1.2
 
-- [[Da kommt bald was ...]]
+- [[Da der Algorithmus die Zeichen `{[{` und `}]}` als Maskierung für übersetzbaren Text verwendet, können diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden `hints` verwendet, die nach der Übersetzung automatisch in `{[{` und `}]}` umgewandelt werden.]]
 
 ### 0.1.1 - Initial Release
   
@@ -136,7 +139,7 @@ plugins:
 - [[Fixe-Wörter in Code-Tags mit temporären HTML-Attributen erhalten.]]
 - [[Übersetzung der Navigation]]
 - [[Kopieren Sie die für gh-deploy erforderliche CNAME-Datei in das Stammverzeichnis des Build's.]]
-- [[Begrenzungszeichen (z.B. `[[` & `]]`) innerhalb einer Maskierung ignorieren.]]
+- [[*ERSETZT*]] - [[Begrenzungszeichen (z.B. `{[{` und `}]}`) innerhalb einer Maskierung ignorieren.]]
 
 ## [[Feedback und Unterstützung]]
 
