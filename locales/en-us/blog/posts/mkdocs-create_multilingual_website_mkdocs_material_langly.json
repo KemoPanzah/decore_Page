@@ -7,10 +7,6 @@
         "__active__": true,
         "en-us": "For anyone who wants to create a multilingual website, MkDocs in combination with the Material theme and the Langly plugin offers an excellent solution. This article describes in detail how you can create an international website or documentation project with MkDocs, Material and Langly. The guide covers preparing the project, installing MkDocs and Material and then translating the content with Langly. This step-by-step guide is aimed at users who want to create a multilingual web project."
     },
-    "Da sp\u00e4ter die Webseite oder Dokumentation im Internet (GH-Pages) ver\u00f6ffentlicht werden soll, wird ein GitHub-Repository ben\u00f6tigt. Man kann dieses \u00fcber die GitHub-Webseite erstellen, was sich empfiehlt, da so auch gleich eine <code>.gitignore</code>-Datei erstellt werden kann die f\u00fcr dieses HowTo auch zwingend ben\u00f6tigt wird.": {
-        "__active__": true,
-        "en-us": "As the website or documentation is to be published on the Internet (GH pages) later, a GitHub repository is required. This can be created via the GitHub website, which is recommended, as a <code>.gitignore</code> can be created at the same time, which is also absolutely necessary for this HowTo."
-    },
     "Im GitHub-Dashboard auf <code>New</code> klicken und schon geht der Spa\u00df los.": {
         "__active__": true,
         "en-us": "Click on <code>New</code> in the GitHub dashboard and the fun begins."
@@ -39,10 +35,6 @@
         "__active__": true,
         "en-us": "Prerequisites"
     },
-    "Los geht's": {
-        "__active__": true,
-        "en-us": "Let's go"
-    },
     "GitHub Repository erstellen": {
         "__active__": true,
         "en-us": "Create GitHub repository"
@@ -58,10 +50,6 @@
     "Ist Python auf dem System installiert und die PATH Variable gesetzt ist die Einrichtung des <code>venv</code> sehr einfach. Man dr\u00fcckt in VS Code eigentlich nur die <code>F1</code>-Taste und w\u00e4hlt <em>Python: Umgebung erstellen...</em> aus.": {
         "__active__": true,
         "en-us": "If Python is installed on the system and the PATH variable is set, setting up the <code>venv</code> is very simple. You just press the <code>F1</code> in VS Code and select <em>Python: Create environment...</em> from."
-    },
-    "Im folgenden Dialog w\u00e4hlt man <em>Venv</em> und danach den Interpreter Pfad der installierten oder bevorzugten Python-Version.": {
-        "__active__": true,
-        "en-us": "In the following dialog, select <em>Venv</em> and then the interpreter path of the installed or preferred Python version."
     },
     "Boom! Da ist ein <code>venv</code>.": {
         "__active__": true,
@@ -107,10 +95,6 @@
         "__active__": true,
         "en-us": "After all dependencies have been installed, we still need to create the project. To do this, the following command is executed in the terminal."
     },
-    "Jetzt folgt der Test.": {
-        "__active__": true,
-        "en-us": "Now comes the test."
-    },
     "Wenn alles geklappt hat, sollte im Browser unter <code>http://127.0.0.1:8000/</code> die MkDocs-Startseite erscheinen.": {
         "__active__": true,
         "en-us": "If everything went well, the MkDocs homepage should appear in the browser at <code>http://127.0.0.1:8000/</code>."
@@ -122,10 +106,6 @@
     "Um das Material-Theme zu installieren wird im Terminal folgender Befehl ausgef\u00fchrt.": {
         "__active__": true,
         "en-us": "To install the material theme, execute the following command in the terminal."
-    },
-    "Ein installiertes Python auf dem System und Visual Studio Code als Editor.": {
-        "__active__": true,
-        "en-us": "Python installed on the system and Visual Studio Code as an editor."
     },
     "Nach der Installation muss das Material-Theme noch in der <code>mkdocs.yml</code>-Konfigurationsdatei aktiviert werden. Dazu wird in der Datei folgender Eintrag hinzugef\u00fcgt.": {
         "__active__": true,
@@ -158,14 +138,6 @@
     "Jetzt wird der DeepL-Api-Key ben\u00f6tigt. Diesen erh\u00e4lt man, indem man ein DeepL-Free-Konto erstellt. Sobald der Api-Key generiert wurde, wird eine Datei mit dem Namen <code>auth_key.json</code> im Hauptverzeichnis des Projekts angelegt und der Api-Key dort eingetragen.": {
         "__active__": true,
         "en-us": "The DeepL API key is now required. This can be obtained by creating a DeepL free account. As soon as the api key has been generated, a file with the name <code>auth_key.json</code> is created in the main directory of the project and the api key is entered there."
-    },
-    "Bitte den Api-Key in der <code>.gitignore</code>-Datei ausschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet sch\u00fctzen.": {
-        "__active__": true,
-        "en-us": "Please exclude the api key in the <code>.gitignore</code> and protect it in every possible way before uploading it to the Internet."
-    },
-    "Um das zu erreichen wird eine neue Zeile mit folgendem Inhalt in der <code>.gitignore</code>-Datei hinzugef\u00fcgt.": {
-        "__active__": true,
-        "en-us": "To achieve this, a new line with the following content is added to the <code>.gitignore</code>."
     },
     "Diese sieht im Augenblick so aus.": {
         "__active__": true,
@@ -210,5 +182,69 @@
     "Jetzt sind wir im Grunde genommen bereit, mit der \u00dcbersetzung zu beginnen. Um dies zu erreichen, wird der zu \u00fcbersetzende Inhalt in den Markdown-Dateien einfach maskiert, und das Langly-Plugin \u00fcbernimmt den Rest. Die Maskierung erfolgt, indem der zu \u00fcbersetzende Text mit <code>{[</code> und <code>]}</code> umschlossen wird.": {
         "__active__": true,
         "en-us": "Now we are basically ready to start translating. To achieve this, the content to be translated in the Markdown files is simply masked and the Langly plugin takes care of the rest. The masking is done by enclosing the text to be translated with <code>{[</code> and <code>]}</code>."
+    },
+    "Jetzt folgt der Test. Dazu f\u00fchren wir den <code>serve</code>-Befehl erneut aus.": {
+        "__active__": true,
+        "en-us": "Now comes the test. To do this, we execute the <code>serve</code> again."
+    },
+    "Im folgenden Dialog w\u00e4hlt man <em>Venv</em> und danach den Interpreter-Pfad der installierten oder bevorzugten Python-Version.": {
+        "__active__": true,
+        "en-us": "In the following dialog, select <em>Venv</em> and then the interpreter path of the installed or preferred Python version."
+    },
+    "Fazit": {
+        "__active__": true,
+        "en-us": "Conclusion"
+    },
+    "Das war es auch schon. Viel Spa\u00df beim Erstellen Ihrer mehrsprachigen Webseite oder Dokumentation mit MkDocs, Material und Langly.": {
+        "__active__": true,
+        "en-us": "That's all there is to it. Have fun creating your multilingual website or documentation with MkDocs, Material and Langly."
+    },
+    "Viel Erfolg!": {
+        "__active__": true,
+        "en-us": "Good luck!"
+    },
+    "Bevor wir starten, m\u00f6chte ich Sie eindringlich bitten, den Punkt <strong>DeepL-Api-Key bereitstellen und sch\u00fctzen</strong> besonders zu beachten. Es ist wichtig, dass die Datei <code>auth_key.json</code> in der <code>.gitignore</code> ausgeschlossen wird, um den Api-Key zu sch\u00fctzen und die Sicherheit Ihrer Daten zu gew\u00e4hrleisten.": {
+        "__active__": true,
+        "en-us": "Before we start, I would like to urge you to pay special attention to the point <strong>DeepL-Api-Key provide and protect</strong>. It is important that the <code>auth_key.json</code> file in the <code>.gitignore</code> is excluded in order to protect the Api key and ensure the security of your data."
+    },
+    "Bitte den Api-Key in der <code>.gitignore</code> ausschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet sch\u00fctzen.": {
+        "__active__": true,
+        "en-us": "Please exclude the Api key in the <code>.gitignore</code> and protect it in every possible way from being uploaded to the Internet."
+    },
+    "Falls die automatische \u00dcbersetzung unzureichend ist oder bestimmte Zeichen oder Formatierungen nicht richtig \u00fcbersetzt wurden, besteht die M\u00f6glichkeit, die entsprechenden JSON-Dateien im Verzeichnis <code>locales</code> im Hauptverzeichnis des Projekts zu bearbeiten.": {
+        "__active__": true,
+        "en-us": "If the automatic translation is insufficient or certain characters or formatting have not been translated correctly, it is possible to edit the corresponding JSON files in the <code>locales</code> directory in the main directory of the project."
+    },
+    "Der Inhalt der <code>index.json</code> der deutschen Sprachvariante sieht jetzt so aus.": {
+        "__active__": true,
+        "en-us": "The content of the <code>index.json</code> of the German language version now looks like this."
+    },
+    "Solange der <code>serve</code>-Modus aktiviert ist, werden s\u00e4mtliche \u00dcbersetzungen als Entwurf angezeigt, um den Zugriff auf die \u00dcbersetzungs-Api zu reduzieren. Wenn <code>serve</code>, <code>build</code> oder <code>gh-dploy</code> erneut aufgerufen werden, werden die \u00dcbersetzungen fortgesetzt und die Entw\u00fcrfe entfernt.": {
+        "__active__": true,
+        "en-us": "As long as <code>serve</code> is activated, all translations are displayed as drafts in order to reduce access to the translation api. If <code>serve</code>, <code>build</code> or <code>gh-dploy</code> are called again, the translations are continued and the drafts are removed."
+    },
+    "Python und Git m\u00fcssen auf dem System installiert sein": {
+        "__active__": true,
+        "en-us": "Python and Git must be installed on the system"
+    },
+    "Visual Studio Code und die ben\u00f6tigten Erweiterungen f\u00fcr die Arbeit mit Python": {
+        "__active__": true,
+        "en-us": "Visual Studio Code and the required extensions for working with Python"
+    },
+    "Los geht\u2019s": {
+        "__active__": true,
+        "en-us": "Here we go"
+    },
+    "Da sp\u00e4ter die Webseite oder Dokumentation im Internet (GH-Pages) ver\u00f6ffentlicht werden soll, wird ein GitHub-Repository ben\u00f6tigt. Man kann dieses \u00fcber die GitHub-Webseite erstellen, was sich empfiehlt, da so auch gleich eine <code>.gitignore</code>-Datei erstellt werden kann, die f\u00fcr dieses HowTo auch zwingend ben\u00f6tigt wird.": {
+        "__active__": true,
+        "en-us": "As the website or documentation is to be published on the Internet (GH pages) later, a GitHub repository is required. You can create this via the GitHub website, which is recommended, as this also allows you to create a <code>.gitignore</code>, which is also absolutely necessary for this HowTo."
+    },
+    "Um das zu erreichen wird eine neue Zeile ans Ende der <code>.gitignore</code> hinzugef\u00fcgt. Da wir sie beim Erstellen des Repositorys bei GitHub bereits angelegt haben, kann sie jetzt einfach ge\u00f6ffnet und bearbeitet werden.": {
+        "__active__": true,
+        "en-us": "To achieve this, a new line is added to the end of the <code>.gitignore</code>. As we have already created it when creating the repository at GitHub, it can now be easily opened and edited."
+    },
+    "Ab diesem Punkt kann den Dokumentationen und HowTo\u2019s von MkDocs oder Material gefolgt werden, um Ihre Webseite weiter auszubauen. Das Langly-Plugin wird die \u00dcbersetzung der maskierten Texte automatisch \u00fcbernehmen.": {
+        "__active__": true,
+        "en-us": "From this point on, you can follow the documentation and HowTo's from MkDocs or Material to further expand your website. The Langly plugin will automatically translate the masked texts."
     }
 }

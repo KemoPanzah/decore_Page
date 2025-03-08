@@ -21,14 +21,18 @@ categories:
 [[Um dieser Anleitung hier zu folgen werden einige Voraussetzungen benötigt. Prinzipiell sind abweichende Wege möglich aber um alles so einfach wie möglich zu halten, werden die hier gezeigten Schritte in Visual Studio Code durchgeführt.]]
 
 - [x] [[Einen GitHub-Account um das Web-Projekt später zu veröffentlichen.]]
-- [x] [[Ein installiertes Python auf dem System und Visual Studio Code als Editor.]]
+- [x] [[Python und Git müssen auf dem System installiert sein]] 
+- [x] [[Visual Studio Code und die benötigten Erweiterungen für die Arbeit mit Python]]
 - [x] [[Einen DeepL-Free oder höherwertigen Account.]]
 
-## [[Los geht's]]
+## [[Los geht’s]]
+
+!!!warning
+    [[Bevor wir starten, möchte ich Sie eindringlich bitten, den Punkt **DeepL-Api-Key bereitstellen und schützen** besonders zu beachten. Es ist wichtig, dass die Datei `auth_key.json` in der `.gitignore` ausgeschlossen wird, um den Api-Key zu schützen und die Sicherheit Ihrer Daten zu gewährleisten.]]
 
 ### [[GitHub Repository erstellen]]
 
-[[Da später die Webseite oder Dokumentation im Internet (GH-Pages) veröffentlicht werden soll, wird ein GitHub-Repository benötigt. Man kann dieses über die GitHub-Webseite erstellen, was sich empfiehlt, da so auch gleich eine `.gitignore`-Datei erstellt werden kann die für dieses HowTo auch zwingend benötigt wird.]]
+[[Da später die Webseite oder Dokumentation im Internet (GH-Pages) veröffentlicht werden soll, wird ein GitHub-Repository benötigt. Man kann dieses über die GitHub-Webseite erstellen, was sich empfiehlt, da so auch gleich eine `.gitignore`-Datei erstellt werden kann, die für dieses HowTo auch zwingend benötigt wird.]]
 
 [[Im GitHub-Dashboard auf `New` klicken und schon geht der Spaß los.]]
 
@@ -46,7 +50,7 @@ categories:
 
 [[Ist Python auf dem System installiert und die PATH Variable gesetzt ist die Einrichtung des `venv` sehr einfach. Man drückt in VS Code eigentlich nur die `F1`-Taste und wählt *Python: Umgebung erstellen...* aus.]]
 
-[[Im folgenden Dialog wählt man *Venv* und danach den Interpreter Pfad der installierten oder bevorzugten Python-Version.]]
+[[Im folgenden Dialog wählt man *Venv* und danach den Interpreter-Pfad der installierten oder bevorzugten Python-Version.]]
 
 [[Boom! Da ist ein `venv`.]]
 
@@ -74,7 +78,7 @@ pip install mkdocs
 mkdocs new .
 ```
 
-[[Jetzt folgt der Test.]]
+[[Jetzt folgt der Test. Dazu führen wir den `serve`-Befehl erneut aus.]]
 
 ```bash
 mkdocs serve
@@ -148,9 +152,9 @@ plugins:
 }
 ```
 !!!warning
-    [[Bitte den Api-Key in der `.gitignore`-Datei ausschließen und auch auf jede erdenkliche Weise vor dem Upload ins Internet schützen.]]
+    [[Bitte den Api-Key in der `.gitignore` ausschließen und auch auf jede erdenkliche Weise vor dem Upload ins Internet schützen.]]
 
-[[Um das zu erreichen wird eine neue Zeile mit folgendem Inhalt in der `.gitignore`-Datei hinzugefügt.]]
+[[Um das zu erreichen wird eine neue Zeile ans Ende der `.gitignore` hinzugefügt. Da wir sie beim Erstellen des Repositorys bei GitHub bereits angelegt haben, kann sie jetzt einfach geöffnet und bearbeitet werden.]]
 
 ```bash
 auth_key.json
@@ -210,11 +214,13 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 [[Bei der nächsten Ausführung von `mkdocs serve` werden alle maskierten Texte automatisch übersetzt, die Delimiter entfernt und die Quell- sowie Zielsprache korrekt auf der Seite angezeigt. Das Sprachmenü ermöglicht es dann, zu den einzelnen Sprachversionen zu navigieren.]]
 
+[[Solange der `serve`-Modus aktiviert ist, werden sämtliche Übersetzungen als Entwurf angezeigt, um den Zugriff auf die Übersetzungs-Api zu reduzieren. Wenn `serve`, `build` oder `gh-dploy` erneut aufgerufen werden, werden die Übersetzungen fortgesetzt und die Entwürfe entfernt.]]
+
 ### [[Übersetzung manuell verfeinern]]
 
-Falls die automatische Übersetzung unzureichend ist oder bestimmte Zeichen oder Formatierungen nicht richtig übersetzt wurden, besteht die Möglichkeit, die entsprechenden JSON-Dateien im Verzeichnis `locales` im Hauptverzeichnis des Projekts zu bearbeiten.
+[[Falls die automatische Übersetzung unzureichend ist oder bestimmte Zeichen oder Formatierungen nicht richtig übersetzt wurden, besteht die Möglichkeit, die entsprechenden JSON-Dateien im Verzeichnis `locales` im Hauptverzeichnis des Projekts zu bearbeiten.]]
 
-Der Inhalt der `index.json` der deutschen Sprachvariante sieht jetzt so aus.
+[[Der Inhalt der `index.json` der deutschen Sprachvariante sieht jetzt so aus.]]
 
 ```json
 {
@@ -264,3 +270,11 @@ Der Inhalt der `index.json` der deutschen Sprachvariante sieht jetzt so aus.
 [[Jeder Datensatz beinhaltet den Sprachschlüssel als Attributnamen, während der übersetzte Text im untergeordneten Attribut `de` als Wert dargestellt wird. Solange der Sprachschlüssel konstant bleibt, wird Langly immer den Text des `de`-Attributs in diesem Beispiel nutzen. Sollte der Sprachschlüssel versehentlich verändert werden, kann Langly die Zuordnung nicht mehr korrekt durchführen, was dazu führt, dass die Übersetzung erneut vorgenommen wird und der manipulierte Datensatz entfernt wird.]]
 
 [[Das `__active__`-Attribut wird von Langly genutzt, um festzustellen, ob der Datensatz weiterhin benötigt wird, und entfernt ihn bei der nächsten Ausführung.]]
+
+## [[Fazit]]
+
+[[Ab diesem Punkt kann den Dokumentationen und HowTo’s von MkDocs oder Material gefolgt werden, um Ihre Webseite weiter auszubauen. Das Langly-Plugin wird die Übersetzung der maskierten Texte automatisch übernehmen.]]
+
+[[Das war es auch schon. Viel Spaß beim Erstellen Ihrer mehrsprachigen Webseite oder Dokumentation mit MkDocs, Material und Langly.]]
+
+[[Viel Erfolg!]]
