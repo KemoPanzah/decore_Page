@@ -1,6 +1,214 @@
 {
-    "<code>und</code>": {
+    "Wie erstellt man ein mehrsprachiges Webseiten- oder Dokumentations-Projekt mit MkDocs, Material, und Langly?": {
         "__active__": true,
-        "de": "<code>und</code>"
+        "de": "Wie erstellt man ein mehrsprachiges Webseiten- oder Dokumentations-Projekt mit MkDocs, Material, und Langly?"
+    },
+    "F\u00fcr alle, die eine mehrsprachige Webseite erstellen m\u00f6chten, bietet MkDocs in Kombination mit dem Material-Theme und dem Langly-Plugin eine hervorragende L\u00f6sung. In diesem Beitrag wird detailliert beschrieben, wie Sie eine internationale Webseite oder ein Dokumentationsprojekt mit MkDocs, Material und Langly erstellen k\u00f6nnen. Die Anleitung umfasst die Vorbereitung des Projekts, die Installation von MkDocs und Material sowie die anschlie\u00dfende \u00dcbersetzung der Inhalte mit Langly. Diese Schritt-f\u00fcr-Schritt-Anleitung richtet sich an Benutzer, die ein mehrsprachiges Web-Projekt erstellen m\u00f6chten.": {
+        "__active__": true,
+        "de": "F\u00fcr alle, die eine mehrsprachige Webseite erstellen m\u00f6chten, bietet MkDocs in Kombination mit dem Material-Theme und dem Langly-Plugin eine hervorragende L\u00f6sung. In diesem Beitrag wird detailliert beschrieben, wie Sie eine internationale Webseite oder ein Dokumentationsprojekt mit MkDocs, Material und Langly erstellen k\u00f6nnen. Die Anleitung umfasst die Vorbereitung des Projekts, die Installation von MkDocs und Material sowie die anschlie\u00dfende \u00dcbersetzung der Inhalte mit Langly. Diese Schritt-f\u00fcr-Schritt-Anleitung richtet sich an Benutzer, die ein mehrsprachiges Web-Projekt erstellen m\u00f6chten."
+    },
+    "Da sp\u00e4ter die Webseite oder Dokumentation im Internet (GH-Pages) ver\u00f6ffentlicht werden soll, wird ein GitHub-Repository ben\u00f6tigt. Man kann dieses \u00fcber die GitHub-Webseite erstellen, was sich empfiehlt, da so auch gleich eine <code>.gitignore</code>-Datei erstellt werden kann die f\u00fcr dieses HowTo auch zwingend ben\u00f6tigt wird.": {
+        "__active__": true,
+        "de": "Da sp\u00e4ter die Webseite oder Dokumentation im Internet (GH-Pages) ver\u00f6ffentlicht werden soll, wird ein GitHub-Repository ben\u00f6tigt. Man kann dieses \u00fcber die GitHub-Webseite erstellen, was sich empfiehlt, da so auch gleich eine <code>.gitignore</code>-Datei erstellt werden kann die f\u00fcr dieses HowTo auch zwingend ben\u00f6tigt wird."
+    },
+    "Im GitHub-Dashboard auf <code>New</code> klicken und schon geht der Spa\u00df los.": {
+        "__active__": true,
+        "de": "Im GitHub-Dashboard auf <code>New</code> klicken und schon geht der Spa\u00df los."
+    },
+    "Einen beliebigen <code>Repository-Name</code> eingeben.": {
+        "__active__": true,
+        "de": "Einen beliebigen <code>Repository-Name</code> eingeben."
+    },
+    "Unter <code>Add .gitignore</code> bitte Python ausw\u00e4hlen.": {
+        "__active__": true,
+        "de": "Unter <code>Add .gitignore</code> bitte Python ausw\u00e4hlen."
+    },
+    "Und auf <code>Create Repository</code> klicken.": {
+        "__active__": true,
+        "de": "Und auf <code>Create Repository</code> klicken."
+    },
+    "Alle weiteren Felder sind f\u00fcr dieses Beispiel optional aber sollten nat\u00fcrlich auf die eigenen Bed\u00fcrfnisse angepasst werden.": {
+        "__active__": true,
+        "de": "Alle weiteren Felder sind f\u00fcr dieses Beispiel optional aber sollten nat\u00fcrlich auf die eigenen Bed\u00fcrfnisse angepasst werden."
+    },
+    "Um das zuvor angelegte Repository zu klonen, navigiert man in VS Code zur <em>Quellcodeverwaltung</em> und dann auf <em>Repository klonen</em>. Nach dem Ausw\u00e4hlen des Repository mit dem zuvor bei GitHub erstellten Namen, wird das Repository in das gew\u00e4hlte Arbeitsverzeichnis geklont.": {
+        "__active__": true,
+        "de": "Um das zuvor angelegte Repository zu klonen, navigiert man in VS Code zur <em>Quellcodeverwaltung</em> und dann auf <em>Repository klonen</em>. Nach dem Ausw\u00e4hlen des Repository mit dem zuvor bei GitHub erstellten Namen, wird das Repository in das gew\u00e4hlte Arbeitsverzeichnis geklont."
+    },
+    "Voraussetzungen": {
+        "__active__": true,
+        "de": "Voraussetzungen"
+    },
+    "Los geht's": {
+        "__active__": true,
+        "de": "Los geht's"
+    },
+    "GitHub Repository erstellen": {
+        "__active__": true,
+        "de": "GitHub Repository erstellen"
+    },
+    "Repository klonen": {
+        "__active__": true,
+        "de": "Repository klonen"
+    },
+    "Virtuelles Python-Environment einrichten": {
+        "__active__": true,
+        "de": "Virtuelles Python-Environment einrichten"
+    },
+    "Ist Python auf dem System installiert und die PATH Variable gesetzt ist die Einrichtung des <code>venv</code> sehr einfach. Man dr\u00fcckt in VS Code eigentlich nur die <code>F1</code>-Taste und w\u00e4hlt <em>Python: Umgebung erstellen...</em> aus.": {
+        "__active__": true,
+        "de": "Ist Python auf dem System installiert und die PATH Variable gesetzt ist die Einrichtung des <code>venv</code> sehr einfach. Man dr\u00fcckt in VS Code eigentlich nur die <code>F1</code>-Taste und w\u00e4hlt <em>Python: Umgebung erstellen...</em> aus."
+    },
+    "Im folgenden Dialog w\u00e4hlt man <em>Venv</em> und danach den Interpreter Pfad der installierten oder bevorzugten Python-Version.": {
+        "__active__": true,
+        "de": "Im folgenden Dialog w\u00e4hlt man <em>Venv</em> und danach den Interpreter Pfad der installierten oder bevorzugten Python-Version."
+    },
+    "Boom! Da ist ein <code>venv</code>.": {
+        "__active__": true,
+        "de": "Boom! Da ist ein <code>venv</code>."
+    },
+    "Regul\u00e4r aktiviert Visual Studio Code das <code>venv</code> dann auch automatisch, wenn eine Python-Datei ge\u00f6ffnet wird aber in unserem Fall wird das <code>venv</code> erst einmal f\u00fcr die Installation von MkDocs und Material ben\u00f6tigt und es existiert keine Python-Datei im Projekt-Verzeichnis.": {
+        "__active__": true,
+        "de": "Regul\u00e4r aktiviert Visual Studio Code das <code>venv</code> dann auch automatisch, wenn eine Python-Datei ge\u00f6ffnet wird aber in unserem Fall wird das <code>venv</code> erst einmal f\u00fcr die Installation von MkDocs und Material ben\u00f6tigt und es existiert keine Python-Datei im Projekt-Verzeichnis."
+    },
+    "Also navigiert man \u00fcber das integrierte Terminal im Projekt-Stammverzeichnis in das <code>.venv</code>-Verzeichnis und danach in das <code>Scripts</code>-Verzeichnis und f\u00fchrt dort <code>activate</code>aus.": {
+        "__active__": true,
+        "de": "Also navigiert man \u00fcber das integrierte Terminal im Projekt-Stammverzeichnis in das <code>.venv</code>-Verzeichnis und danach in das <code>Scripts</code>-Verzeichnis und f\u00fchrt dort <code>activate</code>aus."
+    },
+    "Es sollte nun ein <code>(.venv)</code> vor dem Pfad im Terminal erscheinen.": {
+        "__active__": true,
+        "de": "Es sollte nun ein <code>(.venv)</code> vor dem Pfad im Terminal erscheinen."
+    },
+    "Weitere und detailliertere Informationen dazu gibt es auf dieser Webseite": {
+        "__active__": true,
+        "de": "Weitere und detailliertere Informationen dazu gibt es auf dieser Webseite"
+    },
+    "Um dieser Anleitung hier zu folgen werden einige Voraussetzungen ben\u00f6tigt. Prinzipiell sind abweichende Wege m\u00f6glich aber um alles so einfach wie m\u00f6glich zu halten, werden die hier gezeigten Schritte in Visual Studio Code durchgef\u00fchrt.": {
+        "__active__": true,
+        "de": "Um dieser Anleitung hier zu folgen werden einige Voraussetzungen ben\u00f6tigt. Prinzipiell sind abweichende Wege m\u00f6glich aber um alles so einfach wie m\u00f6glich zu halten, werden die hier gezeigten Schritte in Visual Studio Code durchgef\u00fchrt."
+    },
+    "Einen GitHub-Account um das Web-Projekt sp\u00e4ter zu ver\u00f6ffentlichen.": {
+        "__active__": true,
+        "de": "Einen GitHub-Account um das Web-Projekt sp\u00e4ter zu ver\u00f6ffentlichen."
+    },
+    "Einen DeepL-Free oder h\u00f6herwertigen Account.": {
+        "__active__": true,
+        "de": "Einen DeepL-Free oder h\u00f6herwertigen Account."
+    },
+    "MkDocs einrichten": {
+        "__active__": true,
+        "de": "MkDocs einrichten"
+    },
+    "Um MkDocs zu installieren wird im Terminal folgender Befehl ausgef\u00fchrt.": {
+        "__active__": true,
+        "de": "Um MkDocs zu installieren wird im Terminal folgender Befehl ausgef\u00fchrt."
+    },
+    "Nach dem alle Abh\u00e4ngigkeiten installiert wurden, m\u00fcssen wir das Projekt noch erstellen. Dazu wird im Terminal folgender Befehl ausgef\u00fchrt.": {
+        "__active__": true,
+        "de": "Nach dem alle Abh\u00e4ngigkeiten installiert wurden, m\u00fcssen wir das Projekt noch erstellen. Dazu wird im Terminal folgender Befehl ausgef\u00fchrt."
+    },
+    "Jetzt folgt der Test.": {
+        "__active__": true,
+        "de": "Jetzt folgt der Test."
+    },
+    "Wenn alles geklappt hat, sollte im Browser unter <code>http://127.0.0.1:8000/</code> die MkDocs-Startseite erscheinen.": {
+        "__active__": true,
+        "de": "Wenn alles geklappt hat, sollte im Browser unter <code>http://127.0.0.1:8000/</code> die MkDocs-Startseite erscheinen."
+    },
+    "Material-Theme einrichten": {
+        "__active__": true,
+        "de": "Material-Theme einrichten"
+    },
+    "Um das Material-Theme zu installieren wird im Terminal folgender Befehl ausgef\u00fchrt.": {
+        "__active__": true,
+        "de": "Um das Material-Theme zu installieren wird im Terminal folgender Befehl ausgef\u00fchrt."
+    },
+    "Ein installiertes Python auf dem System und Visual Studio Code als Editor.": {
+        "__active__": true,
+        "de": "Ein installiertes Python auf dem System und Visual Studio Code als Editor."
+    },
+    "Nach der Installation muss das Material-Theme noch in der <code>mkdocs.yml</code>-Konfigurationsdatei aktiviert werden. Dazu wird in der Datei folgender Eintrag hinzugef\u00fcgt.": {
+        "__active__": true,
+        "de": "Nach der Installation muss das Material-Theme noch in der <code>mkdocs.yml</code>-Konfigurationsdatei aktiviert werden. Dazu wird in der Datei folgender Eintrag hinzugef\u00fcgt."
+    },
+    "Beim n\u00e4chsten <code>mkdocs serve</code> sollte dann auch das Material-Theme aktiviert sein.": {
+        "__active__": true,
+        "de": "Beim n\u00e4chsten <code>mkdocs serve</code> sollte dann auch das Material-Theme aktiviert sein."
+    },
+    "Langly-Plugin einrichten": {
+        "__active__": true,
+        "de": "Langly-Plugin einrichten"
+    },
+    "Jetzt wird noch das Langly-Plugin installiert. Dazu wird im Terminal folgender Befehl ausgef\u00fchrt.": {
+        "__active__": true,
+        "de": "Jetzt wird noch das Langly-Plugin installiert. Dazu wird im Terminal folgender Befehl ausgef\u00fchrt."
+    },
+    "Nach der Installation muss das Langly-Plugin in der <code>mkdocs.yml</code>-Konfigurationsdatei aktiviert und eingerichtet werden. Hierf\u00fcr sind die Werte <code>source</code> und <code>targets</code> mit den gew\u00fcnschten Sprachen auszuf\u00fcllen. Die Quellsprache ist die Sprache, in der die Webseite oder Dokumentation erstellt wird, w\u00e4hrend die Zielsprachen die Sprachen sind, in die die Webseite oder Dokumentation \u00fcbersetzt werden soll.": {
+        "__active__": true,
+        "de": "Nach der Installation muss das Langly-Plugin in der <code>mkdocs.yml</code>-Konfigurationsdatei aktiviert und eingerichtet werden. Hierf\u00fcr sind die Werte <code>source</code> und <code>targets</code> mit den gew\u00fcnschten Sprachen auszuf\u00fcllen. Die Quellsprache ist die Sprache, in der die Webseite oder Dokumentation erstellt wird, w\u00e4hrend die Zielsprachen die Sprachen sind, in die die Webseite oder Dokumentation \u00fcbersetzt werden soll."
+    },
+    "Wichtig ist, dass das Langly-Plugin in der Reihenfolge der Plugins als <strong>letztes</strong> aufgef\u00fchrt wird.": {
+        "__active__": true,
+        "de": "Wichtig ist, dass das Langly-Plugin in der Reihenfolge der Plugins als <strong>letztes</strong> aufgef\u00fchrt wird."
+    },
+    "Die hier gew\u00e4hlten Sprachen sind nur Beispielhaft und k\u00f6nnen selbstverst\u00e4ndliche auf das eigene Vorhaben angepasst werden.": {
+        "__active__": true,
+        "de": "Die hier gew\u00e4hlten Sprachen sind nur Beispielhaft und k\u00f6nnen selbstverst\u00e4ndliche auf das eigene Vorhaben angepasst werden."
+    },
+    "Jetzt wird der DeepL-Api-Key ben\u00f6tigt. Diesen erh\u00e4lt man, indem man ein DeepL-Free-Konto erstellt. Sobald der Api-Key generiert wurde, wird eine Datei mit dem Namen <code>auth_key.json</code> im Hauptverzeichnis des Projekts angelegt und der Api-Key dort eingetragen.": {
+        "__active__": true,
+        "de": "Jetzt wird der DeepL-Api-Key ben\u00f6tigt. Diesen erh\u00e4lt man, indem man ein DeepL-Free-Konto erstellt. Sobald der Api-Key generiert wurde, wird eine Datei mit dem Namen <code>auth_key.json</code> im Hauptverzeichnis des Projekts angelegt und der Api-Key dort eingetragen."
+    },
+    "Bitte den Api-Key in der <code>.gitignore</code>-Datei ausschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet sch\u00fctzen.": {
+        "__active__": true,
+        "de": "Bitte den Api-Key in der <code>.gitignore</code>-Datei ausschlie\u00dfen und auch auf jede erdenkliche Weise vor dem Upload ins Internet sch\u00fctzen."
+    },
+    "Um das zu erreichen wird eine neue Zeile mit folgendem Inhalt in der <code>.gitignore</code>-Datei hinzugef\u00fcgt.": {
+        "__active__": true,
+        "de": "Um das zu erreichen wird eine neue Zeile mit folgendem Inhalt in der <code>.gitignore</code>-Datei hinzugef\u00fcgt."
+    },
+    "Diese sieht im Augenblick so aus.": {
+        "__active__": true,
+        "de": "Diese sieht im Augenblick so aus."
+    },
+    "In unserem Beispiel w\u00e4re dies dann am sinnvollsten.": {
+        "__active__": true,
+        "de": "In unserem Beispiel w\u00e4re dies dann am sinnvollsten."
+    },
+    "Bei der n\u00e4chsten Ausf\u00fchrung von <code>mkdocs serve</code> werden alle maskierten Texte automatisch \u00fcbersetzt, die Delimiter entfernt und die Quell- sowie Zielsprache korrekt auf der Seite angezeigt. Das Sprachmen\u00fc erm\u00f6glicht es dann, zu den einzelnen Sprachversionen zu navigieren.": {
+        "__active__": true,
+        "de": "Bei der n\u00e4chsten Ausf\u00fchrung von <code>mkdocs serve</code> werden alle maskierten Texte automatisch \u00fcbersetzt, die Delimiter entfernt und die Quell- sowie Zielsprache korrekt auf der Seite angezeigt. Das Sprachmen\u00fc erm\u00f6glicht es dann, zu den einzelnen Sprachversionen zu navigieren."
+    },
+    "\u00dcbersetzung starten": {
+        "__active__": true,
+        "de": "\u00dcbersetzung starten"
+    },
+    "DeepL-Api-Key bereitstellen und sch\u00fctzen": {
+        "__active__": true,
+        "de": "DeepL-Api-Key bereitstellen und sch\u00fctzen"
+    },
+    "\u00dcbersetzung manuell verfeinern": {
+        "__active__": true,
+        "de": "\u00dcbersetzung manuell verfeinern"
+    },
+    "Probieren wir es einfach an der <code>index.md</code>-Datei aus, die sich im <code>docs</code> Verzeichnis im Projekt befindet.": {
+        "__active__": true,
+        "de": "Probieren wir es einfach an der <code>index.md</code>-Datei aus, die sich im <code>docs</code> Verzeichnis im Projekt befindet."
+    },
+    "Eine einfache Maskierung ist v\u00f6llig ausreichend. Fokussieren Sie sich auf die spezifischen Texte, die \u00fcbersetzt werden m\u00fcssen, und vermeiden Sie \u00fcberm\u00e4\u00dfige Maskierung. Das bedeutet, dass Sie lediglich die relevanten Textteile mit den Maskierungszeichen <code>{[</code> und <code>]}</code> umschlie\u00dfen sollten, um eine pr\u00e4zisere \u00dcbersetzung zu erm\u00f6glichen. Bei mehreren S\u00e4tzen sollte selbstverst\u00e4ndlich der gesamte Abschnitt maskiert werden, damit DeepL den Kontext besser erfassen kann.": {
+        "__active__": true,
+        "de": "Eine einfache Maskierung ist v\u00f6llig ausreichend. Fokussieren Sie sich auf die spezifischen Texte, die \u00fcbersetzt werden m\u00fcssen, und vermeiden Sie \u00fcberm\u00e4\u00dfige Maskierung. Das bedeutet, dass Sie lediglich die relevanten Textteile mit den Maskierungszeichen <code>{[</code> und <code>]}</code> umschlie\u00dfen sollten, um eine pr\u00e4zisere \u00dcbersetzung zu erm\u00f6glichen. Bei mehreren S\u00e4tzen sollte selbstverst\u00e4ndlich der gesamte Abschnitt maskiert werden, damit DeepL den Kontext besser erfassen kann."
+    },
+    "Jeder Datensatz beinhaltet den Sprachschl\u00fcssel als Attributnamen, w\u00e4hrend der \u00fcbersetzte Text im untergeordneten Attribut <code>de</code> als Wert dargestellt wird. Solange der Sprachschl\u00fcssel konstant bleibt, wird Langly immer den Text des <code>de</code>-Attributs in diesem Beispiel nutzen. Sollte der Sprachschl\u00fcssel versehentlich ver\u00e4ndert werden, kann Langly die Zuordnung nicht mehr korrekt durchf\u00fchren, was dazu f\u00fchrt, dass die \u00dcbersetzung erneut vorgenommen wird und der manipulierte Datensatz entfernt wird.": {
+        "__active__": true,
+        "de": "Jeder Datensatz beinhaltet den Sprachschl\u00fcssel als Attributnamen, w\u00e4hrend der \u00fcbersetzte Text im untergeordneten Attribut <code>de</code> als Wert dargestellt wird. Solange der Sprachschl\u00fcssel konstant bleibt, wird Langly immer den Text des <code>de</code>-Attributs in diesem Beispiel nutzen. Sollte der Sprachschl\u00fcssel versehentlich ver\u00e4ndert werden, kann Langly die Zuordnung nicht mehr korrekt durchf\u00fchren, was dazu f\u00fchrt, dass die \u00dcbersetzung erneut vorgenommen wird und der manipulierte Datensatz entfernt wird."
+    },
+    "Das <code>__active__</code>-Attribut wird von Langly genutzt, um festzustellen, ob der Datensatz weiterhin ben\u00f6tigt wird, und entfernt ihn bei der n\u00e4chsten Ausf\u00fchrung.": {
+        "__active__": true,
+        "de": "Das <code>__active__</code>-Attribut wird von Langly genutzt, um festzustellen, ob der Datensatz weiterhin ben\u00f6tigt wird, und entfernt ihn bei der n\u00e4chsten Ausf\u00fchrung."
+    },
+    "Jetzt sind wir im Grunde genommen bereit, mit der \u00dcbersetzung zu beginnen. Um dies zu erreichen, wird der zu \u00fcbersetzende Inhalt in den Markdown-Dateien einfach maskiert, und das Langly-Plugin \u00fcbernimmt den Rest. Die Maskierung erfolgt, indem der zu \u00fcbersetzende Text mit <code>{[</code> und <code>]}</code> umschlossen wird.": {
+        "__active__": true,
+        "de": "Jetzt sind wir im Grunde genommen bereit, mit der \u00dcbersetzung zu beginnen. Um dies zu erreichen, wird der zu \u00fcbersetzende Inhalt in den Markdown-Dateien einfach maskiert, und das Langly-Plugin \u00fcbernimmt den Rest. Die Maskierung erfolgt, indem der zu \u00fcbersetzende Text mit <code>{[</code> und <code>]}</code> umschlossen wird."
     }
 }

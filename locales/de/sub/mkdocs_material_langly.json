@@ -195,18 +195,6 @@
         "__active__": true,
         "de": "<em>ERSETZT</em>"
     },
-    "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>{[{</code> und <code>}]}</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.": {
-        "__active__": true,
-        "de": "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>{[{</code> und <code>}]}</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt."
-    },
-    "Da der Algorithmus die Zeichen <code>{[{</code> und <code>}]}</code> als Maskierung f\u00fcr \u00fcbersetzbaren Text verwendet, k\u00f6nnen diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der \u00dcbersetzung automatisch in <code>{[{</code> und <code>}]}</code> umgewandelt werden.": {
-        "__active__": true,
-        "de": "Da der Algorithmus die Zeichen <code>{[{</code> und <code>}]}</code> als Maskierung f\u00fcr \u00fcbersetzbaren Text verwendet, k\u00f6nnen diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der \u00dcbersetzung automatisch in <code>{[{</code> und <code>}]}</code> umgewandelt werden."
-    },
-    "Begrenzungszeichen (z.B. <code>{[{</code> und <code>}]}</code>) innerhalb einer Maskierung ignorieren.": {
-        "__active__": true,
-        "de": "Begrenzungszeichen (z.B. <code>{[{</code> und <code>}]}</code>) innerhalb einer Maskierung ignorieren."
-    },
     "Aufz\u00e4hlung": {
         "__active__": true,
         "de": "Aufz\u00e4hlung"
@@ -226,5 +214,17 @@
     "Ihr Text": {
         "__active__": true,
         "de": "Ihr Text"
+    },
+    "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>{[</code> und <code>]}</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.": {
+        "__active__": true,
+        "de": "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>{[</code> und <code>]}</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt."
+    },
+    "Da der Algorithmus die Zeichen <code>{[</code> und <code>]}</code> als Maskierung f\u00fcr \u00fcbersetzbaren Text verwendet, k\u00f6nnen diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der \u00dcbersetzung automatisch in <code>{[</code> und <code>]}</code> umgewandelt werden.": {
+        "__active__": true,
+        "de": "Da der Algorithmus die Zeichen <code>{[</code> und <code>]}</code> als Maskierung f\u00fcr \u00fcbersetzbaren Text verwendet, k\u00f6nnen diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der \u00dcbersetzung automatisch in <code>{[</code> und <code>]}</code> umgewandelt werden."
+    },
+    "Begrenzungszeichen (z.B. <code>{[</code> und <code>]}</code>) innerhalb einer Maskierung ignorieren.": {
+        "__active__": true,
+        "de": "Begrenzungszeichen (z.B. <code>{[</code> und <code>]}</code>) innerhalb einer Maskierung ignorieren."
     }
 }

@@ -111,10 +111,6 @@
         "__active__": true,
         "en-us": "Using the plugin"
     },
-    "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>{[{</code> und <code>}]}</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.": {
-        "__active__": true,
-        "en-us": "The plugin analyzes Markdown texts and evaluates masked text passages that are enclosed with <code>{[{</code> and <code>}]}</code>. These <code>delimiter</code> are removed when the page is rendered and the source and target language are displayed correctly on your page."
-    },
     "Gehen sie wie folgt vor, um Texte zu maskieren": {
         "__active__": true,
         "en-us": "Proceed as follows to mask texts"
@@ -138,10 +134,6 @@
     "Aufz\u00e4hlung mit Doppelpunkt": {
         "__active__": true,
         "en-us": "Enumeration with colon"
-    },
-    "Da der Algorithmus die Zeichen <code>{[{</code> und <code>}]}</code> als Maskierung f\u00fcr \u00fcbersetzbaren Text verwendet, k\u00f6nnen diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der \u00dcbersetzung automatisch in <code>{[{</code> und <code>}]}</code> umgewandelt werden.": {
-        "__active__": true,
-        "en-us": "As the algorithm uses the characters <code>{[{</code> and <code>}]}</code> as masking for translatable text, these characters cannot be documented directly in the text. Instead, <code>hints</code> are used, which are automatically converted to <code>{[{</code> and <code>}]}</code> after translation."
     },
     "Einf\u00fcgen einer \"index.html\" mit Umleitung zur Zielsprache nach Browsersprache.": {
         "__active__": true,
@@ -187,10 +179,6 @@
         "__active__": true,
         "en-us": "<em>REPLACED</em>"
     },
-    "Begrenzungszeichen (z.B. <code>{[{</code> und <code>}]}</code>) innerhalb einer Maskierung ignorieren.": {
-        "__active__": true,
-        "en-us": "Ignore delimiters (e.g. <code>{[{</code> and <code>}]}</code>) within a masking."
-    },
     "Feedback und Unterst\u00fctzung": {
         "__active__": true,
         "en-us": "Feedback and support"
@@ -226,5 +214,17 @@
     "Ihr Text": {
         "__active__": true,
         "en-us": "Your text"
+    },
+    "Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit <code>{[</code> und <code>]}</code> umschlossen sind. Diese <code>delimiter</code> werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.": {
+        "__active__": true,
+        "en-us": "The plugin analyzes Markdown texts and evaluates masked text passages that are enclosed with <code>{[</code> and <code>]}</code>. These <code>delimiter</code> are removed when the page is rendered and the source and target language are displayed correctly on your page."
+    },
+    "Da der Algorithmus die Zeichen <code>{[</code> und <code>]}</code> als Maskierung f\u00fcr \u00fcbersetzbaren Text verwendet, k\u00f6nnen diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der \u00dcbersetzung automatisch in <code>{[</code> und <code>]}</code> umgewandelt werden.": {
+        "__active__": true,
+        "en-us": "As the algorithm uses the characters <code>{[</code> and <code>]}</code> as masking for translatable text, these characters cannot be documented directly in the text. Instead, <code>hints</code> are used, which are automatically converted to <code>{[</code> and <code>]}</code> after translation."
+    },
+    "Begrenzungszeichen (z.B. <code>{[</code> und <code>]}</code>) innerhalb einer Maskierung ignorieren.": {
+        "__active__": true,
+        "en-us": "Ignore delimiters (e.g. <code>{[</code> and <code>]}</code>) within a masking."
     }
 }

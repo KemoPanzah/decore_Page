@@ -100,11 +100,11 @@ plugins:
 
 ### [[Verwendung des Plugins]]
 
-[[Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit `{[{` und `}]}` umschlossen sind. Diese `delimiter` werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.]] 
+[[Das Plugin analysiert Markdown-Texte und wertet maskierte Textpassagen aus, die mit `{[` und `]}` umschlossen sind. Diese `delimiter` werden beim Rendern der Seite entfernt und Quell sowie Zielsprache werden korrekt auf Ihrer Seite dargestellt.]] 
 
 [[Gehen sie wie folgt vor, um Texte zu maskieren]]
 
-`{[{`[[Ihr Text]]`}]}`
+`{[`[[Ihr Text]]`]}`
 
 [[Der Text innerhalb der Maskierung wird dann von Langly automatisch übersetzt.]]
 
@@ -112,20 +112,20 @@ plugins:
 
 #### [[Satz]]
 
-`{[{`[[Dieser Text repräsentiert Ihre Quellsprache]]`}]}`
+`{[`[[Dieser Text repräsentiert Ihre Quellsprache]]`]}`
 
 #### [[Absatz]]
 
-`{[{`[[Dieser Absatz enthält mehrere Sätze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere Übersetzung zu liefern.]]`}]}`
+`{[`[[Dieser Absatz enthält mehrere Sätze in Ihrer Quellsprache. Es ist die empfohlene Art der Maskierung von Textpassagen und liefert Deepl mehr Kontext um eine bessere Übersetzung zu liefern.]]`]}`
 #### [[Aufzählung mit Doppelpunkt]]
 
-- `{[{`[[Aufzählung]]`}]}`**:**`{[{`[[Wert nach dem Doppelpunkt]]`}]}`
+- `{[`[[Aufzählung]]`]}`**:**`{[`[[Wert nach dem Doppelpunkt]]`]}`
 
 ## Changelog und Features
 
 ### 0.1.2
 
-- [[Da der Algorithmus die Zeichen `{[{` und `}]}` als Maskierung für übersetzbaren Text verwendet, können diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden `hints` verwendet, die nach der Übersetzung automatisch in `{[{` und `}]}` umgewandelt werden.]]
+- [[Da der Algorithmus die Zeichen `{[` und `]}` als Maskierung für übersetzbaren Text verwendet, können diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden `hints` verwendet, die nach der Übersetzung automatisch in `{[` und `]}` umgewandelt werden.]]
 
 ### 0.1.1 - Initial Release
   
@@ -139,7 +139,7 @@ plugins:
 - [[Fixe-Wörter in Code-Tags mit temporären HTML-Attributen erhalten.]]
 - [[Übersetzung der Navigation]]
 - [[Kopieren Sie die für gh-deploy erforderliche CNAME-Datei in das Stammverzeichnis des Build's.]]
-- [[*ERSETZT*]] - [[Begrenzungszeichen (z.B. `{[{` und `}]}`) innerhalb einer Maskierung ignorieren.]]
+- [[*ERSETZT*]] - [[Begrenzungszeichen (z.B. `{[` und `]}`) innerhalb einer Maskierung ignorieren.]]
 
 ## [[Feedback und Unterstützung]]
 
