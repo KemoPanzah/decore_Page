@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -928,6 +937,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../blog/category/mkdocs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MkDocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
       <a href="../../blog/category/powershell/" class="md-nav__link">
         
   
@@ -1156,11 +1188,12 @@
 <p>This plugin was created to use the great Material theme and offers functionalities to e.g. internationalize the blog area.</p>
 <p><strong>The only translation engine currently available is Deepl and a DeepL api key is required to use the plugin.</strong></p>
 <h2 id="directly-supported-plugins-for-mkdocs">Directly supported plugins for mkdocs</h2>
-<p>This list includes plugins that were used directly in the development of Langly.
+<p>This list includes plugins that were used directly in the development of Langly and are considered compatible.
 <strong>But it is not impossible that other plugins will also work.</strong></p>
 <ul>
 <li><a href="https://squidfunk.github.io/mkdocs-material" target="_blank">mkdocs-material</a></li>
 <li><a href="https://mkdocstrings.github.io" target="_blank">mkdocs-strings</a></li>
+<li><a href="https://github.com/blueswen/mkdocs-glightbox" target="_blank">mkdocs-glightbox</a></li>
 </ul>
 <!-- Abastz für inkludierte Plugins mit Danksagung -->
 
@@ -1194,7 +1227,7 @@
 </div>
 <p>Open the .gitignore file in the root directory and add the line <code>auth_key.json</code> to prevent the file from being uploaded by mistake. Then check online that the key cannot be found in the repo.</p>
 <h3 id="configuration-of-the-plugin">Configuration of the plugin</h3>
-<p>After installation, you can activate the plugin in your <code>mkdocs.yml</code>.</p>
+<p>After installation, you can activate the plugin in your <code>mkdocs.yml</code>. <strong>Langly should be the last plugin in the list</strong>.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>No language-related settings need to be made in the Material theme. This means that the <code>theme&gt;language</code> and <code>extra&gt;alternate</code> options are set by the plugin.</p>
@@ -1205,14 +1238,16 @@
 <a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="l l-Scalar l-Scalar-Plain">..</span>
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nt">plugins</span><span class="p">:</span>
 <a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">search</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">langly</span><span class="p">:</span>
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">      </span><span class="nt">lang_switch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">      </span><span class="nt">source</span><span class="p">:</span>
-<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deutsch</span>
-<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">          </span><span class="nt">lang</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">de</span>
-<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">      </span><span class="nt">targets</span><span class="p">:</span>
-<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">English</span>
-<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">          </span><span class="nt">lang</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">en-us</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">.</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">.</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">langly</span><span class="p">:</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">      </span><span class="nt">lang_switch</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">      </span><span class="nt">source</span><span class="p">:</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deutsch</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">          </span><span class="nt">lang</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">de</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">      </span><span class="nt">targets</span><span class="p">:</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">English</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">          </span><span class="nt">lang</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">en-us</span>
 </code></pre></div>
 <p>In this configuration, German is set as the source language and English as the target language. You can add as many target languages as you like. However, this will affect the <code>serve</code> performance all the more. The <code>site_url</code> option should correspond to the publication address of your website so that the <code>sitemap</code> and <code>canonicals</code> function correctly.</p>
 <div class="admonition warning">
@@ -1229,15 +1264,15 @@
 <h4 id="set">Set</h4>
 <p><code>[[</code>This text represents your source language<code>]]</code></p>
 <h4 id="paragraph">Paragraph</h4>
-<p><code>[[</code>This paragraph contains several sentences in your source language. It is the recommended way of masking text passages and provides Deepl with more context to deliver a better translation.]</p>
+<p><code>[[</code>This paragraph contains several sentences in your source language. It is the recommended way of masking text passages and provides Deepl with more context to deliver a better translation.<code>]]</code></p>
 <h4 id="enumeration-with-colon">Enumeration with colon</h4>
 <ul>
-<li><code>[[</code>enumeration<code>]]</code><strong>:</strong><code>[[</code>value after the colon<code>]]</code></li>
+<li><code>[[</code>Enumeration<code>]]</code><strong>:</strong><code>[[</code>Value after the colon<code>]]</code></li>
 </ul>
 <h2 id="changelog-und-features">Changelog und Features</h2>
 <h3 id="012">0.1.2</h3>
 <ul>
-<li>Something is coming soon ...</li>
+<li>As the algorithm uses the characters <code>[[</code> and <code>]]</code> as masking for translatable text, these characters cannot be documented directly in the text. Instead, <code>hints</code> are used, which are automatically converted to <code>[[</code> and <code>]]</code> after translation.</li>
 </ul>
 <h3 id="011-initial-release">0.1.1 - Initial Release</h3>
 <ul>
@@ -1251,7 +1286,7 @@
 <li>Get fixe words in code tags with temporary HTML attributes.</li>
 <li>Navigation translation</li>
 <li>Copy the CNAME file required for gh-deploy to the root directory of the build.</li>
-<li>Ignore delimiters (e.g. <code>[[</code> \&amp; <code>]]</code>) within a masking.</li>
+<li><em>REPLACED</em> - Ignore delimiters (e.g. <code>[[</code> and <code>]]</code>) within a masking.</li>
 </ul>
 <h2 id="feedback-and-support">Feedback and support</h2>
 <p>I am happy to receive any kind of feedback and support.</p>
@@ -1312,5 +1347,7 @@
       <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
