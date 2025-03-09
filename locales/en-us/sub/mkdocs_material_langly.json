@@ -43,10 +43,6 @@
         "__active__": true,
         "en-us": "mkdocs with installed material theme"
     },
-    "Ein Deepl-Free-Account wird ben\u00f6tigt": {
-        "__active__": true,
-        "en-us": "A Deepl-Free account is required"
-    },
     "Installation des Plugins": {
         "__active__": true,
         "en-us": "Installation of the plugin"
@@ -226,5 +222,16 @@
     "Begrenzungszeichen (z.B. <code>{[</code> und <code>]}</code>) innerhalb einer Maskierung ignorieren.": {
         "__active__": true,
         "en-us": "Ignore delimiters (e.g. <code>{[</code> and <code>]}</code>) within a masking."
+    },
+    "Markdown Export beim ersten durchlauf von <code>serve</code>, <code>build</code> oder <code>gh-deploy</code> f\u00fcr angegebene Seiten und Sprachen mit definiertem Pfad.": {
+        "__active__": true,
+        "en-us": "Markdown export on first run of <code>serve</code>, <code>build</code> or <code>gh-deploy</code> for specified pages and languages with defined path."
+    },
+    "Hier kommt gerade was neues": {
+        "__active__": true,
+        "en-us": "Here comes something new"
+    },
+    "Ein DeepL-Free-Account wird ben\u00f6tigt": {
+        "__active__": true
     }
 }

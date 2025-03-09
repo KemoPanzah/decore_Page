@@ -32,7 +32,7 @@ keywords: mkdocs, material, langly, plugin, language, translation, deepl, multil
 [[Für den Anfang werden ein paar vorläufige Schritte benötigt, um das Plugin zu benutzen.]]
 
 - [x] [[mkdocs mit installiertem Material-Theme]]
-- [x] [[Ein Deepl-Free-Account wird benötigt]]
+- [x] [[Ein DeepL-Free-Account wird benötigt]]
 
 ### [[Installation des Plugins]]
 
@@ -123,9 +123,14 @@ plugins:
 
 ## Changelog und Features
 
+### 0.1.3
+
+- [[Hier kommt gerade was neues]]
+
 ### 0.1.2
 
 - [[Da der Algorithmus die Zeichen `{[` und `]}` als Maskierung für übersetzbaren Text verwendet, können diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden `hints` verwendet, die nach der Übersetzung automatisch in `{[` und `]}` umgewandelt werden.]]
+- [[Markdown Export beim ersten durchlauf von `serve`, `build` oder `gh-deploy` für angegebene Seiten und Sprachen mit definiertem Pfad.]]
 
 ### 0.1.1 - Initial Release
   

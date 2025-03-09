@@ -3,10 +3,6 @@
         "__active__": true,
         "en-us": "How to create a multilingual website or documentation project with MkDocs, material, and Langly?"
     },
-    "F\u00fcr alle, die eine mehrsprachige Webseite erstellen m\u00f6chten, bietet MkDocs in Kombination mit dem Material-Theme und dem Langly-Plugin eine hervorragende L\u00f6sung. In diesem Beitrag wird detailliert beschrieben, wie Sie eine internationale Webseite oder ein Dokumentationsprojekt mit MkDocs, Material und Langly erstellen k\u00f6nnen. Die Anleitung umfasst die Vorbereitung des Projekts, die Installation von MkDocs und Material sowie die anschlie\u00dfende \u00dcbersetzung der Inhalte mit Langly. Diese Schritt-f\u00fcr-Schritt-Anleitung richtet sich an Benutzer, die ein mehrsprachiges Web-Projekt erstellen m\u00f6chten.": {
-        "__active__": true,
-        "en-us": "For anyone who wants to create a multilingual website, MkDocs in combination with the Material theme and the Langly plugin offers an excellent solution. This article describes in detail how you can create an international website or documentation project with MkDocs, Material and Langly. The guide covers preparing the project, installing MkDocs and Material and then translating the content with Langly. This step-by-step guide is aimed at users who want to create a multilingual web project."
-    },
     "Im GitHub-Dashboard auf <code>New</code> klicken und schon geht der Spa\u00df los.": {
         "__active__": true,
         "en-us": "Click on <code>New</code> in the GitHub dashboard and the fun begins."
@@ -246,5 +242,9 @@
     "Ab diesem Punkt kann den Dokumentationen und HowTo\u2019s von MkDocs oder Material gefolgt werden, um Ihre Webseite weiter auszubauen. Das Langly-Plugin wird die \u00dcbersetzung der maskierten Texte automatisch \u00fcbernehmen.": {
         "__active__": true,
         "en-us": "From this point on, you can follow the documentation and HowTo's from MkDocs or Material to further expand your website. The Langly plugin will automatically translate the masked texts."
+    },
+    "F\u00fcr alle, die eine mehrsprachige Webseite erstellen m\u00f6chten, bietet MkDocs in Kombination mit dem Material-Theme und dem Langly-Plugin eine hervorragende L\u00f6sung. In diesem Beitrag wird detailliert beschrieben, wie Sie eine internationale Webseite oder ein Dokumentationsprojekt mit MkDocs, Material und Langly erstellen k\u00f6nnen. Die Anleitung umfasst die Vorbereitung des Projekts, die Installation von MkDocs und Material sowie die anschlie\u00dfende \u00dcbersetzung der Inhalte mit Langly.": {
+        "__active__": true,
+        "en-us": "For anyone who wants to create a multilingual website, MkDocs in combination with the Material theme and the Langly plugin offers an excellent solution. This article describes in detail how to create an international website or documentation project with MkDocs, Material and Langly. The instructions cover the preparation of the project, the installation of MkDocs and Material and the subsequent translation of the content with Langly."
     }
 }

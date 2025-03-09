@@ -131,10 +131,6 @@
         "__active__": true,
         "de": "\u00d6ffnen Sie die Datei .gitignore im Wurzelverzeichnis und f\u00fcgen Sie die Zeile <code>auth_key.json</code> hinzu, um zu verhindern das die Datei versehentlich hochgeladen wird. Anschlie\u00dfend bitte auch online pr\u00fcfen, dass der Key nicht im Repo zu finden ist."
     },
-    "Ein Deepl-Free-Account wird ben\u00f6tigt": {
-        "__active__": true,
-        "de": "Ein Deepl-Free-Account wird ben\u00f6tigt"
-    },
     "<strong>Die derzeit einzige \u00dcbersetzungsengine ist Deepl und es wird ein DeepL-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.</strong>": {
         "__active__": true,
         "de": "<strong>Die derzeit einzige \u00dcbersetzungsengine ist Deepl und es wird ein DeepL-Api-Key ben\u00f6tigt, um das Plugin zu verwenden.</strong>"
@@ -226,5 +222,17 @@
     "Begrenzungszeichen (z.B. <code>{[</code> und <code>]}</code>) innerhalb einer Maskierung ignorieren.": {
         "__active__": true,
         "de": "Begrenzungszeichen (z.B. <code>{[</code> und <code>]}</code>) innerhalb einer Maskierung ignorieren."
+    },
+    "Markdown Export beim ersten durchlauf von <code>serve</code>, <code>build</code> oder <code>gh-deploy</code> f\u00fcr angegebene Seiten und Sprachen mit definiertem Pfad.": {
+        "__active__": true,
+        "de": "Markdown Export beim ersten durchlauf von <code>serve</code>, <code>build</code> oder <code>gh-deploy</code> f\u00fcr angegebene Seiten und Sprachen mit definiertem Pfad."
+    },
+    "Hier kommt gerade was neues": {
+        "__active__": true,
+        "de": "Hier kommt gerade was neues"
+    },
+    "Ein DeepL-Free-Account wird ben\u00f6tigt": {
+        "__active__": true,
+        "de": "Ein DeepL-Free-Account wird ben\u00f6tigt"
     }
 }

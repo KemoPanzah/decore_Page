@@ -45,6 +45,10 @@ plugins:
       targets:
         - name: English
           lang: en-us
+      export:
+        - page: sub/mkdocs_material_langly.md
+          lang: en-us
+          path: ../mkdocs_material_langly/README.md
 markdown_extensions:
   - admonition
   - attr_list

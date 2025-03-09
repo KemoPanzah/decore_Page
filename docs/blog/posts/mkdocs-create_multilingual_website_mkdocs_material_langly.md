@@ -12,7 +12,7 @@ categories:
 ![How to create a multilingual website or documentation project with MkDocs, material, and Langly](img/mkdocs-create_multilingual_website_mkdocs_material_langly-0.jpg)
 [Designed by Freepik](http://www.freepik.com){:target="_blank"}
 
-[[Für alle, die eine mehrsprachige Webseite erstellen möchten, bietet MkDocs in Kombination mit dem Material-Theme und dem Langly-Plugin eine hervorragende Lösung. In diesem Beitrag wird detailliert beschrieben, wie Sie eine internationale Webseite oder ein Dokumentationsprojekt mit MkDocs, Material und Langly erstellen können. Die Anleitung umfasst die Vorbereitung des Projekts, die Installation von MkDocs und Material sowie die anschließende Übersetzung der Inhalte mit Langly. Diese Schritt-für-Schritt-Anleitung richtet sich an Benutzer, die ein mehrsprachiges Web-Projekt erstellen möchten.]]
+[[Für alle, die eine mehrsprachige Webseite erstellen möchten, bietet MkDocs in Kombination mit dem Material-Theme und dem Langly-Plugin eine hervorragende Lösung. In diesem Beitrag wird detailliert beschrieben, wie Sie eine internationale Webseite oder ein Dokumentationsprojekt mit MkDocs, Material und Langly erstellen können. Die Anleitung umfasst die Vorbereitung des Projekts, die Installation von MkDocs und Material sowie die anschließende Übersetzung der Inhalte mit Langly.]]
 
 <!-- more -->
 
