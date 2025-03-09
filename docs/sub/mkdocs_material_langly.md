@@ -20,8 +20,6 @@ keywords: mkdocs, material, langly, plugin, language, translation, deepl, multil
 - [mkdocs-strings](https://mkdocstrings.github.io){:target="_blank"}
 - [mkdocs-glightbox](https://github.com/blueswen/mkdocs-glightbox){:target="_blank"}
 
-<!-- Abastz für inkludierte Plugins mit Danksagung -->
-
 [[Diese großartigen Plugins benötigen definitiv volle Unterstützung und Anerkennung.]]
 
 !!! note
