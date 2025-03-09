@@ -232,6 +232,7 @@
         "en-us": "Here comes something new"
     },
     "Ein DeepL-Free-Account wird ben\u00f6tigt": {
-        "__active__": true
+        "__active__": true,
+        "en-us": "A DeepL-Free-Account is required"
     }
 }
