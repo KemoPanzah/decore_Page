@@ -1193,8 +1193,6 @@
 <li><a href="https://mkdocstrings.github.io" target="_blank">mkdocs-strings</a></li>
 <li><a href="https://github.com/blueswen/mkdocs-glightbox" target="_blank">mkdocs-glightbox</a></li>
 </ul>
-<!-- Abastz für inkludierte Plugins mit Danksagung -->
-
 <p>Diese großartigen Plugins benötigen definitiv volle Unterstützung und Anerkennung.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1204,7 +1202,7 @@
 <p>Für den Anfang werden ein paar vorläufige Schritte benötigt, um das Plugin zu benutzen.</p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> mkdocs mit installiertem Material-Theme</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ein Deepl-Free-Account wird benötigt</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Ein DeepL-Free-Account wird benötigt</li>
 </ul>
 <h3 id="installation-des-plugins">Installation des Plugins</h3>
 <p>Um das Plugin zu verwenden, müssen Sie es zuerst installieren. Führen Sie dazu den folgenden Befehl aus:</p>
@@ -1271,6 +1269,8 @@
 <h3 id="012">0.1.2</h3>
 <ul>
 <li>Da der Algorithmus die Zeichen <code>[[</code> und <code>]]</code> als Maskierung für übersetzbaren Text verwendet, können diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden <code>hints</code> verwendet, die nach der Übersetzung automatisch in <code>[[</code> und <code>]]</code> umgewandelt werden.</li>
+<li>Markdown Export beim ersten durchlauf von <code>serve</code>, <code>build</code> oder <code>gh-deploy</code> für angegebene Seiten und Sprachen mit definiertem Pfad.</li>
+<li>Änderung zu pyproject.toml</li>
 </ul>
 <h3 id="011-initial-release">0.1.1 - Initial Release</h3>
 <ul>

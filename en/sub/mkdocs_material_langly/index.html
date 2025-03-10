@@ -1195,8 +1195,6 @@
 <li><a href="https://mkdocstrings.github.io" target="_blank">mkdocs-strings</a></li>
 <li><a href="https://github.com/blueswen/mkdocs-glightbox" target="_blank">mkdocs-glightbox</a></li>
 </ul>
-<!-- Abastz für inkludierte Plugins mit Danksagung -->
-
 <p>These great plugins definitely need full support and recognition.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1206,7 +1204,7 @@
 <p>To get started, a few preliminary steps are required to use the plugin.</p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> mkdocs with installed material theme</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> A Deepl-Free account is required</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> A DeepL-Free-Account is required</li>
 </ul>
 <h3 id="installation-of-the-plugin">Installation of the plugin</h3>
 <p>To use the plugin, you must first install it. To do this, execute the following command:</p>
@@ -1273,6 +1271,8 @@
 <h3 id="012">0.1.2</h3>
 <ul>
 <li>As the algorithm uses the characters <code>[[</code> and <code>]]</code> as masking for translatable text, these characters cannot be documented directly in the text. Instead, <code>hints</code> are used, which are automatically converted to <code>[[</code> and <code>]]</code> after translation.</li>
+<li>Markdown export on first run of <code>serve</code>, <code>build</code> or <code>gh-deploy</code> for specified pages and languages with defined path.</li>
+<li>Change to pyproject.toml</li>
 </ul>
 <h3 id="011-initial-release">0.1.1 - Initial Release</h3>
 <ul>
