@@ -227,12 +227,12 @@
         "__active__": true,
         "en-us": "Markdown export on first run of <code>serve</code>, <code>build</code> or <code>gh-deploy</code> for specified pages and languages with defined path."
     },
-    "Hier kommt gerade was neues": {
-        "__active__": true,
-        "en-us": "Here comes something new"
-    },
     "Ein DeepL-Free-Account wird ben\u00f6tigt": {
         "__active__": true,
         "en-us": "A DeepL-Free-Account is required"
+    },
+    "Implementierung README.md in setup.py": {
+        "__active__": true,
+        "en-us": "Implementation README.md in setup.py"
     }
 }
