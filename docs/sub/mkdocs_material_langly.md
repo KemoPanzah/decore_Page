@@ -5,6 +5,8 @@ keywords: mkdocs, material, langly, plugin, language, translation, deepl, multil
 
 # MkDocs Material Langly Plugin
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P2JCC5B)
+
 [[Das Langly-Plugin für MkDocs ist ein Plugin, das Sprachunterstützung und Übersetzungen für Webseiten bietet, die mit MkDocs in Verwendung des Material-Themes erstellt wurden. Es ermöglicht die einfache Verwaltung mehrsprachiger Inhalte und die automatische Übersetzung von Texten, um eine breitere Zielgruppe zu erreichen. Es erfüllt bewusst keine der derzeitigen Übersetzungsstandards, sondern geht einen ganz eigenen aber offenen Weg.]]
 
 [[Dieses Plugin wurde für Verwendung des großartigen Material-Themes erstellt und bietet Funktionalitäten um z.B. auch den Blogbereich zu Internationalisieren.]]
