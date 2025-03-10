@@ -231,8 +231,8 @@
         "__active__": true,
         "en-us": "A DeepL-Free-Account is required"
     },
-    "Implementierung README.md in setup.py": {
+    "\u00c4nderung zu pyproject.toml": {
         "__active__": true,
-        "en-us": "Implementation README.md in setup.py"
+        "en-us": "Change to pyproject.toml"
     }
 }

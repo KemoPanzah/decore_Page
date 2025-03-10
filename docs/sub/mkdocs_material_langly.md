@@ -121,14 +121,9 @@ plugins:
 
 ## Changelog und Features
 
-### 0.1.4
-
-- [[Implementierung README.md in setup.py]]
-
-### 0.1.3
-
 - [[Da der Algorithmus die Zeichen `{[` und `]}` als Maskierung für übersetzbaren Text verwendet, können diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden `hints` verwendet, die nach der Übersetzung automatisch in `{[` und `]}` umgewandelt werden.]]
 - [[Markdown Export beim ersten durchlauf von `serve`, `build` oder `gh-deploy` für angegebene Seiten und Sprachen mit definiertem Pfad.]]
+- [[Änderung zu pyproject.toml]]
 
 ### 0.1.1 - Initial Release
   
