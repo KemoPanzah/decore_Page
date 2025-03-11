@@ -234,5 +234,9 @@
     "\u00c4nderung zu pyproject.toml": {
         "__active__": true,
         "de": "\u00c4nderung zu pyproject.toml"
+    },
+    "Da kommt bald was...": {
+        "__active__": true,
+        "de": "Da kommt bald was..."
     }
 }

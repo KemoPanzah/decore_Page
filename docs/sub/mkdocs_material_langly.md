@@ -123,6 +123,10 @@ plugins:
 
 ## Changelog und Features
 
+### 0.1.3
+
+- [[Da kommt bald was...]]
+
 ### 0.1.2
 
 - [[Da der Algorithmus die Zeichen `{[` und `]}` als Maskierung für übersetzbaren Text verwendet, können diese Zeichen nicht direkt im Text dokumentiert werden. Stattdessen werden `hints` verwendet, die nach der Übersetzung automatisch in `{[` und `]}` umgewandelt werden.]]
